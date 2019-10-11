@@ -1,0 +1,55 @@
+{
+    "pageTitle": "Home",
+    "heroSlider": [
+        {
+            "heading": "Protecting our crops. Protecting our planet",
+            "description": "Gronic is leading the way in sustainable agriculture with integrated pest management solutions for a greener planet",
+            "buttonText": "How we do it ?",
+            "buttonLink": "/how-we-do-it"
+        },
+        {
+            "heading": "Greener Agriculture through Integrated Pest Management",
+            "description": "Protect your crops from pests with long-lasting, eco-friendly solutions that are safer for the planet while allowing your business to flourish",
+            "buttonText": "Mission",
+            "buttonLink": "/mission"
+        },
+        {
+            "heading": "Harnessing nature's cues for sustainable agriculture",
+            "description": "Use of naturally-occurring Biological control methods that manipulate insect behavior prevents pest resistance and pollution",
+            "buttonText": "Solutions",
+            "buttonLink": "/solutions"
+        }
+    ],
+    "ourSolutions": {
+        "heading": "Our Solutions",
+        "description": "Gronic is leading the way in sustainable agriculture with integrated pest management solutions for a greener planet",
+        "solutions": [
+            {
+                "heading": "ATTRASAFE",
+                "description": "Control pest populations using Safe attractants"
+            },
+            {
+                "heading": "BIOSAFE",
+                "description": "Collapse target insect populations by using beneficial insects to disrupt their reproductive cycle"
+            },
+            {
+                "heading": "ECOSAFE",
+                "description": "Attract harmful active insects at night with better understanding of their activity through monitoring tools to aid in smarter decision making"
+            }
+        ]
+    },
+    "ourClients": {
+        "heading": "Our Clients",
+        "description": "We are so proud",
+        "clients": [
+            {
+                "name": "CPC",
+                "logoUrl": "https://www.google.com"
+            },
+            {
+                "name": "CPC",
+                "logoUrl": "https://www.google.com"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "links": [
+        {
+            "text": "Solutions",
+            "url": "/solutions",
+            "subLinks": [
+                {
+                    "text": "AttraSafe",
+                    "url": "/solutions/utrasafe"
+                },
+                {
+                    "text": "BioSafe",
+                    "url": "/solutions/biosafe"
+                },
+                {
+                    "text": "EchoSafe",
+                    "url": "/solutions/echosafe",
+                    "subLinks": [
+                        {
+                            "text": "TricoSafe",
+                            "url": "/solutions/echosafe/tricosafe"
+                        },
+                        {
+                            "text": "ViroSafe",
+                            "url": "/solutions/echosafe/virosafe"
+                        },
+                        {
+                            "text": "FungSafe",
+                            "url": "/solutions/echosafe/fungsafe"
+                        },
+                        {
+                            "text": "ProSafe",
+                            "url": "/solutions/echosafe/prosafe"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "About Us",
+            "url": "/about",
+            "subLinks": [
+                {
+                    "text": "Who We Are?",
+                    "url": "/about/who-we-are"
+                },
+                {
+                    "text": "What We Do?",
+                    "url": "/about/what-we-do"
+                },
+                {
+                    "text": "How we do it?",
+                    "url": "/about/how-we-do-it"
+                },
+                {
+                    "text": "Our Team",
+                    "url": "/about/our-team"
+                }
+            ]
+        },
+        {
+            "text": "Latest News",
+            "url": "latest"
+        }
+    ]
+}

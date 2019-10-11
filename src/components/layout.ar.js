@@ -20,12 +20,7 @@ const Layout = ({ children }) => {
                 title
             }
         }
-        allArJson {
-            nodes {
-                siteTitle
-            }
-        }
-    }
+   }
   `)
 
     return (
@@ -40,12 +35,7 @@ const Layout = ({ children }) => {
                 }}
             >
                 <main>{children}</main>
-                <footer>
-                    © {new Date().getFullYear()}
-                        {` `}
-                        <a href="https://www.gatsbyjs.org">{data.allArJson.nodes[0].siteTitle}</a>
-                    </footer>
-                </div>
+               </div>
             </>
             )
 }

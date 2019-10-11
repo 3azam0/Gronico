@@ -20,11 +20,6 @@ const Layout = ({ children }) => {
                 title
             }
         }
-        allEnJson {
-            nodes {
-                siteTitle
-            }
-        }
     }
   `)
 
@@ -40,12 +35,7 @@ const Layout = ({ children }) => {
                 }}
             >
                 <main>{children}</main>
-                <footer>
-                    © {new Date().getFullYear()} 
-                        {` `}
-                        <a href="https://www.gatsbyjs.org">{data.allEnJson.nodes[0].siteTitle}</a>
-                    </footer>
-                </div>
+               </div>
             </>
     )
 }
