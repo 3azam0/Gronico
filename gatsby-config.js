@@ -14,12 +14,19 @@ module.exports = {
             },
         },
         `gatsby-transformer-sharp`,
+        `gatsby-transformer-json`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `./src/data/`,
+            },
+        }, 
         `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Gronic-Agricultrual-Firm-Website`,
+                short_name: `gronic`,
                 start_url: `/`,
                 background_color: `#663399`,
                 theme_color: `#663399`,
