@@ -5,3 +5,14 @@
     + Create Github Gronic repository.
     + Bootstrap gatsby site with gatsby generator.
 
+## 11-10-2019
+
+    + Install and configure i18n package to enable routes per language.
+    + Setup GraphQL queries to fetch data from JSON files in data directory.
+    + Create english and arabic layout component.
+    + Serialzie home page data into JSON.
+    + Serialize English navbar data into JSON format.
+
+## 13-10-2019 
+
+    + Create English Navbar component HTML structure.

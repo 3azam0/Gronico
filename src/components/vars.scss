@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+$g1: #bfbb39;
+$g-shadow: #fafafa;
+
+@mixin gronic-shadowed {
+    box-shadow: 0px 4px $g-shadow;
+}

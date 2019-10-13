@@ -2,6 +2,10 @@
     "english": {
         "links": [
             {
+                "text": "Home",
+                "url": "/"
+            },
+            {
                 "text": "Solutions",
                 "url": "/solutions",
                 "subLinks": [

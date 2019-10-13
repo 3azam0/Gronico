@@ -1,0 +1,110 @@
+@import '../vars.scss';
+
+a {
+    text-decoration: none;
+}
+
+@keyframes draw-line {
+    0% {
+        width:0%;
+    }
+    100% {
+        width:100%;
+    }
+
+}
+.gronic-nav {
+    *{
+        font-family: 'Cairo', sans-serif;     
+    }
+    display:block;
+    height: 6rem;
+    background-color:#ffffff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    @include gronic-shadowed;
+    .gronic-navLogo {
+        position:absolute;
+        left:1rem;
+        top : 1rem;
+        padding:2rem !important;
+        margin:auto !important;
+    }
+    .gronic-navUlist {
+        float:right;
+        background: transparent;
+        list-style: none;
+        padding-top:1rem;
+        width: 36rem;
+        .gronic-navListItem {
+            padding:5%;
+            width: 9rem;
+            color: #000000;
+            background: transparent;
+            display: block;
+            float: left;
+            padding: 1rem;
+            position: relative;
+            text-decoration: none;
+            transition-duration: 0.5s;
+            .gronic-navLink {
+                color: #000000;
+                padding:2%;
+                font-size:1.1rem;
+                .underline{
+                    background-color:$g1;
+                    height:3px;
+                    width:0%;
+                }
+            }
+
+            ul {
+                margin:0;
+                background: $g1;
+                border-radius:25px;
+                visibility: hidden; opacity: 0;
+                min-width: 10rem;
+                position: absolute;
+                transition: all 0.5s ease;
+                margin-top: 1rem;
+                left: 0;
+                display: none;
+                li {
+                    clear: both;
+                    list-style:none;
+                    width: 100%;
+                    margin:0;
+                    padding:5%;
+                    color:#ffffff;
+                    .nav-separator {
+                        color:#ffffff;
+                        background-color: #ffffff;
+                        width:90%;
+                        text-align:center;
+                        height:2px;
+                    }
+                    a {
+                        color:#ffffff;
+                        padding-left:5%;
+                        font-size:1.1rem;
+                    }
+                }
+            }
+        }
+        .gronic-navListItem:hover  {
+            cursor: pointer;
+            color:$g1;
+            .underline {
+                animation: 0.3s linear both draw-line;
+            }
+        }
+
+        .gronic-navListItem:hover > ul {
+            visibility: visible;
+            top: 35px;
+            opacity: 1;
+            display: block;
+        }
+    }
+}
+
