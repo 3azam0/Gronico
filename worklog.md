@@ -16,3 +16,4 @@
 ## 13-10-2019 
 
     + Create English Navbar component HTML structure.
+    + Build English navbar component css and animations.
