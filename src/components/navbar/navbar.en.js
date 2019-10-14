@@ -2,6 +2,7 @@ import React from "react"
 import {Link} from "gatsby"
 import Img from "gatsby-image"
 import {useStaticQuery, graphql} from "gatsby"
+import {FaAngleDown} from "react-icons/fa"
 
 import "./navbar.en.scss"
 
@@ -40,7 +41,7 @@ const MainNavLinks = ({links,listClassName,linkClassName, listStyle, linkStyle})
                 style={linkStyle} 
                 to={link.url}
             >
-                {link.text}
+                {link.text} {link.subLinks ? <FaAngleDown style={{fontSize:'1rem'}} className={linkClassName}/> : null}
                 <div className="underline"></div>
             </Link>
             <ul>

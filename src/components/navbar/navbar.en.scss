@@ -94,6 +94,9 @@ a {
         .gronic-navListItem:hover  {
             cursor: pointer;
             color:$g1;
+            .gronic-navLink {
+                color: $g1;
+            }
             .underline {
                 animation: 0.3s linear both draw-line;
             }

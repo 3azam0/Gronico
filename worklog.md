@@ -17,3 +17,8 @@
 
     + Create English Navbar component HTML structure.
     + Build English navbar component css and animations.
+
+## 14-10-2019
+    
+    + Make the navbar component responsive.
+    + Create home page hero slider.
