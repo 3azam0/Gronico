@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from "gatsby"
 import Img from "gatsby-image"
 import {useStaticQuery, graphql} from "gatsby"
-import {FaAngleDown} from "react-icons/fa"
+import {FaAngleDown, FaAngleRight} from "react-icons/fa"
 
 import "./navbar.en.scss"
 
@@ -10,7 +10,8 @@ import "./navbar.en.scss"
 const SubNavLinks = ({subLinks,subListClassName,subLinkClassName, subListStyle, subLinkStyle}) => {
     subListClassName = subListClassName? "gronic-navSubList " + subListClassName : "gronic-navSubList"
     subLinkClassName= subLinkClassName? "gronic-navSubLink " + subLinkClassName : "gronic-navSubLink"
-    const subNavLinks= subLinks? subLinks.map((sublink) => 
+    console.log(subLinks)
+    const subNavLinks= subLinks? subLinks.map((sublink) =>
         <li
             key={sublink.url}
             className={subListClassName} 
@@ -20,7 +21,8 @@ const SubNavLinks = ({subLinks,subListClassName,subLinkClassName, subListStyle, 
                 className={subLinkClassName} 
                 style={subLinkStyle} 
                 to={sublink.url}
-            >{sublink.text}</Link>
+            >{sublink.text} {sublink.subLinks ? <FaAngleRight className={subLinkClassName}/> : null}</Link>
+            {sublink.subLinks ? <ul><SubNavLinks subLinks={sublink.subLinks}/></ul> : null}
             <hr className="nav-separator"/>
         </li>
     ) : null

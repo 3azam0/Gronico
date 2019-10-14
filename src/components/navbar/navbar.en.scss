@@ -105,8 +105,16 @@ a {
         .gronic-navListItem:hover > ul {
             visibility: visible;
             top: 35px;
-            opacity: 1;
+            opacity: 0.9;
             display: block;
+        }
+        .gronic-navSubList:hover > ul {
+           visibility:visible;
+           top: 35px;
+           opacity:0.9;
+           display:block;
+           top:2rem;
+           left: 10.5rem;
         }
     }
 }
