@@ -20,5 +20,9 @@
 
 ## 14-10-2019
     
-    + Make the navbar component responsive.
-    + Create home page hero slider.
+    + Display navbar sub menus of sub menus recursively.
+    + Make the navbar responsive.
+
+## 15-10-2019
+
+    + Build the home page slider.

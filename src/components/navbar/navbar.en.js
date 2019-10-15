@@ -1,8 +1,10 @@
 import React from "react"
+import {useState} from "react"
 import {Link} from "gatsby"
 import Img from "gatsby-image"
 import {useStaticQuery, graphql} from "gatsby"
-import {FaAngleDown, FaAngleRight} from "react-icons/fa"
+import {FaAngleDown, FaAngleRight, FaTimes} from "react-icons/fa"
+import {MdMenu} from "react-icons/md"
 
 import "./navbar.en.scss"
 
@@ -54,6 +56,33 @@ const MainNavLinks = ({links,listClassName,linkClassName, listStyle, linkStyle})
     return mainLinks
 }
 
+const SmallNavLinks = ({showSmallNav,links, listClassName, linkClassName, listStyle, linkStyle}) => {
+    linkClassName =  linkClassName? "gronic-smallNavLink " + linkClassName : "gronic-smallNavLink"
+    listClassName = listClassName? "gronic-smallNavListItem" + listClassName : "gronic-smallNavListItem";
+
+    let smallNavLinks = null;
+    if (showSmallNav) {
+        smallNavLinks = links.links.map((link)=>
+            <li
+                key={link.url} 
+                className={listClassName}
+                style={listStyle}
+            >
+                <Link 
+                    className={linkClassName} 
+                    style={linkStyle} 
+                    to={link.url}
+                >
+                    {link.text}
+                    <div className="underline"></div>
+                </Link>
+            </li>
+        )            
+    }
+
+    return smallNavLinks
+}
+
 const Navbar = ({
     navigationClassName,
     navigationStyle
@@ -83,14 +112,18 @@ const Navbar = ({
             }
             logo: file(relativePath: { eq: "logo.png" }) {
                 childImageSharp {
-                    fixed(width:500,height:713) {
-                        ...GatsbyImageSharpFixed
+                    fluid(maxWidth:500,maxHeight:713) {
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
         }
     `)
     const navLinksData = data.allNavbarJson.edges[0].node.english;
+    const [showSmallNav, setSmallNav] = useState(false);
+    const toggleNav = () => {
+        setSmallNav(!showSmallNav)
+    }
     return(
         <>
             <nav
@@ -102,7 +135,7 @@ const Navbar = ({
                     <Img
                         alt="Gronic"
                         className="gronic-navLogo"
-                        fixed={data.logo.childImageSharp.fixed}
+                        fluid={data.logo.childImageSharp.fluid}
                         objectFit="cover"
                         imgStyle={{ objectFit:'conain'}}
                         style={{padding:'5%',position:'absolute',height:'2rem',width:'3re'}}
@@ -111,9 +144,20 @@ const Navbar = ({
                 <ul className="gronic-navUlist">
                     <MainNavLinks links={navLinksData}/>
                 </ul>
+                <button onClick={toggleNav} className="gronic-burger"><MdMenu/> </button>
             </nav>
+           { showSmallNav && 
+               <nav className="gronic-smallNav">
+                    <button onClick={toggleNav} className="gronic-burger"><FaTimes/> </button>
+                    <ul>
+                        <SmallNavLinks  showSmallNav = {showSmallNav} links={navLinksData}/>
+                    </ul>
+                </nav>
+                }
+      
         </>
     )
 }
+
 
 export default Navbar
