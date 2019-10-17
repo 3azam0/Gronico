@@ -1,19 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import HeroSlider from "../components/heroSlider/heroSlider.en"
 import Layout from "../components/layout.en"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-    <Layout>
-        <SEO title="Gronic"/>
-        <h1>ENGLISH INDEX</h1>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            <Image />
-        </div>
-        <Link to="/page-2/">Go to page 2</Link>
-    </Layout>
+  <Layout>
+    <SEO title="Gronic" />
+    <HeroSlider />
+  </Layout>
 )
 
 export default IndexPage

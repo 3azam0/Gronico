@@ -20,8 +20,10 @@
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-flickity-component": "^3.3.2",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0"
+    "react-icons": "^3.7.0",
+    "react-responsive-carousel": "^3.1.50"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

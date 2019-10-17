@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cairo|Teko&display=swap");
 
-$g1: #bfbb39; // used for green buttons;
+$g1: rgba(158, 190, 57, 1); // used for green buttons;
+$g2: rgba(52, 134, 82, 1);
 
 @mixin gronic-shadowed {
-    box-shadow:0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12)
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+@mixin gronic-linearGrad($v1) {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient($v1, transparent);
+  opacity: 0.9;
 }
 
 // Screens

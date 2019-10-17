@@ -142,6 +142,7 @@ a {
         }
 
         .gronic-navListItem:hover > ul {
+            z-index:3;
             visibility: visible;
             top: 35px;
             opacity: 0.9;

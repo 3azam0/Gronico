@@ -2,18 +2,21 @@
     "pageTitle": "Home",
     "heroSlider": [
         {
-            "heading": "Protecting our crops. Protecting our planet",
+            "imageURL": "/icons/images/image1.png",
+            "heading": "Protecting our crops. Protecting our planet.",
             "description": "Gronic is leading the way in sustainable agriculture with integrated pest management solutions for a greener planet",
             "buttonText": "How we do it ?",
             "buttonLink": "/how-we-do-it"
         },
         {
+            "imageURL": "/icons/images/image2.png",
             "heading": "Greener Agriculture through Integrated Pest Management",
             "description": "Protect your crops from pests with long-lasting, eco-friendly solutions that are safer for the planet while allowing your business to flourish",
             "buttonText": "Mission",
             "buttonLink": "/mission"
         },
         {
+            "imageURL": "/icons/images/image3.png",
             "heading": "Harnessing nature's cues for sustainable agriculture",
             "description": "Use of naturally-occurring Biological control methods that manipulate insect behavior prevents pest resistance and pollution",
             "buttonText": "Solutions",

@@ -25,4 +25,4 @@
 
 ## 15-10-2019
 
-    + Build the home page slider.
+    + Build the home page hero slider.
