@@ -26,3 +26,11 @@
 ## 15-10-2019
 
     + Build the home page hero slider.
+
+## 16-10-2019
+
+    + Work on the home page hero slider.
+
+## 17-10-2019
+
+    + Work on the home page hero slider.

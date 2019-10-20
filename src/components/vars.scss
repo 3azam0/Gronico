@@ -3,6 +3,9 @@
 $g1: rgba(158, 190, 57, 1); // used for green buttons;
 $g2: rgba(52, 134, 82, 1);
 
+$f1: 'Cairo', sans-serif;
+$f2: 'Teko', sans-serif;
+
 @mixin gronic-shadowed {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
 }
