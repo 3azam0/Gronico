@@ -63,7 +63,7 @@ const IndexPage = () => {
       <section className="gronic-partners">
           <h1 className="gronic-sectionHead"> Our Partners </h1>
           <div className="gronic-headUnderline" /> 
-        <SmallSlider partners={images} />
+        <SmallSlider sliderClassName="gronic-smallSlider" partners={images} />
       </section>
     </Layout>
   )

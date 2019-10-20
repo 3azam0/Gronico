@@ -1,4 +1,4 @@
-# WORK LOG 
+# WORK LOG
 
 ## 10-10-2019
 
@@ -13,13 +13,13 @@
     + Serialzie home page data into JSON.
     + Serialize English navbar data into JSON format.
 
-## 13-10-2019 
+## 13-10-2019
 
     + Create English Navbar component HTML structure.
     + Build English navbar component css and animations.
 
 ## 14-10-2019
-    
+
     + Display navbar sub menus of sub menus recursively.
     + Make the navbar responsive.
 
@@ -34,3 +34,14 @@
 ## 17-10-2019
 
     + Work on the home page hero slider.
+
+## 19-10-2019
+
+    + Work on the rest of the home page.
+
+## 20-10-2019
+
+    + Build the rest of home page.
+    + Build the footer.
+    + Serialize About us page content into JSON format.
+    + Work on the about us page HTML / CSS.

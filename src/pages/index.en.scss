@@ -84,7 +84,7 @@
 .gronic-ourClients {
     padding: 5%;
     text-align: center;
-    background-color: #e0eee4;
+    background-color: $g3;
 }
 
 .gronic-partners {
@@ -92,4 +92,7 @@
     padding-bottom: 5%;
     text-align: center;
     height: 650px;
+    .gronic-smallSlider {
+        margin-top: 3%;
+    }
 }
