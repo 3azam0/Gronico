@@ -34,11 +34,15 @@ const About = () => {
     <Layout>
       <SEO title="About Gronic" />
       <AboutSections data={data.allAboutUsPageJson.nodes[0].sections} />
+      <OurTeam
+        members={data.allAboutUsPageJson.nodes[0].ourTeam}
+        advisors={data.allAboutUsPageJson.nodes[0].advisoryBoard}
+      />
     </Layout>
   )
 }
 
-const AboutSections = ({data}) => {
+const AboutSections = ({ data }) => {
   const aboutSections = data.map(section => {
     return (
       <div className="gronic-aboutSection">
@@ -66,7 +70,6 @@ const AboutSubSections = ({ data }) => {
             (section.bgURL ? "noBackground" : "hasBackground")
           }
         >
-          {" "}
           {section.description}
         </p>
       </div>
@@ -74,6 +77,42 @@ const AboutSubSections = ({ data }) => {
   })
 
   return aboutSubSections
+}
+
+const TeamMembers = ({ members }) => {
+  const teamMembers = members.map(member => {
+    return (
+      <div className="gronic-teamMember">
+        <span className="memberName"> {member.name} </span>
+        <span className="memberPosition"> {member.position} </span>
+      </div>
+    )
+  })
+  return teamMembers
+}
+
+const Advisors = ({ members}) => {
+  return members.map(advisor => {
+      return <div className="advisor">
+          <span className="advisorName"> {advisor.name} </span>
+      </div>
+  })
+}
+
+const OurTeam = ({ members, advisors }) => {
+  return (
+    <div className="gronic-aboutSection teamSection">
+      <h1 className="gronic-aboutHead"> Our Team </h1>
+      <div className="gronic-underline" />
+      <div className="gronic-team">
+        <TeamMembers members={members} />
+      </div>
+      <div className="gronic-team advisors">
+          <span className="title"> Advisory Board </span>
+      <Advisors members={advisors} />
+  </div>
+    </div>
+  )
 }
 
 export default About
