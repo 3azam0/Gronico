@@ -1,9 +1,9 @@
 import React from "react"
 import { useStaticQuery } from "gatsby"
-import HeroSlider from "../components/heroSlider/heroSlider.en"
-import SmallSlider from "../components/smallSlider/smallSlider"
-import Layout from "../components/layout.en"
-import SEO from "../components/seo"
+import HeroSlider from "../../components/heroSlider/heroSlider.en"
+import SmallSlider from "../../components/smallSlider/smallSlider"
+import Layout from "../../components/layout.en"
+import SEO from "../../components/seo"
 
 import "./index.en.scss"
 
@@ -12,6 +12,14 @@ const IndexPage = () => {
     query HomePageData {
       allHomePageJson {
         nodes {
+          ourClients {
+            clients {
+              name
+              logoUrl
+            }
+            description
+            heading
+          }
           ourSolutions {
             description
             heading
@@ -21,13 +29,13 @@ const IndexPage = () => {
               imageURL
             }
           }
-          ourClients {
-            clients {
-              logoUrl
-              name
-            }
+          pageTitle
+          heroSlider {
+            buttonLink
+            buttonText
             description
             heading
+            imageURL
           }
         }
       }
@@ -35,6 +43,8 @@ const IndexPage = () => {
   `)
   const solutionsData = data.allHomePageJson.nodes[1].ourSolutions
   const clientsData = data.allHomePageJson.nodes[1].ourClients
+  console.log(solutionsData)
+  console.log(clientsData)
   const images = [
     "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property01.jpg",
     "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",
@@ -61,8 +71,8 @@ const IndexPage = () => {
         <p className="gronic-sectionDescription">{clientsData.description}</p>
       </section>
       <section className="gronic-partners">
-          <h1 className="gronic-sectionHead"> Our Partners </h1>
-          <div className="gronic-headUnderline" /> 
+        <h1 className="gronic-sectionHead"> Our Partners </h1>
+        <div className="gronic-headUnderline" />
         <SmallSlider sliderClassName="gronic-smallSlider" partners={images} />
       </section>
     </Layout>

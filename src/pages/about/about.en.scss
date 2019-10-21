@@ -1,0 +1,50 @@
+@import "../../components/vars.scss";
+
+.gronic-aboutSection {
+    text-align: center;
+}
+
+.gronic-aboutSubSection {
+  text-align: center;
+  padding: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .gronic-aboutHead {
+    padding: 3%;
+    font-size: 3em;
+    font-family: $f1;
+    color: $g1;
+  }
+  .gronic-aboutP {
+    font-size: 2em;
+    padding: 3%;
+    font-family: $f1;
+    color: #ffffff;
+    line-height: 1.5em;
+  }
+  .hasBackground {
+    font-size: 2em;
+    padding: 3%;
+    font-family: $f1;
+    color: #000000;
+    line-height: 1.5em;
+  }
+}
+.gronic-aboutTitle {
+  text-align: center;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 5%;
+  font-size: 3em;
+  font-family: $f1;
+  color: $g4;
+}
+.gronic-underline {
+    height: 3px;
+    width: 20%;
+    background-color: $g1;
+    text-align:center;
+    margin:auto;
+
+    margin-bottom: 5%;
+}
