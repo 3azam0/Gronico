@@ -48,3 +48,4 @@
 ## 21-10-2019
 
     + Serialize About us page content into JSON format.
+    + Build about page.
