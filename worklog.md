@@ -43,5 +43,8 @@
 
     + Build the rest of home page.
     + Build the footer.
-    + Serialize About us page content into JSON format.
     + Work on the about us page HTML / CSS.
+
+## 21-10-2019
+
+    + Serialize About us page content into JSON format.
