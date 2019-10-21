@@ -50,7 +50,12 @@
 
 .gronic-team {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  @media only screen and (min-width: $w4) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media only screen and (max-width: $w4) {
+    grid-template-columns: 1fr;
+  }
   .gronic-teamMember {
     width: 100%;
     padding: 5%;
@@ -75,18 +80,16 @@
 .advisors {
   padding-top: 2%;
   .title {
-    padding: 1%;
+    padding: 2%;
     font-size: 2.5em;
     font-family: $f2;
     text-transform: capitalize;
   }
   .advisorName {
-padding: 1%;
+    padding: 2%;
     font-size: 2.5em;
     font-family: $f2;
     text-transform: capitalize;
     color: $g1;
-
   }
 }
-
