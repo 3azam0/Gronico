@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./src/data/`,
+        path: "./src/data/",
       },
     },
     `gatsby-plugin-sharp`,
@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-i18n",
       options: {
-        pagesPaths: ["/index/", "/about/"],
+          pagesPaths: ["/index/", "/about/","/solutions/"],
         langKeyDefault: "en",
         useLangKeyLayout: true,
       },
