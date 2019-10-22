@@ -1,0 +1,128 @@
+@import "../../components/vars.scss";
+
+.gronic-solutionsSection {
+  padding: 2%;
+  text-align: center;
+}
+
+.section1 {
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  background-image: url("/icons/images/image4.png");
+  h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 5px;
+    font-family: $f2;
+    color: $g1;
+  }
+  p {
+    font-size: 2em;
+    font-family: $f1;
+    line-height: 1.5em;
+    color: #ffffff;
+  }
+}
+
+.section2 {
+  h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-family: $f2;
+  }
+  .solutionsTable {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    .tableItem {
+      padding: 2%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 2px;
+      .title {
+        font-size: 2em;
+        font-family: $f2;
+      }
+      .conventional {
+        padding: 5%;
+        font-size: 1em;
+        font-family: $f1;
+        background-color: $g5;
+        color: #000000;
+      }
+      .gronic {
+        padding: 5%;
+        font-size: 1em;
+        font-family: $f1;
+        background-color: $g5;
+        color: #000000;
+      }
+    }
+  }
+}
+.section3 {
+  padding: 5%;
+  background-color: $g3;
+  h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-family: $f2;
+  }
+  p {
+    font-size: 1.5em;
+    font-family: $f1;
+    line-height: 1.5em;
+  }
+}
+
+.section4, .section5 {
+  h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 5px;
+    font-family: $f2;
+  }
+}
+.subSections-container {
+  display: grid;
+  height: 350;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: hidden;
+  .sol-subsection {
+    height: 450px;
+    width: 96%;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    margin-left: -35px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    background: url(http://localhost:8000/icons/images/image4.png);
+    background-size: cover;
+    position: relative;
+    left: 7px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+    border-right: 2px #ffffff;
+
+    h2 {
+      transform: rotate(-10deg);
+      color: #ffffff;
+      font-size: 3em;
+      font-family: $f2;
+    }
+    p {
+      transform: rotate(-10deg);
+      color: #ffffff;
+      font-family: $f1;
+    }
+  }
+}

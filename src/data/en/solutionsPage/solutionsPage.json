@@ -1,6 +1,8 @@
 {
-    "pageTitle": "Solution",
-    "pageDescription": "Gronic is a leader in integrated pest management strategies and solutions. Based on biological control methods that are found in nature, our products are safe, environmentally friendly, and easy to use—helping to eliminate the current global dependency on conventional pesticides.",
+    "section1": {
+        "title": "Solutions",
+        "description": "Gronic is a leader in integrated pest management strategies and solutions. Based on biological control methods that are found in nature, our products are safe, environmentally friendly, and easy to use—helping to eliminate the current global dependency on conventional pesticides."
+    },
     "section2": {
         "title": "Why Choose our products Over Conventional Pesticides?",
         "tableItems": [
@@ -34,36 +36,38 @@
                 "conventional": "Short field, high risk of resistance",
                 "gronic": "Long field life, no risk of resistance"
             }
-        ],
-        "section3": {
-            "title": "Integrated Pest Management Strategies for the Planet",
-            "description1": "In the past, protecting crops from pests meant one thing: blanket-spraying conventional pesticides. The unscrupulous use conventional pesticides have created problems that can no longer be ignored—namely, significant risk to the environment, public health and food safety. Consumers and regulators have caught on and the demand for safer alternatives is rising at an exponential rate. As a distributor or grower, can you meet this market need?",
-            "description2": "Gronic offers various integrated pest management solutions designed to protect crops from harmful insects while protecting the planet with the safest technologies available."
-        },
-        "section4": {
-            "title": "AttraSafe",
-            "subSections": [
-                {
-                    "title": "Lures",
-                    "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
-                    "buttonText": "Learn More",
-                    "buttonLink": "/en"
-                },
-                {
-                    "title": "Attractants",
-                    "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
-                    "buttonText": "Learn More",
-                    "buttonLink": "/en"
-                },
-                {
-                    "title": "Mass Trapping",
-                    "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
-                    "buttonText": "Learn More",
-                    "buttonLink": "/en"
-                }
-            ]
-        },
-        "section5": "BioSafe",
+        ]
+    },
+    "section3": {
+        "title": "Integrated Pest Management Strategies for the Planet",
+        "description1": "In the past, protecting crops from pests meant one thing: blanket-spraying conventional pesticides. The unscrupulous use conventional pesticides have created problems that can no longer be ignored—namely, significant risk to the environment, public health and food safety. Consumers and regulators have caught on and the demand for safer alternatives is rising at an exponential rate. As a distributor or grower, can you meet this market need?",
+        "description2": "Gronic offers various integrated pest management solutions designed to protect crops from harmful insects while protecting the planet with the safest technologies available."
+    },
+    "section4": {
+        "title": "AttraSafe",
+        "subSections": [
+            {
+                "title": "Lures",
+                "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
+                "buttonText": "Learn More",
+                "buttonLink": "/en"
+            },
+            {
+                "title": "Attractants",
+                "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
+                "buttonText": "Learn More",
+                "buttonLink": "/en"
+            },
+            {
+                "title": "Mass Trapping",
+                "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
+                "buttonText": "Learn More",
+                "buttonLink": "/en"
+            }
+        ]
+    },
+    "section5": {
+        "title": "BioSafe",
         "subSections": [
             {
                 "title": "TricoSafe",
