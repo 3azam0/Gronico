@@ -93,7 +93,7 @@ const SolutionsPage = () => {
           </div>
         </div>
       </section>
-<section className="gronic-solutionsSection section5">
+      <section className="gronic-solutionsSection section5">
         <h1>{solutionsData.section5.title}</h1>
         <div className="gronic-underline" />
         <div className="subSections-container">
@@ -111,6 +111,14 @@ const SolutionsPage = () => {
             <p>{solutionsData.section4.subSections[2].description} </p>
           </div>
         </div>
+      </section>
+      <section className="gronic-solutionsSection section6">
+          <h1>{solutionsData.section6.title} </h1>
+          <div className="gronic-underline"/>
+          <div className="section-6-container">
+              <p>{solutionsData.section6.description}</p>
+              <a className="gronic-btn" href="/en/solutions/ecosafe">Learn more </a>
+          </div>
       </section>
     </Layout>
   )

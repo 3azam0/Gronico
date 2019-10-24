@@ -54,3 +54,7 @@
 
     + Serialize Solutions Page content into JSON format.
 
+## 24-10-2019
+
+    + Work on solutions page.
+

@@ -81,7 +81,7 @@
   }
 }
 
-.section4, .section5 {
+.section4, .section5, .section6 {
   h1 {
     margin: auto;
     text-align: center;
@@ -105,7 +105,7 @@
     margin-left: -35px;
     margin-top: -50px;
     margin-bottom: -50px;
-    background: url(http://localhost:8000/icons/images/image4.png);
+    background: url('/icons/images/image4.png');
     background-size: cover;
     position: relative;
     left: 7px;
@@ -125,4 +125,30 @@
       font-family: $f1;
     }
   }
+}
+.section-6-container {
+    margin: auto;
+    margin: 5%;
+    background: linear-gradient(rgba(158,190,57,0.8)), url('/icons/images/image4.png');
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    p {
+        padding: 0%;
+        color: #ffffff;
+      font-family: $f1;
+      font-size: 2em;
+      line-height: 1.2em;
+    }
+    .gronic-btn {
+        background: #ffffff;
+        font-family: $f1;
+        font-size: 1.2em;
+        color: $g1;
+        font-weight: 800;
+        padding-right: 2%;
+        padding-left: 2%;
+        border-radius: 25px;
+    }
 }
