@@ -13,8 +13,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-i18n",
       options: {
-          pagesPaths: ["/index/", "/about/","/solutions/","/contact/"],
+        pagesPaths: ["/index/", "/about/", "/solutions/", "/contact/"],
         langKeyDefault: "en",
         useLangKeyLayout: true,
       },

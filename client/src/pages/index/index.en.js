@@ -85,6 +85,7 @@ const GronicSolutionItems = solutions => {
     return (
       <div
         className="gronic-gridItem"
+        key={item.heading}
         style={{
           background:
             "linear-gradient(135deg, #50A68480 30%, #348650 90%), url(" +

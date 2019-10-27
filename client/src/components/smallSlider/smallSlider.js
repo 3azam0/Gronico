@@ -22,8 +22,8 @@ const SmallSlider = ({sliderClassName, partners }) => {
             }}
           >
             {partners.map(partner => (
-              <div className="card">
-                <img src={partner} />{" "}
+              <div className="card" key={partner}>
+                <img src={partner} alt="partner" />
               </div>
             ))}
           </div>

@@ -119,7 +119,8 @@ const Navbar = ({
             }
         }
     `)
-    const navLinksData = data.allNavbarJson.edges[0].node.english;
+    const navLinksData = data.allNavbarJson.edges[1].node.english;
+    console.log(navLinksData)
     const [showSmallNav, setSmallNav] = useState(false);
     const toggleNav = () => {
         setSmallNav(!showSmallNav)

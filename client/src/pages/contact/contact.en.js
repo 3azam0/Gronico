@@ -10,7 +10,7 @@ const SocialIcons = ({ icons }) => {
   const socialIcons = icons.map(icon => {
     return (
       <a href={icon.URL} className="social-link">
-        <img className="social-img" src={icon.imgURL} />{" "}
+        <img className="social-img" src={icon.imgURL} alt={icon.title} />
       </a>
     )
   })
