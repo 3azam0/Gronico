@@ -28,10 +28,10 @@ const ContactsPage = () => {
           }
           title
           subtitle
-            contactForm{
-                title
-                subtitle
-            }
+          contactForm {
+            title
+            subtitle
+          }
         }
       }
     }
@@ -47,8 +47,57 @@ const ContactsPage = () => {
         <p> {data.allContactJson.nodes[0].subtitle} </p>
       </section>
       <section className="gronic-contact-section-2">
-          <h1>{data.allContactJson.nodes[0].contactForm.title}</h1>
-          <span>{data.allContactJson.nodes[0].contactForm.subtitle}</span>
+        <h1>{data.allContactJson.nodes[0].contactForm.title}</h1>
+        <span>{data.allContactJson.nodes[0].contactForm.subtitle}</span>
+        <div className="contact-form-container">
+          <form
+            className="contact-form"
+            method="post"
+            action="https://formspree.io/xvopbpqa"
+          >
+              <div className="form-group-container">
+            <div className="form-group">
+              <label>
+                First Name
+                <input type="text" name="first_name" id="name" />
+              </label>
+              <label>
+                Last Name
+                <input type="text" name="last_name" id="name" />
+              </label>
+
+              <label>
+                Phone
+                <input type="text" name="phone" id="subject" />
+              </label>
+            </div>
+            <div className="form-group">
+              <label>
+                Company Name
+                <input type="text" name="company_name" id="company_name" />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="_replyto" id="email" />
+              </label>
+              <label>
+                Product or service of interest
+                <input type="text" name="product" id="product" />
+              </label>
+            </div>
+        </div> 
+        <div className="form-group">
+            <label>
+              Message
+              <textarea name="questions" id="message" rows="5" />
+            </label>
+        </div>
+        <div className="form-group-submit">
+            <button type="submit">Submit</button>
+        </div>
+          </form>
+        </div>
       </section>
     </Layout>
   )

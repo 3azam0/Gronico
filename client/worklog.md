@@ -58,3 +58,12 @@
 
     + Work on solutions page.
 
+## 26-10-2019
+
+    + Work on contact us page.
+    + Create AWS account.
+
+## 27-10-2019
+
+    + Finish contact page.
+    + Activate contact us form.

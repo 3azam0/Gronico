@@ -38,4 +38,57 @@
     font-family: $f1;
     color: $g1;
   }
+  .contact-form-container {
+    padding: 2%;
+    .form-group-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      label {
+        padding: 1%;
+      }
+      input {
+        width: 100%;
+        font-size: 1.5em;
+        background-color: #dddddd;
+        padding: 1%;
+      }
+      textarea {
+        width: 100%;
+        font-size: 1.5em;
+        background-color: #dddddd;
+      }
+      .form-group {
+        padding: 5%;
+      }
+    }
+    font-family: $f1;
+    .form-group {
+      padding-right: 3%;
+      padding-left: 3%;
+    }
+    text-align: left;
+    input,
+    textarea {
+      display: block;
+      border-radius: 25px;
+      border: 0;
+      width: 100%;
+      font-size: 1.5em;
+      background-color: #dddddd;
+    }
+    .form-group-submit{
+        text-align: center;
+        button {
+            border:0;
+            background-color: $g1;
+            color: #ffffff;
+            font-family: $f1;
+            font-size: 2em;
+            margin-top: 2%;
+            padding: 2%;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    }
+  }
 }
