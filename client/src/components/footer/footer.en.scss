@@ -1,0 +1,69 @@
+@import "../vars.scss";
+
+.gronic-footer {
+  background-color: $g3;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  .copyrights {
+    text-align: center;
+    font-family: $f1;
+    padding-bottom: 1%;
+  }
+}
+
+.gronic-footerLogo {
+  width: 100px;
+  height: 145px;
+}
+
+.gronic-footerP {
+  font-size: 1em;
+  font-family: $f1;
+  text-transform: uppercase;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.footer-list {
+  h4 {
+    font-family: $f2;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 0px;
+  }
+  li {
+      list-style: none;
+  }
+  span {
+    font-size: 1em;
+    font-family: $f1;
+  }
+  .list-head:hover,
+  .list-item:hover {
+    color: $g1;
+    cursor: pointer;
+  }
+  .footer-underline {
+    height: 3px;
+    width: 20%;
+    background-color: $g1;
+    margin-bottom: 2%;
+  }
+  .footer-contact {
+    display: block;
+    font-size: 1em;
+    padding: 2%;
+    font-family: $f1;
+    .footer-icon {
+      color: $g1;
+      font-size: 1.1em;
+    }
+  }
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+}

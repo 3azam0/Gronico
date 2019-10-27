@@ -1,0 +1,41 @@
+@import "../../components/vars.scss";
+.gronic-contact-section-1 {
+  z-index: 3;
+  background-image: url("/icons/images/image6.png");
+  top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+  text-align: center;
+  h1 {
+    padding-top: 19%;
+    font-size: 4em;
+    font-family: $f1;
+    color: #ffffff;
+  }
+  p {
+    font-family: $f1;
+    font-size: 2em;
+    line-height: 1em;
+    color: #ffffff;
+    font-weight: 800;
+  }
+  .social-img {
+    margin: 1.5%;
+  }
+}
+
+.gronic-contact-section-2 {
+  padding: 5%;
+  position: relative;
+  text-align: center;
+  h1 {
+    font-size: 2em;
+    font-family: $f1;
+  }
+  span {
+    font-size: 2em;
+    font-family: $f1;
+    color: $g1;
+  }
+}

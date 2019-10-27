@@ -1,0 +1,37 @@
+{
+    "title": "Contact Us",
+    "description": "Check out our latest news, events and partnerships here",
+    "social": [
+        {
+            "title": "twitter",
+            "URL": "https://twitter.com",
+            "imgURL": "/icons/images/social_icons/twitter.png"
+        },
+        {
+            "title": "facebook",
+            "URL": "https://facebook.com",
+            "imgURL": "/icons/images/social_icons/facebook.png"
+        },
+        {
+            "title": "linkedin",
+            "URL": "https://linkedin.com",
+            "imgURL": "/icons/images/social_icons/linkedin.png"
+        },
+        {
+            "title": "youtube",
+            "URL": "https://youtube.com",
+            "imgURL": "/icons/images/social_icons/youtube.png"
+        },
+        {
+            "title": "instagram",
+            "URL": "https://instagram.com",
+            "imgURL": "/icons/images/social_icons/instagram.png"
+        }
+    ],
+    "subtitle": "Learn more about how our environmentally-friendly pest management solutions can protect your crops while protecting the planet",
+    "contactForm": {
+        "title": "Interested in our green agricultural pest control solutions?",
+        "subtitle": "Get in touch",
+        "fileds": {}
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "english": {
+        "links": [
+            {
+                "text": "Home",
+                "url": "/en/"
+            },
+            {
+                "text": "Solutions",
+                "url": "/en/solutions",
+                "subLinks": [
+                    {
+                        "text": "AttraSafe",
+                        "url": "/solutions/utrasafe"
+                    },
+                    {
+                        "text": "BioSafe",
+                        "url": "/en/solutions/biosafe"
+                    },
+                    {
+                        "text": "EchoSafe",
+                        "url": "/en/solutions/echosafe",
+                        "subLinks": [
+                            {
+                                "text": "TricoSafe",
+                                "url": "/solutions/echosafe/tricosafe"
+                            },
+                            {
+                                "text": "ViroSafe",
+                                "url": "/solutions/echosafe/virosafe"
+                            },
+                            {
+                                "text": "FungSafe",
+                                "url": "/solutions/echosafe/fungsafe"
+                            },
+                            {
+                                "text": "ProSafe",
+                                "url": "/solutions/echosafe/prosafe"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "About Us",
+                "url": "/en/about",
+                "subLinks": [
+                    {
+                        "text": "Who We Are?",
+                        "url": "/en/about/who-we-are"
+                    },
+                    {
+                        "text": "What We Do?",
+                        "url": "/en/about/what-we-do"
+                    },
+                    {
+                        "text": "How we do it?",
+                        "url": "/en/about/how-we-do-it"
+                    },
+                    {
+                        "text": "Our Team",
+                        "url": "/en/about/our-team"
+                    }
+                ]
+            },
+            {
+                "text": "Contact Us",
+                "url": "/en/contact"
+            }
+        ]
+    }
+}

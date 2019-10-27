@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo|Teko&display=swap");
+
+$g1: rgba(158, 190, 57, 1); // used for green buttons;
+$g2: rgba(52, 134, 82, 1);
+$g3: #e0eee4;
+$g4: #2d302e;
+$g5: rgba(227, 233, 191,1);
+
+$f1: 'Cairo', sans-serif;
+$f2: 'Teko', sans-serif;
+
+@mixin gronic-shadowed {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+}
+
+@mixin gronic-linearGrad($v1) {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient($v1, transparent);
+  opacity: 0.9;
+}
+
+// Screens
+$w1: 320px;
+$w2: 480px;
+$w3: 600px;
+$w4: 768px;
+$w5: 900px;
+$w6: 1024px;
+$w7: 1200px;
