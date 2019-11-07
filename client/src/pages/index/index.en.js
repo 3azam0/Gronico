@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import HeroSlider from "../../components/heroSlider/heroSlider.en"
 import SmallSlider from "../../components/smallSlider/smallSlider"
 import Layout from "../../components/layout.en"

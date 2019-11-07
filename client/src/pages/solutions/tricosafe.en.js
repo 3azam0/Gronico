@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import "../../components/solution.en.scss"
 
