@@ -1,0 +1,36 @@
+{
+    "title": "TricoSafe",
+    "section1": {
+        "title": "TricoSafe",
+        "paragraphs": [
+            {
+                "id": "p11",
+                "contents": {
+                    "title": "",
+                    "content": "Biological protection against Lepidoptera pests"
+                }
+            },
+            {
+                "id": "p12",
+                "contents": {
+                    "title": "",
+                    "content": "trichogramma is an effective natural enemy of over 200 pest moth species (cutworms, fruit worms, leaf worms, leafrollers, loopers, armyworms, borers etc.), preventing ravenous worms (caterpillars) from hatching out and devouring crops."
+                }
+            },
+            {
+                "id": "p13",
+                "contents": {
+                    "title": "",
+                    "content": "Trichogramma larvae eat out the insides of pest eggs, pupate, and cut an exit hole in moth eggshells for winged adults to squeeze through. They have a size of approx. 0.5mm. Trichogramma brassicae is a so called parasitoid of eggs. It means that it lays its eggs into the egg of a host (e.g. in the eggs of borers), and as a result the host is killed during development of the parasitoid inside the host egg. Applying large numbers of Trichogramma in the maize field, a large proportion of Lepidoptera eggs is parasitized by Trichogramma females and thus killed."
+                }
+            },
+            {
+                "id": "p14",
+                "contents": {
+                    "title": "",
+                    "content": "Spreading large numbers of Trichogramma at the right time allows parasitizing by females of approx. 0.5 mm in size a very large number of Lepidoptera eggs, and therefore their neutralization"
+                }
+            }
+        ]
+    }
+}

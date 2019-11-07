@@ -1,0 +1,138 @@
+{
+    "title": "Mass Trapping",
+    "section1": {
+        "title": "Mass Trapping",
+        "paragraphs": [
+            {
+                "id": "p11",
+                "contents": {
+                    "title": "",
+                    "content": "Trapping & Monitoring for Smarter Pest Management"
+                }
+            },
+            {
+                "id": "p12",
+                "contents": {
+                    "title": "",
+                    "content": "Before deploying any integrated pest management system, you must first gain a strong understanding of the population dynamics of the insects affecting your crops"
+                }
+            },
+            {
+                "id": "p13",
+                "contents": {
+                    "title": "",
+                    "content": "Gronic’s insect Trapping & Monitoring systems can help you assess insect activity and gain population estimates so you can which identify trap and semiochemicals formulation to use, where to position traps and how many to use in a specific area"
+                }
+            }
+        ]
+    },
+    "section2": {
+        "title": "How Does Mass Trapping Works?",
+        "paragraphs": [
+            {
+                "id": "p21",
+                "contents": {
+                    "title": "",
+                    "content": "This technique is based on strategically placing number of traps. Each one contains an attractant and/or pheromone specific to the species to be controlled, but also a small dose of insecticide which, located inside the trap, acts on the pest in a way that is safe for the crops"
+                }
+            },
+            {
+                "id": "p22",
+                "contents": {
+                    "title": "",
+                    "content": "This way, the crop can be protected by eliminating a high proportion of individuals using an environmentally-friendly method without adverse effects on the health of the producer or the end consumer"
+                }
+            }
+        ]
+    },
+    "section3": {
+        "title": "Benefits of Mass trapping",
+        "paragraphs": [
+            {
+                "id": "p31",
+                "contents": {
+                    "title": "Target the Right Insects",
+                    "content": "Learn exactly which species of insects are living among your crops"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p32",
+                "contents": {
+                    "title": "Get Population Estimates",
+                    "content": "Gather information on population density and distribution"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p33",
+                "contents": {
+                    "title": "Know When to Deploy Solutions",
+                    "content": "Understand what times in the season insects are most actively targeting your crops—and the effect the control measure had on the population."
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p34",
+                "contents": {
+                    "title": "Safe for humans & the environment",
+                    "content": "Environmentally-friendly method without adverse effects on the health of the producer or the end consumer"
+                },
+                "imgURL": "/icons/images/image2.png"
+            }
+        ]
+    },
+    "section4": {
+        "title": "Our Mass Trapping Products",
+        "paragraphs": [
+            {
+                "id": "p41",
+                "contents": {
+                    "title": "Sticky Trap",
+                    "content": "We offer both dry and wet sticky boards in the colors yellow, white, blue and orange with a grid design either as polyethylene (PE) coated card or high impact polystyrene (HIPS)"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p42",
+                "contents": {
+                    "title": "Delta Trap",
+                    "content": "Our delta traps come flat packed and are heat welded to ensure durability. A textile tie is provided for hanging and an optional lure cage is also available for a small additional cost on request."
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p43",
+                "contents": {
+                    "title": "McPhail Trap",
+                    "content": "Our durable trap consists of two parts; a lid containing a lure cage and a lower bucket with funnel entrance. Moreover, liquid lures can be used in this trap"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p44",
+                "contents": {
+                    "title": "Unitrap",
+                    "content": "Our Unitraps are a better option than the delta trap when trapping in dusty conditions and when the moth pests are particularly large (e.ge. Spodoptera species)"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p45",
+                "contents": {
+                    "title": "Conetrap",
+                    "content": "Our Conetrap is Ease of use as assembling takes 10 to 15 seconds per trap. When folded, transport volume (200 units per package) and transport costs are reduced. Moreover, it’s ideal to be used with dry attractants"
+                },
+                "imgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p46",
+                "contents": {
+                    "title": "Palm Trap",
+                    "content": "This trap is specially designed for monitoring and mass trapping of the Red Palm Weevil Rhynchophorus ferrugineus"
+                },
+                "imgURL": "/icons/images/image2.png"
+            }
+        ]
+    }
+}

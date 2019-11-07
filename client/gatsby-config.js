@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-i18n",
       options: {
-        pagesPaths: ["/index/", "/about/", "/solutions/", "/contact/"],
+          pagesPaths: ["/index/", "/about/", "/solutions/", "/contact/","/attractants/"],
         langKeyDefault: "en",
         useLangKeyLayout: true,
       },

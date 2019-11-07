@@ -1,0 +1,134 @@
+{
+    "title": "attractants",
+    "section1": {
+        "title": "attractants",
+        "backgroundImgURL": "/icons/images/image2.png"
+    },
+    "section2": {
+        "paragraphs": [
+            {
+                "id": "p11",
+                "contents": {
+                    "content": "Our formulations are based on naturally-occurring attractant and can be efficient Way to Control Insect Populations"
+                }
+            },
+            {
+                "id": "p12",
+                "contents": {
+                    "content": "Unlike the blanket spraying of conventional pesticides, our Attractants are very specific, targeting only the insect pests causing damage to crops. Rather than chasing the pests with blanket sprays, Gronic brings the pest to the bait. This allows for highly effective crop protection with minimal insecticide usage that does not contact our food or create risk to the environment."
+                }
+            }
+        ]
+    },
+    "section3": {
+        "title": "How Does Attractants Work?",
+        "paragraphs": [
+            {
+                "id": "p21",
+                "contents": {
+                    "title": "1. Product Application",
+                    "content": "our Dispensers formulations are applied to the crop."
+                },
+                "backgroundImgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p22",
+                "contents": {
+                    "title": "2. female attractant Are Released",
+                    "content": "Each Attractant emits a naturally-occurring, to attract the insect pests."
+                },
+                "backgroundImgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p23",
+                "contents": {
+                    "title": "3. Insects Flock to the Bait",
+                    "content": "Because the solution uses naturally occurring insect attractants, pests are instinctively drawn to the solution."
+                },
+                "backgroundImgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "4. Insects Ingest the Solution",
+                    "content": "A tiny amount of pesticide in the formula eradicates pests when they contact the solution."
+                },
+                "backgroundImgURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p25",
+                "contents": {
+                    "title": "5. Crops Are Protected",
+                    "content": "Insect populations are controlled efficiently and with only trace amounts of pesticide."
+                },
+                "backgroundImgURL": "/icons/images/image2.png"
+            }
+        ]
+    },
+    "section4": {
+        "title": "Benefits of Insect Attractants",
+        "paragraphs": [
+            {
+                "id": "p41",
+                "contents": {
+                    "title": "Targeted action",
+                    "content": "All our dispensers target specific species or groups of insects, affecting only these targets without disturbing other insect species."
+                },
+                "imageURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p42",
+                "contents": {
+                    "title": "Natural efficacy",
+                    "content": "By mimicking and optimizing insect attractant systems already found in nature, we can manage insect populations in the most effective and efficient manner."
+                },
+                "imageURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p43",
+                "contents": {
+                    "title": "Safe for humans, pets & the environment",
+                    "content": "Our insect attractants contain compounds that are not harmful to humans or animals and leave no residues on plants or the environment."
+                },
+                "imageURL": "/icons/images/image2.png"
+            }
+        ]
+    },
+    "section5": {
+        "title": "Our Attractants Products",
+        "paragraphs": [
+            {
+                "id": "p51",
+                "contents": {
+                    "title": "",
+                    "contents": "long-lasting, effective insect targeting for controlling insect populations"
+                },
+                "imageURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p52",
+                "contents": {
+                    "title": "",
+                    "contents": "Gronic attractants line provides a low impact solution for targeting a wide range of insects on different-sized crops"
+                },
+                "imageURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p53",
+                "contents": {
+                    "title": "Polymeric Ammonium discs",
+                    "contents": "Our polymeric ammonium discs contain between 4 and 5 grams of ammonium bicarbonate, which slowly degrades to release ammonia, a compound highly attractive to female flies of the species Rhagoletis cerasi and Bactrocera oleae."
+                },
+                "imageURL": "/icons/images/image2.png"
+            },
+            {
+                "id": "p54",
+                "contents": {
+                    "title": "Torula Yeast Tablets",
+                    "contents": "Our tablets are a useful female attractant for a range of fruit fly species, including Bactrocera oleae and Ceratitis capitate."
+                },
+                "imageURL": "/icons/images/image2.png"
+            }
+        ]
+    }
+}
