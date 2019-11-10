@@ -145,6 +145,7 @@
     background-color: #e2e5c0;
     border-radius: 35px;
     position: relative;
+    height: 100%;
     
     .section-image {
       width: 100%;
@@ -169,6 +170,7 @@
   .gronic-solution-paragraph:hover {
     p {
       opacity: 1;
+      width: 100%;
       visibility: visible;
       display: block;
       background-color: rgba(170, 211, 128, 0.5);
