@@ -1,6 +1,7 @@
 @import "../vars.scss";
 
 .gronic-footer {
+  position: relative;
   background-color: $g3;
   padding-right: 5%;
   padding-left: 5%;
@@ -34,7 +35,7 @@
     line-height: 0px;
   }
   li {
-      list-style: none;
+    list-style: none;
   }
   span {
     font-size: 1em;
