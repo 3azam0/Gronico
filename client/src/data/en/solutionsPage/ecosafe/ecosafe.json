@@ -1,0 +1,76 @@
+{
+    "title": "EcoSafe",
+    "section1": {
+        "title": "EcoSafe",
+        "backgroundImgURL": "../../../../images/templat_attracnt.png"
+    },
+    "section2": {
+        "paragraphs": [
+            {
+                "id": "p11",
+                "contents": {
+                    "title": "",
+                    "content": "Environment friendly solution attract harmful active insects during night"
+                }
+            }
+        ]
+    },
+    "section3": {
+        "title": "How does Light trap work?",
+        "paragraphs": [
+            {
+                "id": "p21",
+                "contents": {
+                    "title": "",
+                    "content": "Most agricultural pests have a winged or flying stage at some point in their life cycle. For example, the small aphid-like Phylloxera is one of the most destructive grape pests worldwide with a complex life cycle that often involves a winged stage in the spring, summer or fall. By killing these pests in the flying stage -before they can lay their eggs – the Phylloxera’s life cycle is broken. The light traps take advantage of that most insects are sensitive to light and wish to approach light places at night. According to scientific studies, different insects are attracted to different wavelengths and frequencies of light. This is the scientific basis of our ECOSAFE product."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/1.png"
+            }
+        ]
+    },
+    "section4": {
+        "title": "Benefits of EcoSafe",
+        "paragraphs": [
+            {
+                "id": "p23",
+                "contents": {
+                    "title": "",
+                    "content": "Solar energy charge & operating insect trap"
+                },
+                "backgroundImgURL": "../../../../images/Export/baculovirus-chart_big.jpg"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "",
+                    "content": "Environment friendly pest control for organic farming"
+                },
+                "backgroundImgURL": "../../../../images/Export/baculovirus-chart_big.jpg"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "",
+                    "content": "Safety DC power driving, UV light attract & capture"
+                },
+                "backgroundImgURL": "../../../../images/Export/baculovirus-chart_big.jpg"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "",
+                    "content": "Automatic control, charge in day light & operating after sunset"
+                },
+                "backgroundImgURL": "../../../../images/Export/baculovirus-chart_big.jpg"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "",
+                    "content": "Automatic control, charge in day light & operating after sunset"
+                },
+                "backgroundImgURL": "../../../../images/Export/baculovirus-chart_big.jpg"
+            }
+        ]
+    }
+}
