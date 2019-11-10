@@ -47,9 +47,9 @@ const IndexPage = () => {
   console.log(solutionsData)
   console.log(clientsData)
   const images = [
-    "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property01.jpg",
-    "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property02.jpg",
-    "https://ihatetomatoes.net/demos/_rw/01-real-estate/tn_property03.jpg",
+      "/icons/images/image1.png",
+      "/icons/images/image2.png",
+      "/icons/images/image3.png",
   ]
 
   return (
@@ -84,23 +84,23 @@ const GronicSolutionItems = solutions => {
   console.log(solutions.solutions)
   const gronicSolutionItems = solutions.solutions.map(item => {
     return (
-        <a href={item.link}>
-      <div
-        className="gronic-gridItem"
-        key={item.heading}
-        style={{
-          background:
-            "linear-gradient(135deg, #50A68480 30%, #348650 90%), url(" +
-            item.imageURL +
-            ")",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-        }}
-      >
-        <h2 className="gronic-itemHead">{item.heading}</h2>
-        <p className="gronic-itemDesc">{item.description}</p>
-      </div>
-  </a>
+      <a href={item.link}>
+        <div
+          className="gronic-gridItem"
+          key={item.heading}
+          style={{
+            background:
+              "linear-gradient(135deg, #50A68480 30%, #348650 90%), url(" +
+              item.imageURL +
+              ")",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+          }}
+        >
+          <h2 className="gronic-itemHead">{item.heading}</h2>
+          <p className="gronic-itemDesc">{item.description}</p>
+        </div>
+      </a>
     )
   })
   return gronicSolutionItems
