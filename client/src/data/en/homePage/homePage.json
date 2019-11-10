@@ -30,17 +30,17 @@
             {
                 "heading": "ATTRASAFE",
                 "description": "Control pest populations using Safe attractants",
-                "imageURL": "/static/icons/images/image1.png"
+                "imageURL": "/icons/images/image1.png"
             },
             {
                 "heading": "BIOSAFE",
                 "description": "Collapse target insect populations by using beneficial insects to disrupt their reproductive cycle",
-                "imageURL": "/static/icons/images/image2.png"
+                "imageURL": "/icons/images/image2.png"
             },
             {
                 "heading": "ECOSAFE",
                 "description": "Attract harmful active insects at night with better understanding of their activity through monitoring tools to aid in smarter decision making",
-                "imageURL": "/static/icons/images/image2.png"
+                "imageURL": "/icons/images/image2.png"
             }
         ]
     },
