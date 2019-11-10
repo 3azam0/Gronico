@@ -17,6 +17,7 @@ const About = () => {
           }
           sections {
             title
+            id
             sections {
               bgURL
               description
@@ -45,7 +46,7 @@ const About = () => {
 const AboutSections = ({ data }) => {
   const aboutSections = data.map(section => {
     return (
-      <div className="gronic-aboutSection">
+      <div id={section.id} className="gronic-aboutSection">
         <h1 className="gronic-aboutTitle"> {section.title}</h1>
         <div className="gronic-underline" />
         <AboutSubSections data={section.sections} />
@@ -101,7 +102,7 @@ const Advisors = ({ members}) => {
 
 const OurTeam = ({ members, advisors }) => {
   return (
-    <div className="gronic-aboutSection teamSection">
+    <div id="our-team" className="gronic-aboutSection teamSection">
       <h1 className="gronic-aboutHead"> Our Team </h1>
       <div className="gronic-underline" />
       <div className="gronic-team">

@@ -15,40 +15,6 @@ const EcoSafePage = () => {
           section1 {
             title
           }
-          section5 {
-            paragraphs {
-              id
-              contents {
-                title
-                content
-              }
-              backgroundImgURL {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            title
-          }
-          section4 {
-            title
-            paragraphs {
-              contents {
-                content
-                title
-              }
-              id
-              backgroundImgURL {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-          }
           section3 {
             title
             paragraphs {
@@ -70,7 +36,25 @@ const EcoSafePage = () => {
             paragraphs {
               id
               contents {
+                title
                 content
+              }
+            }
+          }
+          section4 {
+            title
+            paragraphs {
+              id
+              contents {
+                title
+                content
+              }
+              backgroundImgURL {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
               }
             }
           }
@@ -81,7 +65,7 @@ const EcoSafePage = () => {
   const pageData = data.allEcosafeJson.nodes[0]
   return (
     <Layout>
-      <SEO title="Gronic Virosafe" />
+      <SEO title="Gronic Ecosafe" />
       <div className="solution-page">
         <section
           className="gronic-solution-section solution-section-1"
@@ -102,12 +86,17 @@ const EcoSafePage = () => {
         <section className="gronic-solution-section solution-section-4">
           <h1>{pageData.section4.title}</h1>
           <div className="gronic-underline" />
-          { pageData.section4.paragraphs.map((paragraph) => {
-              return (
-                  <p id={paragraph.id} className="section-subtitle" style={{textAlign:'center'}}>{paragraph.contents.content}</p>
-              )
-          })            
-              }
+          {pageData.section4.paragraphs.map(paragraph => {
+            return (
+              <p
+                id={paragraph.id}
+                className="section-subtitle"
+                style={{ textAlign: "center" }}
+              >
+                {paragraph.contents.content}
+              </p>
+            )
+          })}
         </section>
       </div>
     </Layout>

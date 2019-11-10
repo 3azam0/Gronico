@@ -11,31 +11,31 @@
                 "subLinks": [
                     {
                         "text": "AttraSafe",
-                        "url": "/solutions/utrasafe"
+                        "url": "/en/solutions#attrasafe"
                     },
                     {
                         "text": "BioSafe",
-                        "url": "/en/solutions/biosafe"
+                        "url": "/en/solutions#biosafe"
                     },
                     {
-                        "text": "EchoSafe",
-                        "url": "/en/solutions/echosafe",
+                        "text": "EcoSafe",
+                        "url": "/en/solutions#ecosafe",
                         "subLinks": [
                             {
                                 "text": "TricoSafe",
-                                "url": "/solutions/echosafe/tricosafe"
+                                "url": "/en/tricosafe"
                             },
                             {
                                 "text": "ViroSafe",
-                                "url": "/solutions/echosafe/virosafe"
+                                "url": "/en/virosafe"
                             },
                             {
                                 "text": "FungSafe",
-                                "url": "/solutions/echosafe/fungsafe"
+                                "url": "/en/fungsafe"
                             },
                             {
                                 "text": "ProSafe",
-                                "url": "/solutions/echosafe/prosafe"
+                                "url": "/en/prosafe"
                             }
                         ]
                     }
@@ -47,19 +47,19 @@
                 "subLinks": [
                     {
                         "text": "Who We Are?",
-                        "url": "/en/about/who-we-are"
+                        "url": "/en/about/#who-we-are"
                     },
                     {
                         "text": "What We Do?",
-                        "url": "/en/about/what-we-do"
+                        "url": "/en/about/#what-we-do"
                     },
                     {
                         "text": "How we do it?",
-                        "url": "/en/about/how-we-do-it"
+                        "url": "/en/about/#how-we-do-it"
                     },
                     {
                         "text": "Our Team",
-                        "url": "/en/about/our-team"
+                        "url": "/en/about/#our-team"
                     }
                 ]
             },

@@ -74,7 +74,7 @@ const SolutionsPage = () => {
         <p> {solutionsData.section3.description1}</p>
         <p> {solutionsData.section3.description2}</p>
       </section>
-      <section className="gronic-solutionsSection section4">
+      <section id="attrasafe" className="gronic-solutionsSection section4">
         <h1>{solutionsData.section4.title}</h1>
         <div className="gronic-underline" />
         <div className="subSections-container">
@@ -93,7 +93,7 @@ const SolutionsPage = () => {
           </div>
         </div>
       </section>
-      <section className="gronic-solutionsSection section5">
+      <section id="biosafe" className="gronic-solutionsSection section5">
         <h1>{solutionsData.section5.title}</h1>
         <div className="gronic-underline" />
         <div className="subSections-container">
@@ -112,12 +112,12 @@ const SolutionsPage = () => {
           </div>
         </div>
       </section>
-      <section className="gronic-solutionsSection section6">
+      <section id="ecosafe" className="gronic-solutionsSection section6">
           <h1>{solutionsData.section6.title} </h1>
           <div className="gronic-underline"/>
           <div className="section-6-container">
               <p>{solutionsData.section6.description}</p>
-              <a className="gronic-btn" href="/en/solutions/ecosafe">Learn more </a>
+              <a className="gronic-btn" href="/en/ecosafe">Learn more </a>
           </div>
       </section>
     </Layout>

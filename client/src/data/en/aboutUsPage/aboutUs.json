@@ -2,6 +2,7 @@
     "title": "About Us",
     "sections": [
         {
+            "id": "who-we-are",
             "title": "Who We Are ? ",
             "sections": [
                 {
@@ -23,6 +24,7 @@
         },
         {
             "title": "What We Do ? ",
+            "id": "what-we-do",
             "sections": [
                 {
                     "bgURL": "/icons/images/image4.png",
@@ -33,6 +35,7 @@
         },
         {
             "title": "How We Do It ? ",
+            "id": "how-we-do-it",
             "sections": [
                 {
                     "bgURL": "/icons/images/image5.png",
