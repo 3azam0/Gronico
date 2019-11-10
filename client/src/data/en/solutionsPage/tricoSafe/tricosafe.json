@@ -2,6 +2,9 @@
     "title": "TricoSafe",
     "section1": {
         "title": "TricoSafe",
+        "backgroundImgURL": "../../../../images/templat_attracnt.png"
+    },
+    "section2": {
         "paragraphs": [
             {
                 "id": "p11",
@@ -30,6 +33,93 @@
                     "title": "",
                     "content": "Spreading large numbers of Trichogramma at the right time allows parasitizing by females of approx. 0.5 mm in size a very large number of Lepidoptera eggs, and therefore their neutralization"
                 }
+            }
+        ]
+    },
+    "section3": {
+        "title": "How Trichogramma affects Lepidoptera?",
+        "paragraphs": [
+            {
+                "id": "p21",
+                "contents": {
+                    "title": "",
+                    "content": "After the application of TRICOSAFE product, the Trichogramma hatch in the field. After mating, the search for egg masses of the corn borer begins. The eggs are parasitized by Trichogramma. Development of Trichogramma in the egg inhibits the growth of Lepidoptera: instead of Lepidoptera larvae, Trichogramma (2. Generation) will hatch and the cycle starts again."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/1.png"
+            },
+            {
+                "id": "p22",
+                "contents": {
+                    "title": "",
+                    "content": "If the development process of Lepidoptera is not interrupted, larvae hatch after 4-9 days and feed on the corn cobs and stalks, and then they pupate at the bottom of the stalk. Lepidoptera hatches out of the pupa and starts laying new egg masses into the field."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/2.png"
+            }
+        ]
+    },
+    "section4": {
+        "title": "What is the Trichogramma Effective Period?",
+        "paragraphs": [
+            {
+                "id": "p23",
+                "contents": {
+                    "title": "",
+                    "content": "Effective period results from the hatching period and the development cycle. In order to ensure the longest possible effective period, all our TRICOSAFE products contain Trichogramma eggs at minimum six different stages of their development. "
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/3.png"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "",
+                    "content": "As it is not possible for these great amounts of Trichogramma to hibernate, it is necessary to release them in large amounts on an annual basis. Only this way a sufficiently large population can be obtained to ensure a satisfying effect in controlling Lepidoptera."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/4.png"
+            },
+            {
+                "id": "p25",
+                "contents": {
+                    "title": "",
+                    "content": "As it is not possible for these great amounts of Trichogramma to hibernate, it is necessary to release them in large amounts on an annual basis. Only this way a sufficiently large population can be obtained to ensure a satisfying effect in controlling Lepidoptera."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/5.png"
+            }
+        ]
+    },
+    "section5": {
+        "title": "Our TRICOSAFE-Product",
+        "paragraphs": [
+            {
+                "id": "p41",
+                "contents": {
+                    "title": "",
+                    "content": "Application of Trichogramma takes place using TRICOSAFE card developed by Gronic. This form of product has proven itself immensely in practice for many years and they obtain great results in official experiments. TRICOSAFE in its form is particularly ecological, as its ingredients are fully biodegradable under field conditions."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/8.png"
+            },
+            {
+                "id": "p42",
+                "contents": {
+                    "title": "Easy Handling",
+                    "content": "Simple and Cost-effective manual application!"
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/8.png"
+            },
+            {
+                "id": "p43",
+                "contents": {
+                    "title": "Reliable Quality",
+                    "content": "Good protection for beneficial organisms against ultraviolet and infrared radiation."
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/7.png"
+            },
+            {
+                "id": "p43",
+                "contents": {
+                    "title": "Optimum Protection",
+                    "content": "Best protection of Trichogramma against rain, sprinkling and natural enemies!"
+                },
+                "backgroundImgURL": "../../../../images/Export/solutions_template/6.png"
             }
         ]
     }
