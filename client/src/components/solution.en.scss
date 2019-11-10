@@ -79,14 +79,14 @@
   }
 }
 .section-subtitle {
-    padding-left: 5%;
-    padding-right: 5%;
-    color: $g4;
-    font-family: $f1;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    text-align: left;
-  }
+  padding-left: 5%;
+  padding-right: 5%;
+  color: $g4;
+  font-family: $f1;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: left;
+}
 .solution-section-4 {
   h1 {
     font-size: 4em;
@@ -155,7 +155,7 @@
     border-radius: 35px;
     position: relative;
     height: 100%;
-    
+
     .section-image {
       width: 100%;
       min-height: 80%;
@@ -169,11 +169,11 @@
       color: $g2;
     }
     .content-container {
-        p {
-            opacity: 0;
-            visibility: hidden;
-            display: none;
-        }
+      p {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+      }
     }
   }
   .gronic-solution-paragraph:hover {
@@ -209,5 +209,24 @@
         border-radius: 25px;
       }
     }
+  }
+}
+.prosafe-paragraph {
+  h2 {
+    padding-top: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: $g1;
+  }
+  p {
+    padding: 1%;
+    color: $g4;
+    font-family: $f1;
+    font-size: 1.5em;
+    line-height: 1em;
+  }
+  .section-image {
+      width: 50%;
+      border-radius: 25px;
   }
 }

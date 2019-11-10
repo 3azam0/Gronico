@@ -1,0 +1,101 @@
+{
+    "title": "ProSAFE",
+    "section1": {
+        "title": "ProSAFE",
+        "backgroundImgURL": "../../../../images/templat_attracnt.png"
+    },
+    "section2": {
+        "paragraphs": [
+            {
+                "id": "p11",
+                "contents": {
+                    "title": "",
+                    "content": "Natural predators and entomopathogenic nematodes against harmful pests"
+                }
+            },
+            {
+                "id": "p12",
+                "contents": {
+                    "title": "",
+                    "content": "Predators are beneficial insects and mites that capture and eat other organisms such as insects or mites. Predators include ladybird beetles, ground beetles, lacewings, syrphid (hover) flies, aphid midges (Aphidoletes) and yellowjacket wasps."
+                }
+            }
+        ]
+    },
+    "section3": {
+        "paragraphs": [
+            {
+                "id": "p22",
+                "contents": {
+                    "title": "1. Ladybird beetles",
+                    "content": {
+                        "appearance": "There are many species of ladybird beetles that vary in size, color and pattern. Depending on species, colors are black, red, orange-red to almost yellow. Most species have colored spots or markings on their backs.",
+                        "lifeCycle": " Overwinter as adults. Eggs (orange, elongated) are laid in clusters on underside of leaves and branches. Usually only one generation per year. Both the larvae and adults feed on pests.",
+                        "pests": "Aphids, whiteflies, scales, mites, mealybugs and other soft-bodied insects."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            },
+            {
+                "id": "p23",
+                "contents": {
+                    "title": "2. Lacewings",
+                    "content": {
+                        "appearance": "Common species of lacewings include two green lacewing species, Chrysoperla carnea and Chrysopa oculata, and one brown lacewing species, Hemerobius pacifus. Lacewing eggs are white and laid singly or in groups on long stalks on the underside of leaves or branches. The brown and green lacewing larvae are very similar except for small differences in body shape and the brown lacewing's habit of moving its head from side to side while walking.",
+                        "lifeCycle": "Chrysoperla carnea and Hemerobius pacificus overwinter as adults; Chrysopa oculata as pupae. Up to four generations per year depending on temperature.",
+                        "pests": "Aphids, spider mites, whiteflies thrips, leafhoppers, scales, mealybugs, psyllids, small caterpillars and insect eggs. Green lacewing larvae feed on insect pests. Both larvae and adult brown lacewings feed on pests. Green lacewings are commercially available."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            },
+            {
+                "id": "p24",
+                "contents": {
+                    "title": "3. Syrphid (Hover) fly larvae",
+                    "content": {
+                        "appearance": " Hover fly larvae are flattened, legless maggots with no distinct head and a tapered body. They are variously coloured (yellow, green to brown). Adults frequent flowers over which they hover before landing to feed on nectar and pollen (their only food source). They are often mistaken for bees or wasps which they mimic in colouration. Hover fly eggs are white, elongate, with fine sculpturing and are visible in aphid colonies.",
+                        "lifeCycle": " Overwinter as larvae, pupae, or adults depending on the species. Eggs laid on aphid-infested plant parts. Several generations per year depending on temperature and location.",
+                        "pests": "Aphids, scales, thrips and other small soft-bodied insects."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            },
+            {
+                "id": "p25",
+                "contents": {
+                    "title": "4. Praying mantids",
+                    "content": {
+                        "appearance": "Adults are 5-10 cm long and green, brown or yellow in colour. Mantids have an elongated thorax and grasping forelegs, which they use to hold their prey while they eat.",
+                        "lifeCycle": "One generation per year. Overwinters as eggs in egg cases, which are glued to wood, bark, or other plant material",
+                        "pests": "Many, including aphids, flies, beetles. Feeds on pests as well as beneficials. Mantids grasp their prey with spined front legs and hold them while they eat."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            },
+            {
+                "id": "p26",
+                "contents": {
+                    "title": "5. Predatory mites",
+                    "content": {
+                        "appearance": "The western predator mite, Typhlodromus occidentalis (Nesbitt), and Zetzellia mali are the two most common species of predaceous mites in B.C. They are distinguished from their prey by their larger size, pear-shaped body, and translucent colouration. Their eggs are opaque and oval whereas pest mite eggs are round. They are very active and fast moving compared to pest mites.",
+                        "lifeCycle": "Overwinter as adults. Become active in spring and produce several generations per summer depending on temperature.",
+                        "pests": "Spider mites, thrips, fungus gnat larvae Monitoring: Visual inspection of leaves or leaf brushing for microscopic examination."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            },
+            {
+                "id": "p27",
+                "contents": {
+                    "title": "6. Minute pirate bug",
+                    "content": {
+                        "appearance": "Adult anthocorids have a narrow, pointed head, flattened, smooth body with distinctive clear markings on their back.",
+                        "lifeCycle": "Overwinter as adults. Becomes active early in season. 3 to 4 generations per year.",
+                        "pests": "Aphids, spider mites, thrips, psyllids, whiteflies and small caterpillars."
+                    }
+                },
+                "backgroundImgURL": "../../../../images/Export/bio_safe.png"
+            }
+        ]
+    }
+}
