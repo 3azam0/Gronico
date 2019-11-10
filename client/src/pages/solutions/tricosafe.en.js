@@ -95,36 +95,62 @@ const TricoSafePage = () => {
         <section className="gronic-solution-section solution-section-3">
           <h1>{pageData.section3.title}</h1>
           <div className="gronic-underline" />
-          <div className="paragraphs-container">
-            <Paragraphs data={pageData.section3.paragraphs} />
-          </div>
+          <Img
+            alt={pageData.section4.paragraphs[0].contents.content}
+            fluid={
+              pageData.section3.paragraphs[0].backgroundImgURL.childImageSharp
+                .fluid
+            }
+            style={{
+              width: `80%`,
+              margin: `0 auto`,
+              paddingBottom: `5%`,
+            }}
+            imgStyle={{ objectFit: "contain" }}
+          />
+          <p className="section-subtitle">
+            {pageData.section3.paragraphs[0].contents.content}
+          </p>
         </section>
         <section className="gronic-solution-section solution-section-3">
           <h1>{pageData.section4.title}</h1>
           <div className="gronic-underline" />
+<Img
+            alt={pageData.section4.paragraphs[0].contents.content}
+            fluid={
+              pageData.section4.paragraphs[0].backgroundImgURL.childImageSharp
+                .fluid
+            }
+            style={{
+              width: `80%`,
+              margin: `0 auto`,
+              paddingBottom: `5%`,
+            }}
+            imgStyle={{ objectFit: "contain" }}
+          />
+
           <div className="paragraphs-container">
-            <Paragraphs data={pageData.section4.paragraphs} />
+            <Paragraphs data={pageData.section4.paragraphs} hideImage={true} />
           </div>
         </section>
         <section className="gronic-solution-section solution-section-4">
           <h1>{pageData.section5.title} </h1>
           <div className="gronic-underline" />
-          <p className="section-subtitle"> 
-              {pageData.section5.paragraphs[0].contents.content}
+          <p className="section-subtitle">
+            {pageData.section5.paragraphs[0].contents.content}
           </p>
-            <Paragraphs data={pageData.section5.paragraphs.slice(1)} />
+          <Paragraphs data={pageData.section5.paragraphs.slice(1)} />
         </section>
       </div>
     </Layout>
   )
 }
 
-
-const Paragraphs = ({ data }) => {
+const Paragraphs = ({ data,hideImage }) => {
   return data.map(paragraph => {
     return (
       <div id={paragraph.id} className="gronic-solution-paragraph">
-        {paragraph.backgroundImgURL ? (
+        {paragraph.backgroundImgURL && !hideImage ? (
           <Img
             alt={paragraph.contents.title}
             className="section-image"
@@ -140,4 +166,5 @@ const Paragraphs = ({ data }) => {
     )
   })
 }
+
 export default TricoSafePage
