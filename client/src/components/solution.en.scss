@@ -78,16 +78,6 @@
     min-height: 250px;
   }
 }
-
-.solution-section-4 {
-  h1 {
-    font-size: 4em;
-    font-family: $f2;
-    letter-spacing: 0.1em;
-  }
-  .gronic-underline {
-    margin-bottom: 1%;
-  }
 .section-subtitle {
     padding-left: 5%;
     padding-right: 5%;
@@ -97,6 +87,16 @@
     line-height: 1.5em;
     text-align: left;
   }
+.solution-section-4 {
+  h1 {
+    font-size: 4em;
+    font-family: $f2;
+    letter-spacing: 0.1em;
+  }
+  .gronic-underline {
+    margin-bottom: 1%;
+  }
+
   .section-image {
     width: 100px;
     min-height: 150px;
