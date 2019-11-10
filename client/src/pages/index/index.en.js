@@ -27,6 +27,7 @@ const IndexPage = () => {
               description
               heading
               imageURL
+              link
             }
           }
           pageTitle
@@ -83,6 +84,7 @@ const GronicSolutionItems = solutions => {
   console.log(solutions.solutions)
   const gronicSolutionItems = solutions.solutions.map(item => {
     return (
+        <a href={item.link}>
       <div
         className="gronic-gridItem"
         key={item.heading}
@@ -98,6 +100,7 @@ const GronicSolutionItems = solutions => {
         <h2 className="gronic-itemHead">{item.heading}</h2>
         <p className="gronic-itemDesc">{item.description}</p>
       </div>
+  </a>
     )
   })
   return gronicSolutionItems

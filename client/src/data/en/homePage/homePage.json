@@ -6,21 +6,21 @@
             "heading": "Protecting our crops. Protecting our planet.",
             "description": "Gronic is leading the way in sustainable agriculture with integrated pest management solutions for a greener planet",
             "buttonText": "How we do it ?",
-            "buttonLink": "/how-we-do-it"
+            "buttonLink": "/en/about#how-we-do-it"
         },
         {
             "imageURL": "/icons/images/image2.png",
             "heading": "Greener Agriculture through Integrated Pest Management",
             "description": "Protect your crops from pests with long-lasting, eco-friendly solutions that are safer for the planet while allowing your business to flourish",
             "buttonText": "Mission",
-            "buttonLink": "/mission"
+            "buttonLink": "/en/about#who-we-are"
         },
         {
             "imageURL": "/icons/images/image3.png",
             "heading": "Harnessing nature's cues for sustainable agriculture",
             "description": "Use of naturally-occurring Biological control methods that manipulate insect behavior prevents pest resistance and pollution",
             "buttonText": "Solutions",
-            "buttonLink": "/solutions"
+            "buttonLink": "/en/solutions"
         }
     ],
     "ourSolutions": {
@@ -30,17 +30,20 @@
             {
                 "heading": "ATTRASAFE",
                 "description": "Control pest populations using Safe attractants",
-                "imageURL": "/icons/images/image1.png"
+                "imageURL": "/icons/images/image1.png",
+                "link": "/en/solutions/#attrasafe"
             },
             {
                 "heading": "BIOSAFE",
                 "description": "Collapse target insect populations by using beneficial insects to disrupt their reproductive cycle",
-                "imageURL": "/icons/images/image2.png"
+                "imageURL": "/icons/images/image2.png",
+                "link": "/en/solutions#biosafe"
             },
             {
                 "heading": "ECOSAFE",
                 "description": "Attract harmful active insects at night with better understanding of their activity through monitoring tools to aid in smarter decision making",
-                "imageURL": "/icons/images/image2.png"
+                "imageURL": "/icons/images/image2.png",
+                "link": "/en/solutions#ecosafe"
             }
         ]
     },
