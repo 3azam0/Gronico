@@ -57,6 +57,7 @@ const SolutionsPage = () => {
   return (
     <Layout>
       <SEO title="Gronic Solutions" />
+      <div className="about-page">
       <section className="gronic-solutionsSection section1">
         <h1>{solutionsData.section1.title}</h1>
         <p>{solutionsData.section1.description}</p>
@@ -120,6 +121,7 @@ const SolutionsPage = () => {
               <a className="gronic-btn" href="/en/ecosafe">Learn more </a>
           </div>
       </section>
+  </div>
     </Layout>
   )
 }
