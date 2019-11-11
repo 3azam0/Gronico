@@ -132,7 +132,7 @@ const Navbar = ({
                 className={'gronic-nav '+ navigationClassName}
                 style={navigationStyle}
             > 
-                <Link to="/">
+                <Link to="/en">
                     <Img
                         alt="Gronic"
                         className="gronic-navLogo"
@@ -145,7 +145,7 @@ const Navbar = ({
                 <ul className="gronic-navUlist">
                     <MainNavLinks links={navLinksData}/>
                 </ul>
-                <button onClick={toggleNav} className="gronic-burger"><MdMenu/> </button>
+                <a onClick={toggleNav} className="gronic-burger"><MdMenu/> </a>
             </nav>
            { showSmallNav && 
                <nav className="gronic-smallNav">
