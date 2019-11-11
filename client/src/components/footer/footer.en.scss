@@ -68,3 +68,12 @@
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr;
 }
+
+@media only screen and (max-width: $w5) {
+    .footer-col{
+        display: none;
+    }
+    .copyrights {
+        font-size: 0.9em;
+    }
+}

@@ -161,28 +161,31 @@ a {
     }
 }
 .gronic-smallNav{
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     top:0px;
     bottom:0px;
     left: 0px;
     bottom: 0px;
     right: 0px;
-    z-index: 2;
+    z-index: 5;
     width: 100%;
     height: 100%;
     background-color: $g1;
-    padding-top: 1vh;
+    padding-top: 40%;
     .gronic-smallNavListItem {
         text-decoration: none;
         clear: both;
         list-style:none;
         text-align: center;
         padding: 4%;
+        cursor: pointer;
         .gronic-smallNavLink {
             text-align: center;
             color: #ffffff;
-            font-size:2rem;
+            font-size:3em;
             font-family: 'Cairo', sans-serif;
+            cursor: pointer;
         }
     }
     .gronic-burger{

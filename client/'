@@ -52,22 +52,7 @@
   width: 100%;
   margin: 0 auto;
 }
-.small-cards-slider {
-    visibility: hidden;
-    display: none;
-}
 @media only screen and (max-width: $w5) {
-  .cards-slider,.gronic-slidernavl,.gronic-slidernavr {
     visibility: hidden;
     display: none;
   }
-  .small-cards-slider {
-      visibility: visible;
-      display: block;
-      height: 900px;
-      .small-card {
-          height: 300px;
-          margin:5px;
-      }
-  }
-}

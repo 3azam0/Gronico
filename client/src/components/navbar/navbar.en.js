@@ -120,9 +120,9 @@ const Navbar = ({
         }
     `)
     const navLinksData = data.allNavbarJson.edges[1].node.english;
-    console.log(navLinksData)
     const [showSmallNav, setSmallNav] = useState(false);
     const toggleNav = () => {
+        document.body.style.overflow = "hidden";
         setSmallNav(!showSmallNav)
     }
     return(

@@ -1,4 +1,9 @@
 @import "../../components/vars.scss";
+.index-page {
+  @media only screen and (max-width: $w5) {
+    padding-top: 5rem;
+  }
+}
 .gronic-sectionHead {
   font-family: $f2;
   font-size: 4em;
@@ -30,7 +35,8 @@
     width: 100%;
     padding: 2%;
     display: grid;
-    @media only screen and (min-width: 650px) {
+
+    @media only screen and (min-width: $w5) {
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 2%;
       display: grid;
@@ -46,7 +52,7 @@
       .gronic-itemHead {
         position: relative;
         padding: 5;
-        top:45%;
+        top: 45%;
         color: #ffffff;
         font-family: $f2;
         font-size: 3em;
@@ -78,21 +84,45 @@
         height: 20px;
       }
     }
+    @media only screen and (max-width: $w5) {
+      .gronic-gridItem {
+        margin: 1%;
+        .gronic-itemHead {
+          position: relative;
+          padding: 5%;
+          top: 10%;
+          transition: top 2s;
+          color: #ffffff;
+        }
+        .gronic-itemDesc {
+          position: relative;
+          opacity: 1;
+          transition: opacity 2s 1s;
+          padding: 5%;
+          color: #ffffff;
+          font-family: $f1;
+          font-size: 1.2em;
+          height: 20px;
+        }
+      }
+    }
   }
 }
 
 .gronic-ourClients {
-    padding: 5%;
-    text-align: center;
-    background-color: $g3;
+  padding: 5%;
+  text-align: center;
+  background-color: $g3;
 }
 
 .gronic-partners {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  @media only screen and (min-width: $w5) {
     height: 650px;
-    .gronic-smallSlider {
-        margin-top: 3%;
-    }
+  }
+  .gronic-smallSlider {
+    margin-top: 3%;
+  }
 }
