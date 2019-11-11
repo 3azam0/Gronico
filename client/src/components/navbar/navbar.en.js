@@ -137,7 +137,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
       }
     }
   `)
-  const navLinksData = data.allNavbarJson.nodes[0].node.english
+  const navLinksData = data.allNavbarJson.nodes[0].english
   const [showSmallNav, setSmallNav] = useState(false)
   const toggleNav = () => {
     document.body.style.overflow = "hidden"
