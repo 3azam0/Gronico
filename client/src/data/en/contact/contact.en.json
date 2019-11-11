@@ -4,12 +4,12 @@
     "social": [
         {
             "title": "twitter",
-            "URL": "https://twitter.com",
+            "URL": "https://twitter.com/GronicCo",
             "imgURL": "/icons/images/social_icons/twitter.png"
         },
         {
             "title": "facebook",
-            "URL": "https://facebook.com",
+            "URL": "https://www.facebook.com/Gronic.co",
             "imgURL": "/icons/images/social_icons/facebook.png"
         },
         {
@@ -19,12 +19,12 @@
         },
         {
             "title": "youtube",
-            "URL": "https://youtube.com",
+            "URL": "https://www.youtube.com/channel/UCg-NDoXQzfr7EJOSsyqcoQA?view_as=subscriber",
             "imgURL": "/icons/images/social_icons/youtube.png"
         },
         {
             "title": "instagram",
-            "URL": "https://instagram.com",
+            "URL": "https://www.instagram.com/gronicco",
             "imgURL": "/icons/images/social_icons/instagram.png"
         }
     ],

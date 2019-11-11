@@ -43,6 +43,9 @@
     .form-group-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      @media only screen and (max-width: $w5) {
+        grid-template-columns: 1fr;
+      }
       label {
         padding: 1%;
       }
@@ -76,19 +79,19 @@
       font-size: 1.5em;
       background-color: #dddddd;
     }
-    .form-group-submit{
-        text-align: center;
-        button {
-            border:0;
-            background-color: $g1;
-            color: #ffffff;
-            font-family: $f1;
-            font-size: 2em;
-            margin-top: 2%;
-            padding: 2%;
-            border-radius: 30px;
-            cursor: pointer;
-        }
+    .form-group-submit {
+      text-align: center;
+      button {
+        border: 0;
+        background-color: $g1;
+        color: #ffffff;
+        font-family: $f1;
+        font-size: 2em;
+        margin-top: 2%;
+        padding: 2%;
+        border-radius: 30px;
+        cursor: pointer;
+      }
     }
   }
 }
