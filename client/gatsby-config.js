@@ -3,6 +3,7 @@ module.exports = {
     title: `Gronic`,
     description: `leading the way in sustainable agriculture with integrated pest management solutions for a greener planet`,
     author: `@ahmedaabouzied`,
+      siteUrl: `https://www.gronic.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -22,6 +23,43 @@ module.exports = {
         path: "./src/data/",
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/gronic-sitemap.xml`,
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+      }`,
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          }),
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://www.gronic.com",
+        sitemap: "https://www.gronic.com/gronic-sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -38,7 +76,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-i18n",
       options: {
-          pagesPaths: ["/index/", "/about/", "/solutions/", "/contact/","/attractants/"],
+        pagesPaths: [
+          "/index/",
+          "/about/",
+          "/solutions/",
+          "/contact/",
+          "/attractants/",
+        ],
         langKeyDefault: "en",
         useLangKeyLayout: true,
       },

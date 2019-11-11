@@ -42,8 +42,8 @@ const IndexPage = () => {
       }
     }
   `)
-  const solutionsData = data.allHomePageJson.nodes[1].ourSolutions
-  const clientsData = data.allHomePageJson.nodes[1].ourClients
+  const solutionsData = data.allHomePageJson.nodes[0].ourSolutions
+  const clientsData = data.allHomePageJson.nodes[0].ourClients
   console.log(solutionsData)
   console.log(clientsData)
   const images = [
