@@ -169,7 +169,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
           <MainNavLinks links={navLinksData} />
         </ul>
         <a onClick={toggleNav} href="#" className="gronic-burger">
-          <MdMenu />{" "}
+          <MdMenu />
         </a>
       </nav>
       {showSmallNav && (
