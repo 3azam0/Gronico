@@ -2,6 +2,8 @@ import React from "react"
 import { useState } from "react"
 import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
+import { useSwipeable } from "react-swipeable"
+
 import "./heroSlider.en.scss"
 
 const SliderItem = ({ alternateFunc, item, index }) => {
@@ -11,8 +13,12 @@ const SliderItem = ({ alternateFunc, item, index }) => {
   const alternateLeft = index => {
     index === 0 ? alternateFunc(2) : alternateFunc(index - 1)
   }
+  const handlers = useSwipeable({
+    onSwipedLeft: () => alternateLeft(index),
+    onSwipedRight: () => alternateRight(index),
+  })
   return (
-    <div className="gronic-heroContainer">
+    <div {...handlers} className="gronic-heroContainer">
       <img
         alt={item.heading}
         className="gronic-heroImage"
@@ -24,15 +30,32 @@ const SliderItem = ({ alternateFunc, item, index }) => {
       <Link className="gronic-sliderButton" to={item.buttonLink}>
         {item.buttonText}
       </Link>
-      <button className="gronic-sliderNavr" onClick={() => alternateRight(index)}> &gt;</button>
-      <button className="gronic-sliderNavl" onClick={() => alternateLeft(index)}> &lt;</button>
+      <button
+        className="gronic-sliderNavr"
+        onClick={() => alternateRight(index)}
+      >
+        {" "}
+        &gt;
+      </button>
+      <button
+        className="gronic-sliderNavl"
+        onClick={() => alternateLeft(index)}
+      >
+        {" "}
+        &lt;
+      </button>
       <div className="gronic-sliderIndicatorGroup">
-      <div className={ index === 0 ? 'sliderIndicator active' : 'sliderIndicator'}/>
-      <div className={ index === 1 ? 'sliderIndicator active' : 'sliderIndicator'}/>
-      <div className={ index === 2 ? 'sliderIndicator active' : 'sliderIndicator'}/>
-  </div>
+        <div
+          className={index === 0 ? "sliderIndicator active" : "sliderIndicator"}
+        />
+        <div
+          className={index === 1 ? "sliderIndicator active" : "sliderIndicator"}
+        />
+        <div
+          className={index === 2 ? "sliderIndicator active" : "sliderIndicator"}
+        />
+      </div>
     </div>
-
   )
 }
 
