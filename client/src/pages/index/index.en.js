@@ -4,8 +4,12 @@ import HeroSlider from "../../components/heroSlider/heroSlider.en"
 import SmallSlider from "../../components/smallSlider/smallSlider"
 import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
+import Img from "gatsby-image"
 
 import "./index.en.scss"
+import s1 from "../../images/Export/attrasafe.png"
+import s2 from "../../images/Export/bio_safe.png"
+import s3 from "../../images/Export/eco_safe.png"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -14,8 +18,13 @@ const IndexPage = () => {
         nodes {
           ourClients {
             clients {
-              name
-              logoUrl
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             description
             heading
@@ -24,6 +33,7 @@ const IndexPage = () => {
             description
             heading
             solutions {
+              index
               description
               heading
               imageURL
@@ -72,7 +82,19 @@ const IndexPage = () => {
         <section className="gronic-ourClients" id="clients">
           <h1 className="gronic-sectionHead"> {clientsData.heading} </h1>
           <div className="gronic-headUnderline" />
-          <p className="gronic-sectionDescription">{clientsData.description}</p>
+          <div className="gronic-clients-container">
+          {clientsData.clients.map((client, index) => {
+            return (
+              <Img
+                key={"client_image" + index}
+                alt="client image"
+                className="clientLogo"
+                fluid={client.image.childImageSharp.fluid}
+                imgStyle={{ objectFit: "contain" }}
+              />
+            )
+          })}
+      </div>
         </section>
         <section className="gronic-partners">
           <h1 className="gronic-sectionHead"> Our Partners </h1>
@@ -86,16 +108,16 @@ const IndexPage = () => {
 
 const GronicSolutionItems = solutions => {
   console.log(solutions.solutions)
+  const solutionsImages = [s1, s2, s3]
   const gronicSolutionItems = solutions.solutions.map(item => {
     return (
-      <a href={item.link}>
+      <a href={item.link} key={"solution" + item.index}>
         <div
           className="gronic-gridItem"
-          key={item.heading}
           style={{
             background:
               "linear-gradient(135deg, #50A68480 30%, #348650 90%), url(" +
-              item.imageURL +
+              solutionsImages[item.index] +
               ")",
             backgroundPosition: "center",
             backgroundSize: "cover",

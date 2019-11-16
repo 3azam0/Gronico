@@ -113,6 +113,16 @@
   padding: 5%;
   text-align: center;
   background-color: $g3;
+  .gronic-clients-container {
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    .clientLogo {
+      align-self: center;
+      width: 40%;
+    }
+  }
 }
 
 .gronic-partners {

@@ -31,19 +31,22 @@
                 "heading": "ATTRASAFE",
                 "description": "Control pest populations using Safe attractants",
                 "imageURL": "/icons/images/image1.png",
-                "link": "/en/solutions/#attrasafe"
+                "link": "/en/solutions/#attrasafe",
+                "index": 0
             },
             {
                 "heading": "BIOSAFE",
                 "description": "Collapse target insect populations by using beneficial insects to disrupt their reproductive cycle",
                 "imageURL": "/icons/images/image2.png",
-                "link": "/en/solutions#biosafe"
+                "link": "/en/solutions#biosafe",
+                "index": 1
             },
             {
                 "heading": "ECOSAFE",
                 "description": "Attract harmful active insects at night with better understanding of their activity through monitoring tools to aid in smarter decision making",
-                "imageURL": "/icons/images/image2.png",
-                "link": "/en/solutions#ecosafe"
+                "imageURL": "/static/images/Export/attrasafe.png",
+                "link": "/en/solutions#ecosafe",
+                "index": 2
             }
         ]
     },
@@ -52,12 +55,31 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "clients": [
             {
-                "name": "CPC",
-                "logoUrl": "https://www.google.com"
+                "image": "../../../images/client_logos/logos/1.png"
             },
             {
-                "name": "CPC",
-                "logoUrl": "https://www.google.com"
+                "image": "../../../images/client_logos/logos/2.jpg"
+            },
+            {
+                "image": "../../../images/client_logos/logos/3.jpg"
+            },
+            {
+                "image": "../../../images/client_logos/logos/4.jpg"
+            },
+            {
+                "image": "../../../images/client_logos/logos/5.png"
+            },
+            {
+                "image": "../../../images/client_logos/logos/6.png"
+            },
+            {
+                "image": "../../../images/client_logos/logos/7.png"
+            },
+            {
+                "image": "../../../images/client_logos/logos/8.png"
+            },
+            {
+                "image": "../../../images/client_logos/logos/9.png"
             }
         ]
     }
