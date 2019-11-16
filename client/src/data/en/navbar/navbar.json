@@ -11,15 +11,29 @@
                 "subLinks": [
                     {
                         "text": "AttraSafe",
-                        "url": "/en/solutions#attrasafe"
+                        "url": "/en/solutions#attrasafe",
+                        "subLinks": [
+                            {
+                                "text": "Lures",
+                                "url": "/en/lures"
+                            },
+                            {
+                                "text": "Attractants",
+                                "url": "/en/attractants"
+                            },
+                            {
+                                "text": "Mass Trapping",
+                                "url": "/en/masstrapping"
+                            },
+                            {
+                                "text": "ProSafe",
+                                "url": "/en/prosafe"
+                            }
+                        ]
                     },
                     {
                         "text": "BioSafe",
-                        "url": "/en/solutions#biosafe"
-                    },
-                    {
-                        "text": "EcoSafe",
-                        "url": "/en/solutions#ecosafe",
+                        "url": "/en/solutions#biosafe",
                         "subLinks": [
                             {
                                 "text": "TricoSafe",
@@ -38,6 +52,10 @@
                                 "url": "/en/prosafe"
                             }
                         ]
+                    },
+                    {
+                        "text": "EcoSafe",
+                        "url": "/en/solutions#ecosafe"
                     }
                 ]
             },
