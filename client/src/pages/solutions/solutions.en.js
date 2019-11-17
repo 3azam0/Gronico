@@ -4,6 +4,7 @@ import SEO from "../../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./solutions.en.scss"
+import background from "../../images/icons/images/image7.png"
 
 const SolutionsPage = () => {
   const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const SolutionsPage = () => {
             subSections {
               buttonLink
               buttonText
+              bgColor
               description
               title
             }
@@ -40,6 +42,7 @@ const SolutionsPage = () => {
             subSections {
               buttonLink
               buttonText
+              bgColor
               description
               title
             }
@@ -57,7 +60,15 @@ const SolutionsPage = () => {
   return (
     <Layout>
       <SEO title="Gronic Solutions" />
-      <section className="gronic-solutionsSection section1">
+      <section 
+          className="gronic-solutionsSection section1"
+          style={{
+            background:
+              "linear-gradient(135deg, #50A68480 30%, #348650 90%), url(" +
+              background+
+              ")",
+          }}
+      >
         <h1>{solutionsData.section1.title}</h1>
         <p>{solutionsData.section1.description}</p>
       </section>
@@ -81,15 +92,27 @@ const SolutionsPage = () => {
           <div className="sol-subsection">
             <h2>{solutionsData.section4.subSections[0].title}</h2>
             <p>{solutionsData.section4.subSections[0].description} </p>
+            <button >Learn More </button>
+            <p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section4.subSections[0].bgColor
+            }}>{solutionsData.section4.subSections[0].title}</p>
           </div>
 
           <div className="sol-subsection">
             <h2>{solutionsData.section4.subSections[1].title}</h2>
             <p>{solutionsData.section4.subSections[1].description} </p>
+            <button >Learn More </button>
+<p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section4.subSections[1].bgColor
+            }}>{solutionsData.section4.subSections[1].title}</p>
           </div>
           <div className="sol-subsection">
             <h2>{solutionsData.section4.subSections[2].title}</h2>
             <p>{solutionsData.section4.subSections[2].description} </p>
+            <button >Learn More </button>
+<p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section4.subSections[2].bgColor
+            }}>{solutionsData.section4.subSections[2].title}</p>
           </div>
         </div>
       </section>
@@ -98,17 +121,29 @@ const SolutionsPage = () => {
         <div className="gronic-underline" />
         <div className="subSections-container">
           <div className="sol-subsection">
-            <h2>{solutionsData.section4.subSections[0].title}</h2>
+            <h2>{solutionsData.section5.subSections[0].title}</h2>
             <p>{solutionsData.section5.subSections[0].description} </p>
+            <button >Learn More </button>
+<p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section5.subSections[0].bgColor
+            }}>{solutionsData.section5.subSections[0].title}</p>
           </div>
 
           <div className="sol-subsection">
             <h2>{solutionsData.section5.subSections[1].title}</h2>
             <p>{solutionsData.section5.subSections[1].description} </p>
+            <button >Learn More </button>
+<p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section5.subSections[1].bgColor
+            }}>{solutionsData.section5.subSections[1].title}</p>
           </div>
           <div className="sol-subsection">
-            <h2>{solutionsData.section4.subSections[2].title}</h2>
-            <p>{solutionsData.section4.subSections[2].description} </p>
+            <h2>{solutionsData.section5.subSections[2].title}</h2>
+            <p>{solutionsData.section5.subSections[2].description} </p>
+            <button >Learn More </button>
+<p className="sol-subsection-indicator" style={{
+                backgroundColor:solutionsData.section5.subSections[2].bgColor
+            }}>{solutionsData.section5.subSections[2].title}</p>
           </div>
         </div>
       </section>
