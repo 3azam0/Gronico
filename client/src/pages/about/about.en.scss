@@ -11,19 +11,19 @@
   background-repeat: no-repeat;
   .gronic-aboutHead {
     padding: 3%;
-    font-size: 3em;
+    font-size: 2em;
     font-family: $f1;
     color: $g1;
   }
   .gronic-aboutP {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 3%;
     font-family: $f1;
     color: #ffffff;
     line-height: 1.5em;
   }
   .hasBackground {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 3%;
     font-family: $f1;
     color: #000000;
@@ -35,7 +35,7 @@
   padding-right: 3%;
   padding-left: 3%;
   padding-top:6rem;
-  font-size: 3em;
+  font-size: 2em;
   font-family: $f1;
   color: $g4;
 }
@@ -62,14 +62,14 @@
     .memberName {
       display: block;
       font-family: $f2;
-      font-size: 2.5em;
+      font-size: 2em;
       color: $g1;
       padding: 1%;
     }
     .memberPosition {
       display: block;
       font-family: $f1;
-      font-size: 1.5em;
+      font-size: 1em;
     }
   }
 }
@@ -81,13 +81,13 @@
   padding-top: 2%;
   .title {
     padding: 2%;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: $f2;
     text-transform: capitalize;
   }
   .advisorName {
     padding: 2%;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: $f2;
     text-transform: capitalize;
     color: $g1;
