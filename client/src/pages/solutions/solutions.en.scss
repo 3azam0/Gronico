@@ -4,29 +4,36 @@
   padding: 2%;
   text-align: center;
 }
-.about-page {
+.solutions-page {
   position: relative;
   top: -5rem;
 }
 .section1 {
+  position: relative;
   text-align: center;
   margin: auto;
   padding-top: 10%;
   @media only screen and (max-width: $w5) {
-    padding-top: 11rem;
+    padding-top: 12rem;
   }
   background-size: cover;
   background-repeat: no-repeat;
   h1 {
+    @media only screen and (max-width: $w5) {
+      font-size: 2.5em;
+    }
     margin: auto;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 5px;
     font-family: $f2;
     color: $g1;
   }
   p {
-    font-size: 2em;
+    @media only screen and (max-width: $w5) {
+      font-size: 1em;
+    }
+    font-size: 1em;
     font-family: $f1;
     line-height: 1.5em;
     color: #ffffff;
@@ -38,7 +45,11 @@
   h1 {
     margin: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    @media only screen and (max-width: $w5) {
+      font-size: 1.2em;
+      letter-spacing: 2px;
+    }
     letter-spacing: 5px;
     font-family: $f2;
   }
@@ -56,21 +67,21 @@
       grid-column-gap: 2px;
       .title {
         @media only screen and (max-width: $w5) {
-          font-size: 1.6em;
+          font-size: 1.5em;
         }
-        font-size: 2em;
+        font-size: 1.5em;
         font-family: $f2;
       }
       .conventional {
         padding: 5%;
-        font-size: 1em;
+        font-size: 0.8em;
         font-family: $f1;
         background-color: $g5;
         color: #000000;
       }
       .gronic {
         padding: 5%;
-        font-size: 1em;
+        font-size: 0.8em;
         font-family: $f1;
         background-color: $g5;
         color: #000000;
@@ -84,12 +95,19 @@
   h1 {
     margin: auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    @media only screen and (max-width: $w5) {
+      font-size: 1.2em;
+      letter-spacing: 2px;
+    }
     letter-spacing: 5px;
     font-family: $f2;
   }
   p {
-    font-size: 1.5em;
+    font-size: 1.1em;
+    @media only screen and (max-width: $w5) {
+      font-size: 0.9em;
+    }
     font-family: $f1;
     line-height: 1.5em;
   }
@@ -101,7 +119,10 @@
   h1 {
     margin: auto;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
+    @media only screen and (max-width: $w5) {
+      font-size: 1.8em;
+    }
     letter-spacing: 5px;
     font-family: $f2;
   }
@@ -112,6 +133,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   @media only screen and (max-width: $w5) {
     grid-template-columns: 1fr;
+    height: 100%;
   }
   overflow: hidden;
   .sol-subsection {
@@ -138,7 +160,7 @@
       h2 {
         transform: rotate(-10deg);
         color: #ffffff;
-        font-size: 2em;
+        font-size: 1.5em;
         font-family: $f2;
         opacity: 0;
       }
@@ -146,7 +168,7 @@
         transform: rotate(-10deg);
         color: #ffffff;
         font-family: $f1;
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin-right: 5%;
         margin-left: 10%;
         width: 90%;
@@ -191,15 +213,45 @@
       margin: 2%;
       h2 {
         color: #ffffff;
-        font-size: 3em;
+        font-size: 2em;
         font-family: $f2;
       }
       p {
         color: #ffffff;
         font-family: $f1;
       }
+      button {
+        opacity: 1;
+        transition: 1s;
+        font-family: $f2;
+        border: none;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 25px;
+        padding: 2%;
+        padding-right: 6%;
+        padding-left: 6%;
+        position: relative;
+        width: 40%;
+      }
+      .sol-subsection-indicator {
+        opacity: 0;
+        font-size: 2em;
+        transform: rotate(-10deg);
+        width: 60%;
+        margin-left: 30%;
+        margin-right: 10%;
+        padding: 3%;
+        height: 50%;
+        font-family: $f2;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+      }
     }
     .sol-subsection-indicator {
+      @media only screen and (max-width: $w5) {
+        opacity: 0;
+      }
       opacity: 1;
       font-size: 2em;
       transform: rotate(-10deg);
@@ -239,7 +291,7 @@
         transition: 1s;
         transform: rotate(-10deg);
         color: #ffffff;
-        font-size: 2em;
+        font-size: 1.5em;
         font-family: $f2;
       }
       p {
@@ -307,12 +359,39 @@
       margin: 2%;
       h2 {
         color: #ffffff;
-        font-size: 3em;
+        font-size: 2em;
         font-family: $f2;
       }
       p {
         color: #ffffff;
         font-family: $f1;
+      }
+      button {
+        opacity: 1;
+        transition: 1s;
+        font-family: $f2;
+        border: none;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 25px;
+        padding: 2%;
+        padding-right: 6%;
+        padding-left: 6%;
+        position: relative;
+        width: 40%;
+      }
+      .sol-subsection-indicator {
+        opacity: 0;
+        font-size: 2em;
+        width: 60%;
+        margin-left: 30%;
+        margin-right: 10%;
+        transform: rotate(-10deg);
+        padding: 3%;
+        height: 50%;
+        font-family: $f2;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
       }
     }
   }
@@ -330,13 +409,13 @@
     padding: 0%;
     color: #ffffff;
     font-family: $f1;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.2em;
   }
   .gronic-btn {
     background: #ffffff;
     font-family: $f1;
-    font-size: 1.2em;
+    font-size: 1em;
     color: $g1;
     font-weight: 800;
     padding-right: 2%;

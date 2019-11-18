@@ -168,9 +168,9 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         <ul className="gronic-navUlist">
           <MainNavLinks links={navLinksData} />
         </ul>
-        <a onClick={toggleNav} href="#" className="gronic-burger">
+        <button onClick={toggleNav} href="#" className="gronic-burger">
           <MdMenu />
-        </a>
+        </button>
       </nav>
       {showSmallNav && (
         <nav className="gronic-smallNav">
