@@ -39,6 +39,7 @@ const ContactsPage = () => {
   return (
     <Layout>
       <SEO title="Gronic Contact Us" />
+      <div className="contact-page">
       <section className="gronic-contact-section-1">
         <h1> Check out our latest news, events and partnerships here</h1>
         <div className="gronic-contact-social">
@@ -99,6 +100,7 @@ const ContactsPage = () => {
           </form>
         </div>
       </section>
+  </div>
     </Layout>
   )
 }

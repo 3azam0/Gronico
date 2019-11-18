@@ -1,4 +1,8 @@
 @import "../../components/vars.scss";
+.contact-page {
+  position: relative;
+  top: -5rem;
+}
 .gronic-contact-section-1 {
   z-index: 3;
   background-image: url("/icons/images/image6.png");
@@ -7,18 +11,20 @@
   background-repeat: no-repeat;
   padding: 5%;
   text-align: center;
+  @media only screen and (max-width: $w5) {
+    padding-top: 11rem;
+  }
   h1 {
     padding-top: 19%;
-    font-size: 4em;
+    font-size: 2.5em;
     font-family: $f1;
     color: #ffffff;
   }
   p {
     font-family: $f1;
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1em;
     color: #ffffff;
-    font-weight: 800;
   }
   .social-img {
     margin: 1.5%;
@@ -30,11 +36,11 @@
   position: relative;
   text-align: center;
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: $f1;
   }
   span {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: $f1;
     color: $g1;
   }
@@ -86,9 +92,18 @@
         background-color: $g1;
         color: #ffffff;
         font-family: $f1;
-        font-size: 2em;
+        font-size: 1em;
         margin-top: 2%;
-        padding: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        @media only screen and (max-width: $w5) {
+          padding-top: 2%;
+          padding-bottom: 2%;
+          padding-right: 4%;
+          padding-left: 4%;
+        }
         border-radius: 30px;
         cursor: pointer;
       }
