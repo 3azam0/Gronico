@@ -11,6 +11,10 @@ import s1 from "../../images/Export/attrasafe.png"
 import s2 from "../../images/Export/bio_safe.png"
 import s3 from "../../images/Export/eco_safe.png"
 
+import p1 from "../../images/Export/partners/probodel.jpg"
+import p2 from "../../images/Export/partners/pherobank.jpg"
+import p3 from "../../images/Export/partners/ci.jpg"
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query HomePageData {
@@ -56,11 +60,12 @@ const IndexPage = () => {
   const clientsData = data.allHomePageJson.nodes[0].ourClients
   console.log(solutionsData)
   console.log(clientsData)
-  const images = [
-    "/icons/images/image1.png",
-    "/icons/images/image2.png",
-    "/icons/images/image3.png",
-  ]
+  const images = [p1, p2, p3]
+    const links = [
+        "https://www.probodelt.com/?lang=en",
+        "https://www.pherobank.com/",
+        "http://www.chemtica.com/"
+    ]
 
   return (
     <Layout>
@@ -83,23 +88,27 @@ const IndexPage = () => {
           <h1 className="gronic-sectionHead"> {clientsData.heading} </h1>
           <div className="gronic-headUnderline" />
           <div className="gronic-clients-container">
-          {clientsData.clients.map((client, index) => {
-            return (
-              <Img
-                key={"client_image" + index}
-                alt="client image"
-                className="clientLogo"
-                fluid={client.image.childImageSharp.fluid}
-                imgStyle={{ objectFit: "contain" }}
-              />
-            )
-          })}
-      </div>
+            {clientsData.clients.map((client, index) => {
+              return (
+                <Img
+                  key={"client_image" + index}
+                  alt="client image"
+                  className="clientLogo"
+                  fluid={client.image.childImageSharp.fluid}
+                  imgStyle={{ objectFit: "contain" }}
+                />
+              )
+            })}
+          </div>
         </section>
         <section className="gronic-partners">
           <h1 className="gronic-sectionHead"> Our Partners </h1>
           <div className="gronic-headUnderline" />
-          <SmallSlider sliderClassName="gronic-smallSlider" partners={images} />
+          <SmallSlider
+            sliderClassName="gronic-smallSlider"
+            partners={images}
+            links={links}
+          />
         </section>
       </div>
     </Layout>

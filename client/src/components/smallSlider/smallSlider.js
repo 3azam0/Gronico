@@ -2,7 +2,7 @@ import React from "react"
 import { useState } from "react"
 import "./smallSlider.scss"
 
-const SmallSlider = ({ sliderClassName, partners }) => {
+const SmallSlider = ({ sliderClassName, partners, links }) => {
   const [index, setIndex] = useState(1)
   const prevIndex = index => {
     return index === 0 ? 2 : index - 1
@@ -22,9 +22,13 @@ const SmallSlider = ({ sliderClassName, partners }) => {
             }}
           >
             {partners.map(partner => (
-              <div className="card" key={partner}>
-                <img src={partner} alt="partner" />
-              </div>
+                <div className="card" key={partner}>
+
+              <a href={links[index]} role="navigation">
+                  <img src={partner} alt="partner" />
+
+              </a>
+                </div>
             ))}
           </div>
         </div>
