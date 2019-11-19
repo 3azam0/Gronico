@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 import Img from "gatsby-image"
 import { MdHome, MdEmail, MdPhone } from "react-icons/md"
 
@@ -40,25 +41,23 @@ const Footer = () => {
             <div className="footer-underline"></div>
             <ul>
               <li>
-                <span className="list-head">Solutions </span>
+<Link to="/en/solutions" className="list-head">Solutions</Link>
                 <ul>
                   <li>
-                    <span className="list-item">Altra safe </span>
+                      <Link to="/en/solutions#attrasafe" className="list-item">Attrasafe </Link>
                   </li>
                   <li>
-                    <span className="list-item">Eco safe </span>
+<Link to="/en/solutions#ecosafe" className="list-item">EcoSafe</Link>
                   </li>
                   <li>
-                    <span className="list-item">Bio Safe </span>
+<Link to="/en/solutions#biosafe" className="list-item">Biosafe</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <span className="list-head"> About Us</span>
+<Link to="/en/about" className="list-item">About Us</Link>
               </li>
-              <li>
-                <span className="list-head">Latest News</span>
-              </li>
+              
             </ul>
           </div>
           <div className="footer-col footer-list">

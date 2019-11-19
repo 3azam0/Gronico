@@ -327,6 +327,7 @@
       }
       button:hover {
         transform: rotate(-10deg);
+        cursor: pointer;
         font-family: $f2;
         border: none;
         background-color: $g1;

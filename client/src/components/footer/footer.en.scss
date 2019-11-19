@@ -37,8 +37,9 @@
   li {
     list-style: none;
   }
-  span {
+  a{
     font-size: 1em;
+    color: $g4;
     font-family: $f1;
   }
   .list-head:hover,

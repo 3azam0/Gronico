@@ -3,6 +3,7 @@ import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { navigate } from "gatsby"
 
 import "./solutions.en.scss"
 import background from "../../images/icons/images/image7.png"
@@ -190,7 +191,9 @@ const SubSection = ({ item, bg }) => {
     >
       <h2>{item.title}</h2>
       <p>{item.description} </p>
-      <button>Learn More </button>
+      <button onClick={()=>{
+          navigate(item.buttonLink)
+      }}>Learn More </button>
       <p
         className="sol-subsection-indicator"
         style={{
