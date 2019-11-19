@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import "./solutions.en.scss"
 import background from "../../images/icons/images/image7.png"
@@ -19,6 +20,13 @@ const SolutionsPage = () => {
             title
             tableItems {
               conventional
+              icon {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
               gronic
               title
             }
@@ -203,7 +211,15 @@ const SolutionsTable = ({ data }) => {
   const solutionsData = data.map(item => {
     return (
       <div key={item.title} className="tableItem">
-        <div className="title"> {item.title} </div>
+        <div className="title">
+          <Img
+            alt={item.title}
+            className="icon"
+            fluid={item.icon.childImageSharp.fluid}
+            imgStyle={{ objectFit: "contain", height:"50px"}}
+          />
+          {item.title}
+        </div>
         <div className="conventional"> {item.conventional} </div>
         <div className="gronic"> {item.gronic} </div>
       </div>

@@ -8,31 +8,37 @@
         "tableItems": [
             {
                 "title": "Safety",
+                "icon": "../../../images/Export/icons_about/safety.png",
                 "conventional": "Poisonous & possibly toxic, human health concerns",
                 "gronic": "Completely nontoxic; safe for humans, pets & environment"
             },
             {
                 "title": "Residue",
+                "icon": "../../../images/Export/icons_about/residue.png",
                 "conventional": "Spray 100% of corp - high residue risk",
                 "gronic": "Contacts < 1% of crop - zero residue risk"
             },
             {
                 "title": "Approach",
+                "icon": "../../../images/Export/icons_about/approach.png",
                 "conventional": "Reactivate -chasing after pests",
                 "gronic": "Proactive - control pests before they become a problem"
             },
             {
                 "title": "Collateral damage",
+                "icon": "../../../images/Export/icons_about/damage.png",
                 "conventional": "Kills beneficial insects (e.g., bees, ladybugs)",
                 "gronic": "Species - specific - only affects target pests"
             },
             {
                 "title": "Environmental footprint",
+                "icon": "../../../images/Export/icons_about/footprint.png",
                 "conventional": "Risk to soil & water systems",
                 "gronic": "Soil & water systems unaffected"
             },
             {
                 "title": "efficacy",
+                "icon": "../../../images/Export/icons_about/efficacy.png",
                 "conventional": "Short field, high risk of resistance",
                 "gronic": "Long field life, no risk of resistance"
             }
