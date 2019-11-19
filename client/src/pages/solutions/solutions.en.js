@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
@@ -6,6 +6,14 @@ import Img from "gatsby-image"
 
 import "./solutions.en.scss"
 import background from "../../images/icons/images/image7.png"
+
+import bg41 from "../../images/Export/solutions_sections/1.jpg"
+import bg42 from "../../images/Export/solutions_sections/2.jpg"
+import bg43 from "../../images/Export/solutions_sections/3.jpg"
+
+import bg51 from "../../images/Export/solutions_sections/4.jpg"
+import bg52 from "../../images/Export/solutions_sections/5.jpg"
+import bg53 from "../../images/Export/solutions_sections/6.jpg"
 
 const SolutionsPage = () => {
   const data = useStaticQuery(graphql`
@@ -98,98 +106,36 @@ const SolutionsPage = () => {
           <h1>{solutionsData.section4.title}</h1>
           <div className="gronic-underline" />
           <div className="subSections-container">
-            <div className="sol-subsection">
-              <h2>{solutionsData.section4.subSections[0].title}</h2>
-              <p>{solutionsData.section4.subSections[0].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section4.subSections[0].bgColor,
-                }}
-              >
-                {solutionsData.section4.subSections[0].title}
-              </p>
-            </div>
-
-            <div className="sol-subsection">
-              <h2>{solutionsData.section4.subSections[1].title}</h2>
-              <p>{solutionsData.section4.subSections[1].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section4.subSections[1].bgColor,
-                }}
-              >
-                {solutionsData.section4.subSections[1].title}
-              </p>
-            </div>
-            <div className="sol-subsection">
-              <h2>{solutionsData.section4.subSections[2].title}</h2>
-              <p>{solutionsData.section4.subSections[2].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section4.subSections[2].bgColor,
-                }}
-              >
-                {solutionsData.section4.subSections[2].title}
-              </p>
-            </div>
+            <SubSection
+              item={solutionsData.section4.subSections[0]}
+              bg={bg41}
+            />
+            <SubSection
+              item={solutionsData.section4.subSections[1]}
+              bg={bg42}
+            />
+            <SubSection
+              item={solutionsData.section4.subSections[2]}
+              bg={bg43}
+            />
           </div>
         </section>
         <section id="biosafe" className="gronic-solutionsSection section5">
           <h1>{solutionsData.section5.title}</h1>
           <div className="gronic-underline" />
           <div className="subSections-container">
-            <div className="sol-subsection">
-              <h2>{solutionsData.section5.subSections[0].title}</h2>
-              <p>{solutionsData.section5.subSections[0].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section5.subSections[0].bgColor,
-                }}
-              >
-                {solutionsData.section5.subSections[0].title}
-              </p>
-            </div>
-
-            <div className="sol-subsection">
-              <h2>{solutionsData.section5.subSections[1].title}</h2>
-              <p>{solutionsData.section5.subSections[1].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section5.subSections[1].bgColor,
-                }}
-              >
-                {solutionsData.section5.subSections[1].title}
-              </p>
-            </div>
-            <div className="sol-subsection">
-              <h2>{solutionsData.section5.subSections[2].title}</h2>
-              <p>{solutionsData.section5.subSections[2].description} </p>
-              <button>Learn More </button>
-              <p
-                className="sol-subsection-indicator"
-                style={{
-                  backgroundColor:
-                    solutionsData.section5.subSections[2].bgColor,
-                }}
-              >
-                {solutionsData.section5.subSections[2].title}
-              </p>
-            </div>
+            <SubSection
+              item={solutionsData.section5.subSections[0]}
+              bg={bg51}
+            />
+            <SubSection
+              item={solutionsData.section5.subSections[1]}
+              bg={bg52}
+            />
+             <SubSection
+              item={solutionsData.section5.subSections[2]}
+              bg={bg53}
+            />
           </div>
         </section>
         <section id="ecosafe" className="gronic-solutionsSection section6">
@@ -216,7 +162,7 @@ const SolutionsTable = ({ data }) => {
             alt={item.title}
             className="icon"
             fluid={item.icon.childImageSharp.fluid}
-            imgStyle={{ objectFit: "contain", height:"50px"}}
+            imgStyle={{ objectFit: "contain", height: "50px" }}
           />
           {item.title}
         </div>
@@ -227,6 +173,34 @@ const SolutionsTable = ({ data }) => {
   })
 
   return solutionsData
+}
+
+const SubSection = ({ item, bg }) => {
+  const [hovered, setHovered] = useState(false)
+  return (
+    <div
+      className="sol-subsection"
+      style={hovered ? { backgroundImage: `url(${bg})` } : null}
+      onMouseOver={() => {
+        setHovered(true)
+      }}
+      onMouseOut={() => {
+        setHovered(false)
+      }}
+    >
+      <h2>{item.title}</h2>
+      <p>{item.description} </p>
+      <button>Learn More </button>
+      <p
+        className="sol-subsection-indicator"
+        style={{
+          backgroundColor: item.bgColor,
+        }}
+      >
+        {item.title}
+      </p>
+    </div>
+  )
 }
 
 export default SolutionsPage
