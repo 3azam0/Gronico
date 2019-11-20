@@ -133,7 +133,7 @@ const SolutionsPage = () => {
               item={solutionsData.section5.subSections[1]}
               bg={bg52}
             />
-             <SubSection
+            <SubSection
               item={solutionsData.section5.subSections[2]}
               bg={bg53}
             />
@@ -178,11 +178,19 @@ const SolutionsTable = ({ data }) => {
 
 const SubSection = ({ item, bg }) => {
   const [hovered, setHovered] = useState(false)
-  const isSmallScreen = window.innerWidth <= 700
+  const isSmallScreen = () => {
+    if (window) {
+        return window.innerWidth < 700
+    } else {
+      return null
+    }
+  }
   return (
     <div
       className="sol-subsection"
-      style={hovered || isSmallScreen ? { backgroundImage: `url(${bg})` } : null}
+      style={
+        hovered || isSmallScreen() ? { backgroundImage: `url(${bg})` } : null
+      }
       onMouseOver={() => {
         setHovered(true)
       }}
@@ -192,9 +200,13 @@ const SubSection = ({ item, bg }) => {
     >
       <h2>{item.title}</h2>
       <p>{item.description} </p>
-      <button onClick={()=>{
+      <button
+        onClick={() => {
           navigate(item.buttonLink)
-      }}>Learn More </button>
+        }}
+      >
+        Learn More{" "}
+      </button>
       <p
         className="sol-subsection-indicator"
         style={{
