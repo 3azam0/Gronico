@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import Layout from "../../components/layout.en"
 import SEO from "../../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
@@ -178,18 +178,23 @@ const SolutionsTable = ({ data }) => {
 
 const SubSection = ({ item, bg }) => {
   const [hovered, setHovered] = useState(false)
-  const isSmallScreen = () => {
+  const [isSmallScreen, setIsSmallScreen] = useState(false)
+  useEffect(() => {
     if (window) {
-        return window.innerWidth < 700
+      if (window.innerWidth < 700) {
+        setIsSmallScreen(true)
+      }
+      console.log(isSmallScreen)
     } else {
-      return null
+      setIsSmallScreen(false)
     }
-  }
+  })
+
   return (
     <div
       className="sol-subsection"
       style={
-        hovered || isSmallScreen() ? { backgroundImage: `url(${bg})` } : null
+        hovered || isSmallScreen ? { backgroundImage: `url(${bg})` } : null
       }
       onMouseOver={() => {
         setHovered(true)
