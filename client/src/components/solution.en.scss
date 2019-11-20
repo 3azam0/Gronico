@@ -56,20 +56,29 @@
   .paragraphs-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media only screen and (max-width: $w5) {
+      grid-template-columns: 1fr;
+    }
     text-align: center;
     justify-items: center;
   }
   .gronic-solution-paragraph {
     text-align: center;
     h2 {
-      padding-left: 20%;
+      padding: 3%;
+      @media only screen and (min-width: $w5) {
+        padding-left: 20%;
+      }
       color: $g1;
       font-size: 1em;
       font-family: $f1;
       text-align: left;
     }
     p {
-      padding-left: 20%;
+      padding: 3%;
+      @media only screen and (min-width: $w5) {
+        padding-left: 20%;
+      }
       font-size: 1em;
       font-family: $f1;
       text-align: left;

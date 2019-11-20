@@ -3,7 +3,7 @@ module.exports = {
     title: `Gronic`,
     description: `leading the way in sustainable agriculture with integrated pest management solutions for a greener planet`,
     author: `@ahmedaabouzied`,
-      siteUrl: `https://www.gronic.com`,
+    siteUrl: `https://www.gronic.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -67,8 +67,8 @@ module.exports = {
         name: `Gronic-Agricultrual-Firm-Website`,
         short_name: `gronic`,
         start_url: `/en`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#348963`,
+        theme_color: `#348963`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
