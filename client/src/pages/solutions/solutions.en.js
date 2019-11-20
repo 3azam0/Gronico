@@ -178,10 +178,11 @@ const SolutionsTable = ({ data }) => {
 
 const SubSection = ({ item, bg }) => {
   const [hovered, setHovered] = useState(false)
+  const isSmallScreen = window.innerWidth <= 700
   return (
     <div
       className="sol-subsection"
-      style={hovered ? { backgroundImage: `url(${bg})` } : null}
+      style={hovered || isSmallScreen ? { backgroundImage: `url(${bg})` } : null}
       onMouseOver={() => {
         setHovered(true)
       }}

@@ -41,23 +41,32 @@ const Footer = () => {
             <div className="footer-underline"></div>
             <ul>
               <li>
-<Link to="/en/solutions" className="list-head">Solutions</Link>
+                <Link to="/en/solutions" className="list-head">
+                  Solutions
+                </Link>
                 <ul>
                   <li>
-                      <Link to="/en/solutions#attrasafe" className="list-item">Attrasafe </Link>
+                    <Link to="/en/solutions#attrasafe" className="list-item">
+                      Attrasafe{" "}
+                    </Link>
                   </li>
                   <li>
-<Link to="/en/solutions#ecosafe" className="list-item">EcoSafe</Link>
+                    <Link to="/en/solutions#ecosafe" className="list-item">
+                      EcoSafe
+                    </Link>
                   </li>
                   <li>
-<Link to="/en/solutions#biosafe" className="list-item">Biosafe</Link>
+                    <Link to="/en/solutions#biosafe" className="list-item">
+                      Biosafe
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li>
-<Link to="/en/about" className="list-item">About Us</Link>
+                <Link to="/en/about" className="list-item">
+                  About Us
+                </Link>
               </li>
-              
             </ul>
           </div>
           <div className="footer-col footer-list">
