@@ -1,0 +1,86 @@
+{
+  "pageTitle": "Home",
+  "heroSlider": [
+    {
+      "imageURL": "/icons/images/image1.png",
+      "heading": "حماية محاصيلنا والبيئة",
+      "description": "جرونيك هي شركة رائدة في مجال الزراعة المستدامة من خلال حلول متكاملة لإدارة الآفات الزراعية",
+      "buttonText": "كيف نفعلها ؟",
+      "buttonLink": "/ar/about#how-we-do-it"
+    },
+    {
+      "imageURL": "/icons/images/image2.png",
+      "heading": "الزراعة الخضراء من خلال الإدارة المتكاملة للآفات",
+      "description": "حماية المحاصيل الخاصة بك من الآفات من خلال حلول صديقة للبيئة طويلة الأمد وأكثر أمانًا للكوكب بينما تسمح لعملك بالازدهار",
+      "buttonText": "مهمتنا",
+      "buttonLink": "/ar/about#who-we-are"
+    },
+    {
+      "imageURL": "/icons/images/image3.png",
+      "heading": "تسخير الطبيعة للزراعة المستدامة",
+      "description": "استخدام أساليب المكافحة البيولوجية التي تحدث بشكل طبيعي والتي تتعامل مع سلوك الحشرات وتمنع التلوث",
+      "buttonText": "الحلول",
+      "buttonLink": "/ar/solutions"
+    }
+  ],
+  "ourSolutions": {
+    "heading": "خدماتنا",
+    "description": "جرونيك هي شركة رائدة في مجال الزراعة المستدامة من خلال حلول متكاملة لإدارة الآفات الزراعية",
+    "solutions": [
+      {
+        "heading": "ATTRASAFE",
+        "description": "السيطرة على الآفات باستخدام جاذبات آمنة",
+        "imageURL": "/icons/images/image1.png",
+        "link": "/en/solutions/#attrasafe",
+        "index": 0
+      },
+      {
+        "heading": "BIOSAFE",
+        "description": "القضاء مجموعات الحشرات المستهدفة عن طريق استخدام الحشرات المفيدة لتعطيل الدورة التناسلية",
+        "imageURL": "/icons/images/image2.png",
+        "link": "/en/solutions#biosafe",
+        "index": 1
+      },
+      {
+        "heading": "ECOSAFE",
+        "description": "جذب الحشرات النشطة الضارة في الليل مع فهم أفضل لنشاطها من خلال أدوات المراقبة",
+        "imageURL": "/static/images/Export/attrasafe.png",
+        "link": "/en/solutions#ecosafe",
+        "index": 2
+      }
+    ]
+  },
+  "ourClients": {
+    "heading": "Our Clients",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "clients": [
+      {
+        "image": "../../../images/client_logos/logos/1.png"
+      },
+      {
+        "image": "../../../images/client_logos/logos/2.jpg"
+      },
+      {
+        "image": "../../../images/client_logos/logos/3.jpg"
+      },
+      {
+        "image": "../../../images/client_logos/logos/4.jpg"
+      },
+      {
+        "image": "../../../images/client_logos/logos/5.png"
+      },
+      {
+        "image": "../../../images/client_logos/logos/6.png"
+      },
+      {
+        "image": "../../../images/client_logos/logos/7.png"
+      },
+      {
+        "image": "../../../images/client_logos/logos/8.png"
+      },
+      {
+        "image": "../../../images/client_logos/logos/9.png"
+      }
+    ]
+  }
+}

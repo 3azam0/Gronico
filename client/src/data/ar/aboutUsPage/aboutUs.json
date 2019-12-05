@@ -1,0 +1,82 @@
+{
+  "title": "About Us",
+  "sections": [
+    {
+      "id": "who-we-are",
+      "title": "من نحن ؟",
+      "sections": [
+        {
+          "bgURL": "/icons/images/image2.png",
+          "title": "خبراء في الزراعة المستدامة",
+          "description": "في جرونيك، نقوم بتطوير مجموعة واسعة من الحلول المستدامة لعملائنا لأكثر من 10 سنوات. نهدف إلى تصميم برامج الإدارة المتكاملة للآفات (IPM) التي لها تأثير ضئيل على البيئة ولها تأثير إيجابي على الصحة والسلامة العامة"
+        },
+        {
+          "bgURL": "",
+          "title": "منذ عام 2012 إنشاء حلول مبتكرة",
+          "description": "تم تأسيسنا في عام 2012، ومنذ اليوم الأول، عملنا على الحفاظ على مكانة بارزة في السوق. والنتيجة هي أننا بعد خمس سنوات تقريبًا، أصبحنا شركة رائدة ومعيارًا في قطاع الحماية البيولوجية للمحاصيل بجميع أنواعها"
+        },
+        {
+          "bgURL": "/icons/images/image3.png",
+          "title": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "title": "ماذا نفعل ؟",
+      "id": "what-we-do",
+      "sections": [
+        {
+          "bgURL": "/icons/images/image4.png",
+          "title": "تقديم حلول مثالية",
+          "description": "نظرًا لتزايد قلق المستهلكين بشأن المبيدات الحشرية في الأغذية والبيئة، فإن مهمتنا هي معالجة هذه المخاوف من خلال توفير منتجات أكثر أمانًا وغير سامة وصديقة للبيئة لمكافحة الآفات للزراعية. هذه المنتجات لها تأثير ضئيل على البيئة ولها تأثير إيجابي على الصحة والسلامة العامة"
+        }
+      ]
+    },
+    {
+      "title": "كيف نفعلها ؟",
+      "id": "how-we-do-it",
+      "sections": [
+        {
+          "bgURL": "/icons/images/image5.png",
+          "title": "جنبا الي جنب لتوفير محاصيل زراعية امانه",
+          "description": "جميع المزارعين ملزمون بالمجتمع بتوفير غذاء امان وصحي. جنبا الي جنب يمكننا تحقيق ذلك، فإن المحصول الصحي دون هدر هو أفضل ضمان للربحية والاستدامة"
+        }
+      ]
+    }
+  ],
+  "ourTeam": [
+    {
+      "name": "Hany Basiuouny",
+      "position": "Chief Commecial Officer"
+    },
+    {
+      "name": "Mohamed Abokersh",
+      "position": "Chief Executive Officer"
+    },
+    {
+      "name": "Mohamed El-Morsi",
+      "position": "Chief Technical Officer"
+    },
+    {
+      "name": "Mostafa El-Atar",
+      "position": "Product marketing Manager"
+    },
+    {
+      "name": "Reda El-Negar",
+      "position": "Field Service Manager"
+    },
+    {
+      "name": "Faheem",
+      "position": "Field Service Manager"
+    }
+  ],
+  "advisoryBoard": [
+    {
+      "name": "Mohamed Wael"
+    },
+    {
+      "name": "Yehia El-Newahy"
+    }
+  ]
+}

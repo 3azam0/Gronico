@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import '../vars.scss';
 .gronic-heroSlider {
   padding: 1rem;
   width: 100%;
@@ -36,13 +36,13 @@
     position: relative;
     text-align: center;
     padding-top: 10%;
-    font-family: "Teko", sans-serif;
+    font-family: 'Teko', sans-serif;
 
     font-size: 3.5em;
     @media only screen and (max-width: $w5) {
-    padding-top: 30%;
-    padding-left: 5%;
-    padding-right: 5%;
+      padding-top: 30%;
+      padding-left: 5%;
+      padding-right: 5%;
       font-size: 2.2em;
       height: 130px;
     }
@@ -57,7 +57,7 @@
     color: #ffffff;
     font-size: 1.5em;
     padding-top: 2%;
-    font-family: "Cairo", sans-serif;
+    font-family: 'Cairo', sans-serif;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -70,7 +70,7 @@
     font-weight: 800;
     font-size: 0.8em;
     position: relative;
-    top:100px;
+    top: 100px;
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-top: 0.8%;
@@ -80,11 +80,11 @@
       padding-right: 4%;
       padding-top: 2%;
       padding-bottom: 2%;
-      top:170px;
+      top: 170px;
     }
     letter-spacing: 2px;
     border-radius: 20px;
-    font-family: "Cairo", sans-serif;
+    font-family: 'Cairo', sans-serif;
   }
   .gronic-sliderNavr {
     background: transparent;
@@ -94,7 +94,7 @@
     right: 0px;
     top: 50%;
     font-size: 3em;
-    font-family: "Cairo", sans-serif;
+    font-family: 'Cairo', sans-serif;
     color: #ffffff;
     opacity: 0.5;
   }
@@ -115,7 +115,7 @@
     left: 0px;
     top: 50%;
     font-size: 3em;
-    font-family: "Cairo", sans-serif;
+    font-family: 'Cairo', sans-serif;
     color: #ffffff;
     opacity: 0.5;
   }
@@ -137,7 +137,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5px;
     @media only screen and (max-width: $w5) {
-        bottom: -50%;
+      bottom: -50%;
     }
   }
   .sliderIndicator {

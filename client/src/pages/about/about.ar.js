@@ -7,7 +7,7 @@ import './about.en.scss';
 
 const About = () => {
   const data = useStaticQuery(graphql`
-    query AboutEnData {
+    query {
       allAboutUsPageJson {
         nodes {
           title
@@ -34,7 +34,7 @@ const About = () => {
   return (
     <Layout>
       <SEO title='About Gronic' />
-      <AboutSections data={data.allAboutUsPageJson.nodes[0].sections} />
+      <AboutSections data={data.allAboutUsPageJson.nodes[1].sections} />
       <OurTeam
         members={data.allAboutUsPageJson.nodes[0].ourTeam}
         advisors={data.allAboutUsPageJson.nodes[0].advisoryBoard}
@@ -83,7 +83,7 @@ const AboutSubSections = ({ data }) => {
 const TeamMembers = ({ members }) => {
   const teamMembers = members.map(member => {
     return (
-      <div className='gronic-teamMember' key={member.name}>
+      <div className='gronic-teamMember'>
         <span className='memberName'> {member.name} </span>
         <span className='memberPosition'> {member.position} </span>
       </div>
@@ -95,7 +95,7 @@ const TeamMembers = ({ members }) => {
 const Advisors = ({ members }) => {
   return members.map(advisor => {
     return (
-      <div className='advisor' key={advisor.name}>
+      <div className='advisor'>
         <span className='advisorName'> {advisor.name} </span>
       </div>
     );

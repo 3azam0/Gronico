@@ -1,82 +1,82 @@
 {
-    "title": "About Us",
-    "sections": [
+  "title": "About Us",
+  "sections": [
+    {
+      "id": "who-we-are",
+      "title": "Who We Are ? ",
+      "sections": [
         {
-            "id": "who-we-are",
-            "title": "Who We Are ? ",
-            "sections": [
-                {
-                    "bgURL": "/icons/images/image2.png",
-                    "title": "EXPERTS IN SUSTAINABLE FARMING",
-                    "description": "At Gronic, we have been developing a wide range of sustainable solutions for our clients for over 10 years. We purposefully design integrated pest management (IPM) programs that have minimal impact on the environment and a positive impact on public health and safety."
-                },
-                {
-                    "bgURL": "",
-                    "title": "SINCE 2012 CREATING INNOVATIVE SOLUTIONS",
-                    "description": "We were established in 2012 and, since the very first day, we have worked to maintain a prominent position in the market. The result is that, almost five years later, we have become a leading company and a benchmark in the biological protection sector for crops of all kinds."
-                },
-                {
-                    "bgURL": "/icons/images/image3.png",
-                    "title": "",
-                    "description": ""
-                }
-            ]
+          "bgURL": "/icons/images/image2.png",
+          "title": "EXPERTS IN SUSTAINABLE FARMING",
+          "description": "At Gronic, we have been developing a wide range of sustainable solutions for our clients for over 10 years. We purposefully design integrated pest management (IPM) programs that have minimal impact on the environment and a positive impact on public health and safety."
         },
         {
-            "title": "What We Do ? ",
-            "id": "what-we-do",
-            "sections": [
-                {
-                    "bgURL": "/icons/images/image4.png",
-                    "title": "EVEN SEEMINGLY PERFECT SOLUTIONS CAN BE IMPROVED",
-                    "description": "As consumers grow increasingly concerned about pesticides in their food and the environment, this is our mission to deal with these concerns by providing safer, non-toxic and environmentally-friendly pest control products for agriculture that have minimal impact on the environment and a positive impact on public health and safety."
-                }
-            ]
+          "bgURL": "",
+          "title": "SINCE 2012 CREATING INNOVATIVE SOLUTIONS",
+          "description": "We were established in 2012 and, since the very first day, we have worked to maintain a prominent position in the market. The result is that, almost five years later, we have become a leading company and a benchmark in the biological protection sector for crops of all kinds."
         },
         {
-            "title": "How We Do It ? ",
-            "id": "how-we-do-it",
-            "sections": [
-                {
-                    "bgURL": "/icons/images/image5.png",
-                    "title": "BEING AT YOUR SIDE THROUGHOUT THE CROP CYCLE. THAT IS OUR COMMITMENT!",
-                    "description": "All farmers have a commitment to society to provide clearly and reliably traceable food. And ours is to be at their side to ensure they achieve it. Moreover, a healthy harvest without waste is the best guarantee for profitability and sustainability."
-                }
-            ]
+          "bgURL": "/icons/images/image3.png",
+          "title": "",
+          "description": ""
         }
-    ],
-    "ourTeam": [
+      ]
+    },
+    {
+      "title": "What We Do ? ",
+      "id": "what-we-do",
+      "sections": [
         {
-            "name": "Hany Basiuouny",
-            "position": "Chief Commecial Officer"
-        },
-        {
-            "name": "Mohamed Abokersh",
-            "position": "Chief Executive Officer"
-        },
-        {
-            "name": "Mohamed El-Morsi",
-            "position": "Chief Technical Officer"
-        },
-        {
-            "name": "Mostafa El-Atar",
-            "position": "Product marketing Manager"
-        },
-        {
-            "name": "Reda El-Negar",
-            "position": "Field Service Manager"
-        },
-        {
-            "name": "Faheem",
-            "position": "Field Service Manager"
+          "bgURL": "/icons/images/image4.png",
+          "title": "EVEN SEEMINGLY PERFECT SOLUTIONS CAN BE IMPROVED",
+          "description": "As consumers grow increasingly concerned about pesticides in their food and the environment, this is our mission to deal with these concerns by providing safer, non-toxic and environmentally-friendly pest control products for agriculture that have minimal impact on the environment and a positive impact on public health and safety."
         }
-    ],
-    "advisoryBoard": [
+      ]
+    },
+    {
+      "title": "How We Do It ? ",
+      "id": "how-we-do-it",
+      "sections": [
         {
-            "name": "Mohamed Wael"
-        },
-        {
-            "name": "Yehia El-Newahy"
+          "bgURL": "/icons/images/image5.png",
+          "title": "BEING AT YOUR SIDE THROUGHOUT THE CROP CYCLE. THAT IS OUR COMMITMENT!",
+          "description": "All farmers have a commitment to society to provide clearly and reliably traceable food. And ours is to be at their side to ensure they achieve it. Moreover, a healthy harvest without waste is the best guarantee for profitability and sustainability."
         }
-    ]
+      ]
+    }
+  ],
+  "ourTeam": [
+    {
+      "name": "Hany Basiuouny",
+      "position": "Chief Commecial Officer"
+    },
+    {
+      "name": "Mohamed Abokersh",
+      "position": "Chief Executive Officer"
+    },
+    {
+      "name": "Mohamed El-Morsi",
+      "position": "Chief Technical Officer"
+    },
+    {
+      "name": "Mostafa El-Atar",
+      "position": "Product marketing Manager"
+    },
+    {
+      "name": "Reda El-Negar",
+      "position": "Field Service Manager"
+    },
+    {
+      "name": "Faheem",
+      "position": "Field Service Manager"
+    }
+  ],
+  "advisoryBoard": [
+    {
+      "name": "Mohamed Wael"
+    },
+    {
+      "name": "Yehia El-Newahy"
+    }
+  ]
 }

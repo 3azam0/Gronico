@@ -70,7 +70,7 @@ const SliderItems = ({ items }) => {
 
 const HeroSlider = () => {
   const data = useStaticQuery(graphql`
-    query HomePageQuery {
+    query {
       allHomePageJson {
         nodes {
           heroSlider {
@@ -87,7 +87,7 @@ const HeroSlider = () => {
   return (
     <>
       <div className='gronic-heroSlider'>
-        <SliderItems items={data.allHomePageJson.nodes[0].heroSlider} />
+        <SliderItems items={data.allHomePageJson.nodes[1].heroSlider} />
       </div>
     </>
   );
