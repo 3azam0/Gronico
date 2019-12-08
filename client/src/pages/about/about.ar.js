@@ -7,7 +7,7 @@ import './about.en.scss';
 
 const About = () => {
   const data = useStaticQuery(graphql`
-    query {
+    query AboutArData {
       allAboutUsPageJson {
         nodes {
           title

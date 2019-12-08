@@ -9,7 +9,7 @@ import '../../components/solution.en.scss';
 
 const AttractantsPage = () => {
   const data = useStaticQuery(graphql`
-    query AttractantsDataEn {
+    query AttractantsDataAr {
       allAttractantsJson {
         nodes {
           title
@@ -80,7 +80,8 @@ const AttractantsPage = () => {
       }
     }
   `);
-  const pageData = data.allAttractantsJson.nodes[0];
+  const pageData = data.allAttractantsJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Attractants' />
@@ -159,9 +160,9 @@ const OurProducts = ({ data }) => {
           <p>
             {paragraph.contents.contents}
             <br />
-            <a className='product-contact-us' href='/en/contact'>
+            <a className='product-contact-us' href='/ar/contact'>
               {' '}
-              Contanct Us{' '}
+              اتصل بنا{' '}
             </a>
           </p>
         </div>

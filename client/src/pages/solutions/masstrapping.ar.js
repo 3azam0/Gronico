@@ -7,19 +7,46 @@ import Img from 'gatsby-image';
 
 import '../../components/solution.en.scss';
 
-const AttractantsPage = () => {
+const MassTrappingPage = () => {
   const data = useStaticQuery(graphql`
-    query AttractantsDataEn {
-      allAttractantsJson {
+    query MassTrappingDataAr {
+      allMassTrappingJson {
         nodes {
           title
-          section5 {
+          section1 {
             paragraphs {
               id
               contents {
+                content
                 title
-                contents
               }
+            }
+            title
+          }
+          section2 {
+            paragraphs {
+              contents {
+                content
+                title
+              }
+              id
+              backgroundImgURL {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+            }
+            title
+          }
+          section3 {
+            paragraphs {
+              contents {
+                content
+                title
+              }
+              id
               backgroundImgURL {
                 childImageSharp {
                   fluid {
@@ -31,13 +58,11 @@ const AttractantsPage = () => {
             title
           }
           section4 {
-            title
             paragraphs {
               contents {
                 content
                 title
               }
-              id
               backgroundImgURL {
                 childImageSharp {
                   fluid {
@@ -45,45 +70,20 @@ const AttractantsPage = () => {
                   }
                 }
               }
-            }
-          }
-          section3 {
-            title
-            paragraphs {
               id
-              backgroundImgURL {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-              contents {
-                content
-                title
-              }
             }
-          }
-          section2 {
-            paragraphs {
-              id
-              contents {
-                content
-              }
-            }
-          }
-          section1 {
-            backgroundImgURL
             title
           }
         }
       }
     }
   `);
-  const pageData = data.allAttractantsJson.nodes[0];
+
+  const pageData = data.allMassTrappingJson.nodes[1];
+
   return (
     <Layout>
-      <SEO title='Gronic Attractants' />
+      <SEO title='Gronic Mass Trapping' />
       <div className='solution-page'>
         <section
           className='gronic-solution-section solution-section-1'
@@ -92,28 +92,25 @@ const AttractantsPage = () => {
           <h1>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
-          <Paragraphs data={pageData.section2.paragraphs} />
+          <Paragraphs data={pageData.section1.paragraphs} />
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
+          <h1>{pageData.section2.title}</h1>
           <div className='gronic-underline' />
           <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section3.paragraphs} />
+            <Paragraphs data={pageData.section2.paragraphs} />
           </div>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section4.title} </h1>
+          <h1>{pageData.section3.title}</h1>
           <div className='gronic-underline' />
-          <Paragraphs data={pageData.section4.paragraphs} />
+          <Paragraphs data={pageData.section3.paragraphs} />
         </section>
         <section className='gronic-solution-section solution-section-5'>
-          <h1>{pageData.section5.title} </h1>
+          <h1>{pageData.section4.title} </h1>
           <div className='gronic-underline' />
-          <p className='section-subtitle'>
-            {pageData.section5.paragraphs[0].contents.content}{' '}
-          </p>
           <div className='gronic-solution-paragraphs'>
-            <OurProducts data={pageData.section5.paragraphs.slice(1)} />
+            <OurProducts data={pageData.section4.paragraphs} />
           </div>
         </section>
       </div>
@@ -157,11 +154,11 @@ const OurProducts = ({ data }) => {
         <div className='content-container'>
           <h2> {paragraph.contents.title} </h2>
           <p>
-            {paragraph.contents.contents}
+            {paragraph.contents.content}
             <br />
-            <a className='product-contact-us' href='/en/contact'>
+            <a className='product-contact-us' href='/ar/contact'>
               {' '}
-              Contanct Us{' '}
+              اتصل بنا{' '}
             </a>
           </p>
         </div>
@@ -169,4 +166,4 @@ const OurProducts = ({ data }) => {
     );
   });
 };
-export default AttractantsPage;
+export default MassTrappingPage;

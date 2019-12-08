@@ -1,83 +1,83 @@
 {
+  "title": "lures",
+  "section1": {
     "title": "lures",
-    "section1": {
-        "title": "lures",
-        "backgroundImgURL": "/icons/images/image2.png"
-    },
-    "section2": {
-        "paragraphs": [
-            {
-                "id": "p11",
-                "contents": {
-                    "content": "Insect Lures for “Good” and “Bad” Insects"
-                }
-            },
-            {
-                "id": "p12",
-                "contents": {
-                    "content": "Our formulations are based on naturally-occurring semiochemicals and can be used to help or protect crops in several ways."
-                }
-            },
-            {
-                "id": "p13",
-                "contents": {
-                    "content": "The most popular use of attractants is to lure pests to traps for control via the mass trapping strategy. Attractants can also be used to induce beneficial insects to come to, and stay in, crops for goals such as enhanced pollination or natural pest protection."
-                }
-            },
-            {
-                "id": "p14",
-                "contents": {
-                    "content": "Our semiochemicals insect attractants are made up of compounds—like pheromones, plant volatiles, flower oils, sugars and proteins—that mimic insect attraction systems found in nature. By identifying processes already existing in nature, Gronic can use them to create sustainable technologies to manage insects."
-                }
-            }
-        ]
-    },
-    "section3": {
-        "title": "How to use insect lures",
-        "paragraphs": [
-            {
-                "id": "p21",
-                "contents": {
-                    "content": "Occasionally, pest populations are low enough that they can be controlled using traps. Gronic’s attractants can be used to effectively call pests to traps for control via the mass trapping strategy."
-                },
-                "backgroundImgURL": "../../../../images/Export/solutions_template/1.png"
-            },
-            {
-                "id": "p22",
-                "contents": {
-                    "content": "Gronic natural insect Lures can help or protect crops by calling on beneficial insects to do the work nature intended. Attract honeybees to pollinate plants and encourage fruit production. Attract natural predators, like ladybugs and lacewings, that can attack the pests causing damage to your plants."
-                },
-                "backgroundImgURL": "../../../../images/Export/solutions_template/2.png"
-            }
-        ]
-    },
-    "section4": {
-        "title": "Benefits of Natural Insect Lures",
-        "paragraphs": [
-            {
-                "id": "p31",
-                "contents": {
-                    "title": "Targeted action",
-                    "content": "All our insect Lures target specific species or groups of insects, affecting only these targets without disturbing other insect species."
-                },
-                "backgroundImgURL": "../../../../images/Export/solutions_template/6.png"
-            },
-            {
-                "id": "p32",
-                "contents": {
-                    "title": "Natural efficacy",
-                    "content": "By mimicking and optimizing insect Lures systems already found in nature, we can manage insect populations in the most effective and efficient manner."
-                },
-                "backgroundImgURL": "../../../../images/Export/solutions_template/8.png"
-            },
-            {
-                "id": "p33",
-                "contents": {
-                    "title": "Safe for humans, pets & the environment",
-                    "content": "Our insect Lures contain compounds that are not harmful to humans or animals and leave no residues on plants or the environment."
-                },
-                "backgroundImgURL": "../../../../images/Export/solutions_template/7.png"
-            }
-        ]
-    }
+    "backgroundImgURL": "/icons/images/image2.png"
+  },
+  "section2": {
+    "paragraphs": [
+      {
+        "id": "p11",
+        "contents": {
+          "content": "Insect Lures for “Good” and “Bad” Insects"
+        }
+      },
+      {
+        "id": "p12",
+        "contents": {
+          "content": "Our formulations are based on naturally-occurring semiochemicals and can be used to help or protect crops in several ways."
+        }
+      },
+      {
+        "id": "p13",
+        "contents": {
+          "content": "The most popular use of attractants is to lure pests to traps for control via the mass trapping strategy. Attractants can also be used to induce beneficial insects to come to, and stay in, crops for goals such as enhanced pollination or natural pest protection."
+        }
+      },
+      {
+        "id": "p14",
+        "contents": {
+          "content": "Our semiochemicals insect attractants are made up of compounds—like pheromones, plant volatiles, flower oils, sugars and proteins—that mimic insect attraction systems found in nature. By identifying processes already existing in nature, Gronic can use them to create sustainable technologies to manage insects."
+        }
+      }
+    ]
+  },
+  "section3": {
+    "title": "How to use insect lures",
+    "paragraphs": [
+      {
+        "id": "p21",
+        "contents": {
+          "content": "Occasionally, pest populations are low enough that they can be controlled using traps. Gronic’s attractants can be used to effectively call pests to traps for control via the mass trapping strategy."
+        },
+        "backgroundImgURL": "../../../../images/Export/solutions_template/1.png"
+      },
+      {
+        "id": "p22",
+        "contents": {
+          "content": "Gronic natural insect Lures can help or protect crops by calling on beneficial insects to do the work nature intended. Attract honeybees to pollinate plants and encourage fruit production. Attract natural predators, like ladybugs and lacewings, that can attack the pests causing damage to your plants."
+        },
+        "backgroundImgURL": "../../../../images/Export/solutions_template/2.png"
+      }
+    ]
+  },
+  "section4": {
+    "title": "Benefits of Natural Insect Lures",
+    "paragraphs": [
+      {
+        "id": "p31",
+        "contents": {
+          "title": "Targeted action",
+          "content": "All our insect Lures target specific species or groups of insects, affecting only these targets without disturbing other insect species."
+        },
+        "backgroundImgURL": "../../../../images/Export/solutions_template/6.png"
+      },
+      {
+        "id": "p32",
+        "contents": {
+          "title": "Natural efficacy",
+          "content": "By mimicking and optimizing insect Lures systems already found in nature, we can manage insect populations in the most effective and efficient manner."
+        },
+        "backgroundImgURL": "../../../../images/Export/solutions_template/8.png"
+      },
+      {
+        "id": "p33",
+        "contents": {
+          "title": "Safe for humans, pets & the environment",
+          "content": "Our insect Lures contain compounds that are not harmful to humans or animals and leave no residues on plants or the environment."
+        },
+        "backgroundImgURL": "../../../../images/Export/solutions_template/7.png"
+      }
+    ]
+  }
 }

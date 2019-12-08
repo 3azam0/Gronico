@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: "./src/data/",
+        path: './src/data/',
       },
     },
     {
@@ -48,16 +48,16 @@ module.exports = {
               url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: `daily`,
               priority: 0.7,
-            }
+            };
           }),
       },
     },
     {
-      resolve: "gatsby-plugin-robots-txt",
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: "https://www.gronic.com",
-        sitemap: "https://www.gronic.com/gronic-sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
+        host: 'https://www.gronic.com',
+        sitemap: 'https://www.gronic.com/gronic-sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     `gatsby-plugin-sharp`,
@@ -74,18 +74,19 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-i18n",
+      resolve: 'gatsby-plugin-i18n',
       options: {
         pagesPaths: [
-          "/index/",
-          "/about/",
-          "/solutions/",
-          "/contact/",
-          "/attractants/",
+          '/index/',
+          '/about/',
+          '/solutions/',
+          '/contact/',
+          '/attractants/',
+          '/solutions/lures',
         ],
-        langKeyDefault: "en",
+        langKeyDefault: 'en',
         useLangKeyLayout: true,
       },
     },
   ],
-}
+};

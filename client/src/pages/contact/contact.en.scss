@@ -1,11 +1,11 @@
-@import "../../components/vars.scss";
+@import '../../components/vars.scss';
 .contact-page {
   position: relative;
   top: -5rem;
 }
 .gronic-contact-section-1 {
   z-index: 3;
-  background-image: url("/icons/images/image6.png");
+  background-image: url('/icons/images/image6.png');
   top: 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,11 +60,14 @@
         font-size: 1.5em;
         background-color: #dddddd;
         padding: 1%;
+        padding-left: 1rem;
+        outline: none;
       }
       textarea {
         width: 100%;
         font-size: 1.5em;
         background-color: #dddddd;
+        outline: none;
       }
       .form-group {
         padding: 5%;
@@ -84,6 +87,8 @@
       width: 100%;
       font-size: 1.5em;
       background-color: #dddddd;
+      outline: none;
+      padding-left: 1rem;
     }
     .form-group-submit {
       text-align: center;

@@ -1,114 +1,115 @@
 {
-    "section1": {
-        "title": "Solutions",
-        "description": "Gronic is a leader in integrated pest management strategies and solutions. Based on biological control methods that are found in nature, our products are safe, environmentally friendly, and easy to use—helping to eliminate the current global dependency on conventional pesticides."
-    },
-    "section2": {
-        "title": "Why Choose our products Over Conventional Pesticides?",
-        "tableItems": [
-            {
-                "title": "Safety",
-                "icon": "../../../images/Export/icons_about/safety.png",
-                "conventional": "Poisonous & possibly toxic, human health concerns",
-                "gronic": "Completely nontoxic; safe for humans, pets & environment"
-            },
-            {
-                "title": "Residue",
-                "icon": "../../../images/Export/icons_about/residue.png",
-                "conventional": "Spray 100% of corp - high residue risk",
-                "gronic": "Contacts < 1% of crop - zero residue risk"
-            },
-            {
-                "title": "Approach",
-                "icon": "../../../images/Export/icons_about/approach.png",
-                "conventional": "Reactivate -chasing after pests",
-                "gronic": "Proactive - control pests before they become a problem"
-            },
-            {
-                "title": "Collateral damage",
-                "icon": "../../../images/Export/icons_about/damage.png",
-                "conventional": "Kills beneficial insects (e.g., bees, ladybugs)",
-                "gronic": "Species - specific - only affects target pests"
-            },
-            {
-                "title": "Environmental footprint",
-                "icon": "../../../images/Export/icons_about/footprint.png",
-                "conventional": "Risk to soil & water systems",
-                "gronic": "Soil & water systems unaffected"
-            },
-            {
-                "title": "efficacy",
-                "icon": "../../../images/Export/icons_about/efficacy.png",
-                "conventional": "Short field, high risk of resistance",
-                "gronic": "Long field life, no risk of resistance"
-            }
-        ]
-    },
-    "section3": {
-        "title": "Integrated Pest Management Strategies for the Planet",
-        "description1": "In the past, protecting crops from pests meant one thing: blanket-spraying conventional pesticides. The unscrupulous use conventional pesticides have created problems that can no longer be ignored—namely, significant risk to the environment, public health and food safety. Consumers and regulators have caught on and the demand for safer alternatives is rising at an exponential rate. As a distributor or grower, can you meet this market need?",
-        "description2": "Gronic offers various integrated pest management solutions designed to protect crops from harmful insects while protecting the planet with the safest technologies available."
-    },
-    "section4": {
-        "title": "AttraSafe",
-        "subSections": [
-            {
-                "title": "Lures",
-                "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
-                "buttonText": "Learn More",
-                "bgColor": "#194c36",
-                "buttonLink": "/en/lures"
-            },
-            {
-                "title": "Attractants",
-                "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
-                "buttonText": "Learn More",
-                "bgColor": "#b7c833",
-                "buttonLink": "/en/attractants"
-            },
-            {
-                "title": "Mass Trapping",
-                "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
-                "buttonText": "Learn More",
-                "bgColor": "#ca362c",
-                "buttonLink": "/en/masstrapping"
-            }
-        ]
-    },
-    "section5": {
-        "title": "BioSafe",
-        "subSections": [
-            {
-                "title": "TricoSafe",
-                "description": "Our product is a biological alternative to protect crops against Lepidoptera pests",
-                "buttonText": "Learn More",
-                "bgColor": "#ffbe2b",
-                "buttonLink": "/en/tricosafe"
-            },
-            {
-                "title": "ViroSafe",
-                "description": "Naturally occurring microorganism to control various specific pests.",
-                "buttonText": "Learn More",
-                "bgColor": "#1b5541",
-                "buttonLink": "/en/virosafe"
-            },
-            {
-                "title": "FungSafe",
-                "description": "Naturally occurring microorganism protecting plant tissue from pathogen attacks.",
-                "buttonText": "Learn More",
-                "bgColor": "#b1c734",
-                "buttonLink": "/en/fungsafe"
-            },
-            {
-                "title": "ProSAFE",
-                "description": "Different natural predators and entomopathogenic nematodes against important pests.",
-                "buttonText": "Learn More",
-                "buttonLink": "/en"
-            }
-        ]
-    },
-    "section6": {
-        "title": "EcoSafe",
-        "description": "Our ECOSAFE produce lights with a wide range of wavelengths, which attract harmful active insects during night and its powered by Solar Energy."
-    }
+  "section1": {
+    "title": "Solutions",
+    "description": "Gronic is a leader in integrated pest management strategies and solutions. Based on biological control methods that are found in nature, our products are safe, environmentally friendly, and easy to use—helping to eliminate the current global dependency on conventional pesticides."
+  },
+  "section2": {
+    "title": "Why Choose our products Over Conventional Pesticides?",
+    "tableItems": [
+      {
+        "title": "Safety",
+        "icon": "../../../images/Export/icons_about/safety.png",
+        "conventional": "Poisonous & possibly toxic, human health concerns",
+        "gronic": "Completely nontoxic; safe for humans, pets & environment"
+      },
+      {
+        "title": "Residue",
+        "icon": "../../../images/Export/icons_about/residue.png",
+        "conventional": "Spray 100% of corp - high residue risk",
+        "gronic": "Contacts < 1% of crop - zero residue risk"
+      },
+      {
+        "title": "Approach",
+        "icon": "../../../images/Export/icons_about/approach.png",
+        "conventional": "Reactivate -chasing after pests",
+        "gronic": "Proactive - control pests before they become a problem"
+      },
+      {
+        "title": "Collateral damage",
+        "icon": "../../../images/Export/icons_about/damage.png",
+        "conventional": "Kills beneficial insects (e.g., bees, ladybugs)",
+        "gronic": "Species - specific - only affects target pests"
+      },
+      {
+        "title": "Environmental footprint",
+        "icon": "../../../images/Export/icons_about/footprint.png",
+        "conventional": "Risk to soil & water systems",
+        "gronic": "Soil & water systems unaffected"
+      },
+      {
+        "title": "efficacy",
+        "icon": "../../../images/Export/icons_about/efficacy.png",
+        "conventional": "Short field, high risk of resistance",
+        "gronic": "Long field life, no risk of resistance"
+      }
+    ]
+  },
+  "section3": {
+    "title": "Integrated Pest Management Strategies for the Planet",
+    "description1": "In the past, protecting crops from pests meant one thing: blanket-spraying conventional pesticides. The unscrupulous use conventional pesticides have created problems that can no longer be ignored—namely, significant risk to the environment, public health and food safety. Consumers and regulators have caught on and the demand for safer alternatives is rising at an exponential rate. As a distributor or grower, can you meet this market need?",
+    "description2": "Gronic offers various integrated pest management solutions designed to protect crops from harmful insects while protecting the planet with the safest technologies available."
+  },
+  "section4": {
+    "title": "AttraSafe",
+    "subSections": [
+      {
+        "title": "Lures",
+        "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
+        "buttonText": "Learn More",
+        "bgColor": "#194c36",
+        "buttonLink": "/en/lures"
+      },
+      {
+        "title": "Attractants",
+        "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
+        "buttonText": "Learn More",
+        "bgColor": "#b7c833",
+        "buttonLink": "/en/attractants"
+      },
+      {
+        "title": "Mass Trapping",
+        "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
+        "buttonText": "Learn More",
+        "bgColor": "#ca362c",
+        "buttonLink": "/en/masstrapping"
+      }
+    ]
+  },
+  "section5": {
+    "title": "BioSafe",
+    "subSections": [
+      {
+        "title": "TricoSafe",
+        "description": "Our product is a biological alternative to protect crops against Lepidoptera pests",
+        "buttonText": "Learn More",
+        "bgColor": "#ffbe2b",
+        "buttonLink": "/en/tricosafe"
+      },
+      {
+        "title": "ViroSafe",
+        "description": "Naturally occurring microorganism to control various specific pests.",
+        "buttonText": "Learn More",
+        "bgColor": "#1b5541",
+        "buttonLink": "/en/virosafe"
+      },
+      {
+        "title": "FungSafe",
+        "description": "Naturally occurring microorganism protecting plant tissue from pathogen attacks.",
+        "buttonText": "Learn More",
+        "bgColor": "#b1c734",
+        "buttonLink": "/en/fungsafe"
+      },
+      {
+        "title": "ProSAFE",
+        "description": "Different natural predators and entomopathogenic nematodes against important pests.",
+        "buttonText": "Learn More",
+        "buttonLink": "/en"
+      }
+    ]
+  },
+  "section6": {
+    "title": "EcoSafe",
+    "description": "Our ECOSAFE produce lights with a wide range of wavelengths, which attract harmful active insects during night and its powered by Solar Energy.",
+    "buttonText": "Learn More"
+  }
 }

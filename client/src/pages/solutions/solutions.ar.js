@@ -18,12 +18,13 @@ import bg53 from '../../images/Export/solutions_sections/6.jpg';
 
 const SolutionsPage = () => {
   const data = useStaticQuery(graphql`
-    query SolutionsPageEN {
+    query SolutionsPageAr {
       allSolutionsPageJson {
         nodes {
           section6 {
             description
             title
+            buttonText
           }
           section2 {
             title
@@ -73,7 +74,7 @@ const SolutionsPage = () => {
       }
     }
   `);
-  const solutionsData = data.allSolutionsPageJson.nodes[1];
+  const solutionsData = data.allSolutionsPageJson.nodes[0];
   return (
     <Layout>
       <SEO title='Gronic Solutions' />
@@ -144,8 +145,8 @@ const SolutionsPage = () => {
           <div className='gronic-underline' />
           <div className='section-6-container'>
             <p>{solutionsData.section6.description}</p>
-            <a className='gronic-btn' href='/en/ecosafe'>
-              Learn more{' '}
+            <a className='gronic-btn' href='/ar/ecosafe'>
+              {solutionsData.section6.buttonText}{' '}
             </a>
           </div>
         </section>
@@ -210,7 +211,7 @@ const SubSection = ({ item, bg }) => {
           navigate(item.buttonLink);
         }}
       >
-        {item.buttonText}{' '}
+        {item.buttonText}
       </button>
       <p
         className='sol-subsection-indicator'

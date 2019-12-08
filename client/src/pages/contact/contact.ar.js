@@ -16,7 +16,7 @@ const SocialIcons = ({ icons }) => {
 
 const ContactsPage = () => {
   const data = useStaticQuery(graphql`
-    query ContactPageEn {
+    query ContactPageAr {
       allContactJson {
         nodes {
           social {
@@ -46,7 +46,7 @@ const ContactsPage = () => {
     }
   `);
 
-  const contactData = data.allContactJson.nodes[1];
+  const contactData = data.allContactJson.nodes[0];
 
   return (
     <Layout>

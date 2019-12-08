@@ -1,0 +1,46 @@
+{
+  "title": "اتصل بنا",
+  "description": "تابعنا لتصلك اخر الاخبار",
+  "social": [
+    {
+      "title": "twitter",
+      "URL": "https://twitter.com/GronicCo",
+      "imgURL": "/icons/images/social_icons/twitter.png"
+    },
+    {
+      "title": "facebook",
+      "URL": "https://www.facebook.com/Gronic.co",
+      "imgURL": "/icons/images/social_icons/facebook.png"
+    },
+    {
+      "title": "linkedin",
+      "URL": "https://linkedin.com",
+      "imgURL": "/icons/images/social_icons/linkedin.png"
+    },
+    {
+      "title": "youtube",
+      "URL": "https://www.youtube.com/channel/UCg-NDoXQzfr7EJOSsyqcoQA?view_as=subscriber",
+      "imgURL": "/icons/images/social_icons/youtube.png"
+    },
+    {
+      "title": "instagram",
+      "URL": "https://www.instagram.com/gronicco",
+      "imgURL": "/icons/images/social_icons/instagram.png"
+    }
+  ],
+  "subtitle": "تعرف على المزيد حول كيف يمكن لحلول إدارة الآفات الصديقة للبيئة أن تحمي محاصيلك",
+  "contactForm": {
+    "title": "مهتم فى حلول مكافحة الآفات الزراعية الخضراء ؟",
+    "subtitle": "اتصل بنا",
+    "fields": {
+      "firstName": "الاسم الاول",
+      "lastName": "الاسم الاخير",
+      "phone": "هاتف",
+      "companyName": "اسم الشركة",
+      "email": "البريد الالكترونى",
+      "poi": "المنتج او الخدمة ذات الاهتمام",
+      "message": "اسئلة / تعليقات",
+      "submit": "ارسال"
+    }
+  }
+}
