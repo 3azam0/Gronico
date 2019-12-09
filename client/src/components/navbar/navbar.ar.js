@@ -109,7 +109,7 @@ const SmallNavLinks = ({
 
 const Navbar = ({ navigationClassName, navigationStyle }) => {
   const data = useStaticQuery(graphql`
-    query EnglishNavLinks {
+    query ArabicNavLinks {
       allNavbarJson {
         nodes {
           links {
@@ -135,7 +135,9 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
       }
     }
   `);
-  const navLinksData = data.allNavbarJson.nodes[0];
+
+  const navLinksData = data.allNavbarJson.nodes[1];
+
   const [showSmallNav, setSmallNav] = useState(false);
   const toggleNav = () => {
     document.body.style.overflow = 'hidden';

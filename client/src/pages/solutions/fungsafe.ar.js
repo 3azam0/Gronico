@@ -7,18 +7,20 @@ import Img from 'gatsby-image';
 
 import '../../components/solution.en.scss';
 
-const AttractantsPage = () => {
+const FungSafePage = () => {
   const data = useStaticQuery(graphql`
-    query AttractantsDataAr {
-      allAttractantsJson {
+    query FungSafeDataAr {
+      allFungsafeJson {
         nodes {
-          title
+          section1 {
+            title
+          }
           section5 {
             paragraphs {
               id
               contents {
                 title
-                contents
+                content
               }
               backgroundImgURL {
                 childImageSharp {
@@ -72,15 +74,12 @@ const AttractantsPage = () => {
               }
             }
           }
-          section1 {
-            backgroundImgURL
-            title
-          }
         }
       }
     }
   `);
-  const pageData = data.allAttractantsJson.nodes[1];
+
+  const pageData = data.allFungsafeJson.nodes[1];
 
   return (
     <Layout>
@@ -98,35 +97,35 @@ const AttractantsPage = () => {
         <section className='gronic-solution-section solution-section-3'>
           <h1>{pageData.section3.title}</h1>
           <div className='gronic-underline' />
-          <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section3.paragraphs} />
-          </div>
+          <p className='section-subtitle'>
+            {pageData.section3.paragraphs[0].contents.content}
+          </p>
+        </section>
+        <section className='gronic-solution-section solution-section-3'>
+          <h1>{pageData.section4.title}</h1>
+          <div className='gronic-underline' />
+          <p className='section-subtitle'>
+            {pageData.section4.paragraphs[0].contents.content}
+          </p>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section4.title} </h1>
-          <div className='gronic-underline' />
-          <Paragraphs data={pageData.section4.paragraphs} />
-        </section>
-        <section className='gronic-solution-section solution-section-5'>
           <h1>{pageData.section5.title} </h1>
           <div className='gronic-underline' />
           <p className='section-subtitle'>
-            {pageData.section5.paragraphs[0].contents.content}{' '}
+            {pageData.section5.paragraphs[0].contents.content}
           </p>
-          <div className='gronic-solution-paragraphs'>
-            <OurProducts data={pageData.section5.paragraphs.slice(1)} />
-          </div>
+          <Paragraphs data={pageData.section5.paragraphs.slice(1)} />
         </section>
       </div>
     </Layout>
   );
 };
 
-const Paragraphs = ({ data }) => {
+const Paragraphs = ({ data, hideImage }) => {
   return data.map(paragraph => {
     return (
       <div id={paragraph.id} className='gronic-solution-paragraph'>
-        {paragraph.backgroundImgURL ? (
+        {paragraph.backgroundImgURL && !hideImage ? (
           <Img
             alt={paragraph.contents.title}
             className='section-image'
@@ -143,31 +142,4 @@ const Paragraphs = ({ data }) => {
   });
 };
 
-const OurProducts = ({ data }) => {
-  return data.map(paragraph => {
-    return (
-      <div id={paragraph.id} className='gronic-solution-paragraph'>
-        {paragraph.backgroundImgURL ? (
-          <Img
-            alt={paragraph.contents.title}
-            className='section-image'
-            fluid={paragraph.backgroundImgURL.childImageSharp.fluid}
-            imgStyle={{ objectFit: 'contain' }}
-          />
-        ) : null}
-        <div className='content-container'>
-          <h2> {paragraph.contents.title} </h2>
-          <p>
-            {paragraph.contents.contents}
-            <br />
-            <a className='product-contact-us' href='/ar/contact'>
-              {' '}
-              اتصل بنا{' '}
-            </a>
-          </p>
-        </div>
-      </div>
-    );
-  });
-};
-export default AttractantsPage;
+export default FungSafePage;

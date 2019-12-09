@@ -2,54 +2,40 @@ import React from 'react';
 import Layout from '../../components/layout.ar';
 import SEO from '../../components/seo';
 import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
-
 import background1 from '../../images/Export/templat_attracnt.png';
+import Img from 'gatsby-image';
 
 import '../../components/solution.en.scss';
 
-const LuresPage = () => {
+const ProSafePage = () => {
   const data = useStaticQuery(graphql`
-    query LuresDataAr {
-      allLuresJson {
+    query ProSafeDataAr {
+      allProsafeJson {
         nodes {
-          title
           section1 {
-            backgroundImgURL
             title
+            backgroundImgURL
           }
           section2 {
             paragraphs {
-              contents {
-                content
-              }
               id
-            }
-          }
-          section3 {
-            paragraphs {
-              contents {
-                content
-              }
-              id
-              backgroundImgURL {
-                childImageSharp {
-                  fluid {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
-            }
-            title
-          }
-          section4 {
-            title
-            paragraphs {
               contents {
                 content
                 title
               }
+            }
+          }
+          section3 {
+            paragraphs {
               id
+              contents {
+                title
+                content {
+                  appearance
+                  lifeCycle
+                  pests
+                }
+              }
               backgroundImgURL {
                 childImageSharp {
                   fluid {
@@ -64,7 +50,7 @@ const LuresPage = () => {
     }
   `);
 
-  const pageData = data.allLuresJson.nodes[0];
+  const pageData = data.allProsafeJson.nodes[1];
 
   return (
     <Layout>
@@ -80,27 +66,18 @@ const LuresPage = () => {
           <Paragraphs data={pageData.section2.paragraphs} />
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
-          <div className='gronic-underline' />
-          <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section3.paragraphs} />
-          </div>
-        </section>
-        <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section4.title} </h1>
-          <div className='gronic-underline' />
-          <Paragraphs data={pageData.section4.paragraphs} />
+          <ProsafeParagraphs data={pageData.section3.paragraphs} />
         </section>
       </div>
     </Layout>
   );
 };
 
-const Paragraphs = ({ data }) => {
+const Paragraphs = ({ data, hideImage }) => {
   return data.map(paragraph => {
     return (
       <div id={paragraph.id} className='gronic-solution-paragraph'>
-        {paragraph.backgroundImgURL ? (
+        {paragraph.backgroundImgURL && !hideImage ? (
           <Img
             alt={paragraph.contents.title}
             className='section-image'
@@ -117,4 +94,39 @@ const Paragraphs = ({ data }) => {
   });
 };
 
-export default LuresPage;
+const ProsafeParagraphs = ({ data, hideImage }) => {
+  return data.map(paragraph => {
+    return (
+      <div id={paragraph.id} className='prosafe-paragraph'>
+        <div
+          className='content-container'
+          style={{ textAlign: 'left', padding: '5%' }}
+        >
+          <h2> {paragraph.contents.title} </h2>
+          <p>
+            <b>Appearance : </b>
+            {paragraph.contents.content.appearance}
+          </p>
+          <p>
+            <b>Life Cycle : </b>
+            {paragraph.contents.content.lifeCycle}
+          </p>
+          <p>
+            <b>Insect Pests Attacked : </b>
+            {paragraph.contents.content.lifeCycle}
+          </p>
+        </div>
+        {paragraph.backgroundImgURL && !hideImage ? (
+          <Img
+            alt={paragraph.contents.title}
+            className='section-image'
+            fluid={paragraph.backgroundImgURL.childImageSharp.fluid}
+            imgStyle={{ objectFit: 'contain' }}
+          />
+        ) : null}
+      </div>
+    );
+  });
+};
+
+export default ProSafePage;

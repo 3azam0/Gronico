@@ -28,21 +28,21 @@
     "description": "جرونيك هي شركة رائدة في مجال الزراعة المستدامة من خلال حلول متكاملة لإدارة الآفات الزراعية",
     "solutions": [
       {
-        "heading": "ATTRASAFE",
+        "heading": "اتراساف",
         "description": "السيطرة على الآفات باستخدام جاذبات آمنة",
         "imageURL": "/icons/images/image1.png",
         "link": "/en/solutions/#attrasafe",
         "index": 0
       },
       {
-        "heading": "BIOSAFE",
+        "heading": "بيوسيف",
         "description": "القضاء مجموعات الحشرات المستهدفة عن طريق استخدام الحشرات المفيدة لتعطيل الدورة التناسلية",
         "imageURL": "/icons/images/image2.png",
         "link": "/en/solutions#biosafe",
         "index": 1
       },
       {
-        "heading": "ECOSAFE",
+        "heading": "ايكوسيف",
         "description": "جذب الحشرات النشطة الضارة في الليل مع فهم أفضل لنشاطها من خلال أدوات المراقبة",
         "imageURL": "/static/images/Export/attrasafe.png",
         "link": "/en/solutions#ecosafe",
@@ -51,7 +51,7 @@
     ]
   },
   "ourClients": {
-    "heading": "Our Clients",
+    "heading": "عملائنا",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "clients": [
       {

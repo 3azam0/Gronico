@@ -1,90 +1,88 @@
 {
-    "english": {
-        "links": [
+  "links": [
+    {
+      "text": "Home",
+      "url": "/en/"
+    },
+    {
+      "text": "Solutions",
+      "url": "/en/solutions",
+      "subLinks": [
+        {
+          "text": "AttraSafe",
+          "url": "/en/solutions#attrasafe",
+          "subLinks": [
             {
-                "text": "Home",
-                "url": "/en/"
+              "text": "Lures",
+              "url": "/en/lures"
             },
             {
-                "text": "Solutions",
-                "url": "/en/solutions",
-                "subLinks": [
-                    {
-                        "text": "AttraSafe",
-                        "url": "/en/solutions#attrasafe",
-                        "subLinks": [
-                            {
-                                "text": "Lures",
-                                "url": "/en/lures"
-                            },
-                            {
-                                "text": "Attractants",
-                                "url": "/en/attractants"
-                            },
-                            {
-                                "text": "Mass Trapping",
-                                "url": "/en/masstrapping"
-                            },
-                            {
-                                "text": "ProSafe",
-                                "url": "/en/prosafe"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "BioSafe",
-                        "url": "/en/solutions#biosafe",
-                        "subLinks": [
-                            {
-                                "text": "TricoSafe",
-                                "url": "/en/tricosafe"
-                            },
-                            {
-                                "text": "ViroSafe",
-                                "url": "/en/virosafe"
-                            },
-                            {
-                                "text": "FungSafe",
-                                "url": "/en/fungsafe"
-                            },
-                            {
-                                "text": "ProSafe",
-                                "url": "/en/prosafe"
-                            }
-                        ]
-                    },
-                    {
-                        "text": "EcoSafe",
-                        "url": "/en/solutions#ecosafe"
-                    }
-                ]
+              "text": "Attractants",
+              "url": "/en/attractants"
             },
             {
-                "text": "About Us",
-                "url": "/en/about",
-                "subLinks": [
-                    {
-                        "text": "Who We Are?",
-                        "url": "/en/about/#who-we-are"
-                    },
-                    {
-                        "text": "What We Do?",
-                        "url": "/en/about/#what-we-do"
-                    },
-                    {
-                        "text": "How we do it?",
-                        "url": "/en/about/#how-we-do-it"
-                    },
-                    {
-                        "text": "Our Team",
-                        "url": "/en/about/#our-team"
-                    }
-                ]
+              "text": "Mass Trapping",
+              "url": "/en/masstrapping"
             },
             {
-                "text": "Contact Us",
-                "url": "/en/contact"
+              "text": "ProSafe",
+              "url": "/en/prosafe"
             }
-        ]
+          ]
+        },
+        {
+          "text": "BioSafe",
+          "url": "/en/solutions#biosafe",
+          "subLinks": [
+            {
+              "text": "TricoSafe",
+              "url": "/en/tricosafe"
+            },
+            {
+              "text": "ViroSafe",
+              "url": "/en/virosafe"
+            },
+            {
+              "text": "FungSafe",
+              "url": "/en/fungsafe"
+            },
+            {
+              "text": "ProSafe",
+              "url": "/en/prosafe"
+            }
+          ]
+        },
+        {
+          "text": "EcoSafe",
+          "url": "/en/solutions#ecosafe"
+        }
+      ]
+    },
+    {
+      "text": "About Us",
+      "url": "/en/about",
+      "subLinks": [
+        {
+          "text": "Who We ene?",
+          "url": "/en/about/#who-we-ene"
+        },
+        {
+          "text": "What We Do?",
+          "url": "/en/about/#what-we-do"
+        },
+        {
+          "text": "How we do it?",
+          "url": "/en/about/#how-we-do-it"
+        },
+        {
+          "text": "Our Team",
+          "url": "/en/about/#our-team"
+        }
+      ]
+    },
+    {
+      "text": "Contact Us",
+      "url": "/en/contact"
     }
+  ]
 }

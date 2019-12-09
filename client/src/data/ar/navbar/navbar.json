@@ -1,0 +1,88 @@
+{
+  "links": [
+    {
+      "text": "الرئيسية",
+      "url": "/ar/"
+    },
+    {
+      "text": "خدماتنا",
+      "url": "/ar/solutions",
+      "subLinks": [
+        {
+          "text": "اتراساف",
+          "url": "/ar/solutions#attrasafe",
+          "subLinks": [
+            {
+              "text": "الطعم",
+              "url": "/ar/lures"
+            },
+            {
+              "text": "الجاذبات",
+              "url": "/ar/attractants"
+            },
+            {
+              "text": "محاصرة جماعية",
+              "url": "/ar/masstrapping"
+            },
+            {
+              "text": "بروسيف",
+              "url": "/ar/prosafe"
+            }
+          ]
+        },
+        {
+          "text": "بيوسيف",
+          "url": "/ar/solutions#biosafe",
+          "subLinks": [
+            {
+              "text": "تريكوسيف",
+              "url": "/ar/tricosafe"
+            },
+            {
+              "text": "فيروسيف",
+              "url": "/ar/virosafe"
+            },
+            {
+              "text": "فنجسيف",
+              "url": "/ar/fungsafe"
+            },
+            {
+              "text": "بروسيف",
+              "url": "/ar/prosafe"
+            }
+          ]
+        },
+        {
+          "text": "ايكوسيف",
+          "url": "/ar/solutions#ecosafe"
+        }
+      ]
+    },
+    {
+      "text": "تعرف عنا",
+      "url": "/ar/about",
+      "subLinks": [
+        {
+          "text": "من نحن ؟",
+          "url": "/ar/about/#who-we-are"
+        },
+        {
+          "text": "ماذا نفعل ؟",
+          "url": "/ar/about/#what-we-do"
+        },
+        {
+          "text": "كيف نفعلها ؟",
+          "url": "/ar/about/#how-we-do-it"
+        },
+        {
+          "text": "فريقنا",
+          "url": "/ar/about/#our-team"
+        }
+      ]
+    },
+    {
+      "text": "اتصل بنا",
+      "url": "/ar/contact"
+    }
+  ]
+}

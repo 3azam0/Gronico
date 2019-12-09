@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Layout from '../../components/layout.en';
+import Layout from '../../components/layout.ar';
 import SEO from '../../components/seo';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';

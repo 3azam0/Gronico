@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import HeroSlider from '../../components/heroSlider/heroSlider.ar';
 import SmallSlider from '../../components/smallSlider/smallSlider';
-import Layout from '../../components/layout.en';
+import Layout from '../../components/layout.ar';
 import SEO from '../../components/seo';
 import Img from 'gatsby-image';
 
@@ -57,8 +57,8 @@ const IndexPage = () => {
     }
   `);
 
-  const solutionsData = data.allHomePageJson.nodes[0].ourSolutions;
-  const clientsData = data.allHomePageJson.nodes[0].ourClients;
+  const solutionsData = data.allHomePageJson.nodes[1].ourSolutions;
+  const clientsData = data.allHomePageJson.nodes[1].ourClients;
 
   const images = [p1, p2, p3];
   const links = [
@@ -102,7 +102,7 @@ const IndexPage = () => {
           </div>
         </section>
         <section className='gronic-partners'>
-          <h1 className='gronic-sectionHead'> Our Partners </h1>
+          <h1 className='gronic-sectionHead'>شراكائنا</h1>
           <div className='gronic-headUnderline' />
           <SmallSlider
             sliderClassName='gronic-smallSlider'

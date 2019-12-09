@@ -8,7 +8,7 @@ import './footer.en.scss';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
-    query FooterQueryEn {
+    query FooterQueryAr {
       logo: file(relativePath: { eq: "logo.png" }) {
         childImageSharp {
           fluid(maxWidth: 500, maxHeight: 713) {
@@ -18,7 +18,8 @@ const Footer = () => {
       }
     }
   `);
-  const footerParagraph = ` Gronic is leading the way in sustainable agriculture with integrated pest management solutions for a greener planet.
+
+  const footerParagraph = `جرونيك هي شركة رائدة في مجال الزراعة المستدامة من خلال حلول متكاملة لإدارة الآفات الزراعية
 `;
   return (
     <>
@@ -37,40 +38,40 @@ const Footer = () => {
             <p className='gronic-footerP'>{footerParagraph}</p>
           </div>
           <div className='footer-col footer-list'>
-            <h4>Web Map</h4>
+            <h4>خريطة الويب سايت</h4>
             <div className='footer-underline'></div>
             <ul>
               <li>
-                <Link to='/en/solutions' className='list-head'>
-                  Solutions
+                <Link to='/ar/solutions' className='list-head'>
+                  خدماتنا
                 </Link>
                 <ul>
                   <li>
-                    <Link to='/en/solutions#attrasafe' className='list-item'>
-                      Attrasafe{' '}
+                    <Link to='/ar/solutions#attrasafe' className='list-item'>
+                      اتراسيف{' '}
                     </Link>
                   </li>
                   <li>
-                    <Link to='/en/solutions#ecosafe' className='list-item'>
-                      EcoSafe
+                    <Link to='/ar/solutions#ecosafe' className='list-item'>
+                      ايكوسيف
                     </Link>
                   </li>
                   <li>
-                    <Link to='/en/solutions#biosafe' className='list-item'>
-                      Biosafe
+                    <Link to='/ar/solutions#biosafe' className='list-item'>
+                      بيوسيف
                     </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to='/en/about' className='list-item'>
-                  About Us
+                <Link to='/ar/about' className='list-item'>
+                  تعرف عنا
                 </Link>
               </li>
             </ul>
           </div>
           <div className='footer-col footer-list'>
-            <h4> Contact Us </h4>
+            <h4> اتصل بنا </h4>
             <div className='footer-underline'></div>
             <span className='footer-contact'>
               <MdHome className='footer-icon' />
