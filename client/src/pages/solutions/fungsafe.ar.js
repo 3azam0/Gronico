@@ -79,7 +79,7 @@ const FungSafePage = () => {
     }
   `);
 
-  const pageData = data.allFungsafeJson.nodes[1];
+  const pageData = data.allFungsafeJson.nodes[0];
 
   return (
     <Layout>

@@ -79,7 +79,7 @@ const ViroSafePage = () => {
     }
   `);
 
-  const pageData = data.allViroSafeJson.nodes[1];
+  const pageData = data.allViroSafeJson.nodes[0];
 
   return (
     <Layout>

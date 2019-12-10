@@ -78,7 +78,9 @@ const MassTrappingPage = () => {
       }
     }
   `);
-  const pageData = data.allMassTrappingJson.nodes[0];
+
+  const pageData = data.allMassTrappingJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Mass Trapping' />

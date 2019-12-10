@@ -80,7 +80,8 @@ const AttractantsPage = () => {
       }
     }
   `);
-  const pageData = data.allAttractantsJson.nodes[1];
+
+  const pageData = data.allAttractantsJson.nodes[0];
 
   return (
     <Layout>

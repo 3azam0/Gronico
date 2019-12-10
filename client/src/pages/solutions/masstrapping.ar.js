@@ -79,7 +79,7 @@ const MassTrappingPage = () => {
     }
   `);
 
-  const pageData = data.allMassTrappingJson.nodes[1];
+  const pageData = data.allMassTrappingJson.nodes[0];
 
   return (
     <Layout>

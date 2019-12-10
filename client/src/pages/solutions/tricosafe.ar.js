@@ -79,7 +79,7 @@ const TricoSafePage = () => {
     }
   `);
 
-  const pageData = data.allTricoSafeJson.nodes[1];
+  const pageData = data.allTricoSafeJson.nodes[0];
 
   return (
     <Layout>

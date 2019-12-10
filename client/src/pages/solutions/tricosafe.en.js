@@ -78,7 +78,9 @@ const TricoSafePage = () => {
       }
     }
   `);
-  const pageData = data.allTricoSafeJson.nodes[0];
+
+  const pageData = data.allTricoSafeJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Attractants' />

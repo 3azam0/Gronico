@@ -78,7 +78,9 @@ const FungSafePage = () => {
       }
     }
   `);
-  const pageData = data.allFungsafeJson.nodes[0];
+
+  const pageData = data.allFungsafeJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Attractants' />

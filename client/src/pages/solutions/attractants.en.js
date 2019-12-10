@@ -80,7 +80,9 @@ const AttractantsPage = () => {
       }
     }
   `);
-  const pageData = data.allAttractantsJson.nodes[0];
+
+  const pageData = data.allAttractantsJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Attractants' />

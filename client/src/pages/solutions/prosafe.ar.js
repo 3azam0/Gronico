@@ -50,7 +50,7 @@ const ProSafePage = () => {
     }
   `);
 
-  const pageData = data.allProsafeJson.nodes[1];
+  const pageData = data.allProsafeJson.nodes[0];
 
   return (
     <Layout>
