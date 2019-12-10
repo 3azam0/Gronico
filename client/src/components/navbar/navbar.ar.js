@@ -150,7 +150,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         className={'gronic-nav ' + navigationClassName}
         style={navigationStyle}
       >
-        <Link to='/en'>
+        <Link to='/ar'>
           <Img
             alt='Gronic'
             className='gronic-navLogo'
