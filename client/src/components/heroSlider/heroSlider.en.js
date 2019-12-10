@@ -95,7 +95,7 @@ const HeroSlider = () => {
   return (
     <>
       <div className='gronic-heroSlider'>
-        <SliderItems items={data.allHomePageJson.nodes[1].heroSlider} />
+        <SliderItems items={data.allHomePageJson.nodes[0].heroSlider} />
       </div>
     </>
   );

@@ -31,21 +31,21 @@
         "heading": "اتراساف",
         "description": "السيطرة على الآفات باستخدام جاذبات آمنة",
         "imageURL": "/icons/images/image1.png",
-        "link": "/en/solutions/#attrasafe",
+        "link": "/ar/solutions/#attrasafe",
         "index": 0
       },
       {
         "heading": "بيوسيف",
         "description": "القضاء مجموعات الحشرات المستهدفة عن طريق استخدام الحشرات المفيدة لتعطيل الدورة التناسلية",
         "imageURL": "/icons/images/image2.png",
-        "link": "/en/solutions#biosafe",
+        "link": "/ar/solutions#biosafe",
         "index": 1
       },
       {
         "heading": "ايكوسيف",
         "description": "جذب الحشرات النشطة الضارة في الليل مع فهم أفضل لنشاطها من خلال أدوات المراقبة",
         "imageURL": "/static/images/Export/attrasafe.png",
-        "link": "/en/solutions#ecosafe",
+        "link": "/ar/solutions#ecosafe",
         "index": 2
       }
     ]
