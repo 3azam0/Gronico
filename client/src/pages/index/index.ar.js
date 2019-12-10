@@ -57,8 +57,8 @@ const IndexPage = () => {
     }
   `);
 
-  const solutionsData = data.allHomePageJson.nodes[1].ourSolutions;
-  const clientsData = data.allHomePageJson.nodes[1].ourClients;
+  const solutionsData = data.allHomePageJson.nodes[0].ourSolutions;
+  const clientsData = data.allHomePageJson.nodes[0].ourClients;
 
   const images = [p1, p2, p3];
   const links = [
