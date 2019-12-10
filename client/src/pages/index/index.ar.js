@@ -75,9 +75,11 @@ const IndexPage = () => {
           <HeroSlider />
         </section>
         <section id='solutions' className='gronic-ourSolutions'>
-          <h1 className='gronic-sectionHead'>{solutionsData.heading}</h1>
+          <h1 className='gronic-sectionHead' style={{ letterSpacing: 0 }}>
+            {solutionsData.heading}
+          </h1>
           <div className='gronic-headUnderline' />
-          <p className='gronic-sectionDescription'>
+          <p className='gronic-sectionDescription' style={style}>
             {solutionsData.description}
           </p>
           <div className='gronic-container3'>
@@ -85,7 +87,10 @@ const IndexPage = () => {
           </div>
         </section>
         <section className='gronic-ourClients' id='clients'>
-          <h1 className='gronic-sectionHead'> {clientsData.heading} </h1>
+          <h1 className='gronic-sectionHead' style={style}>
+            {' '}
+            {clientsData.heading}{' '}
+          </h1>
           <div className='gronic-headUnderline' />
           <div className='gronic-clients-container'>
             {clientsData.clients.map((client, index) => {
@@ -102,7 +107,9 @@ const IndexPage = () => {
           </div>
         </section>
         <section className='gronic-partners'>
-          <h1 className='gronic-sectionHead'>شراكائنا</h1>
+          <h1 className='gronic-sectionHead' style={style}>
+            شراكائنا
+          </h1>
           <div className='gronic-headUnderline' />
           <SmallSlider
             sliderClassName='gronic-smallSlider'
@@ -131,13 +138,21 @@ const GronicSolutionItems = solutions => {
             backgroundSize: 'cover',
           }}
         >
-          <h2 className='gronic-itemHead'>{item.heading}</h2>
-          <p className='gronic-itemDesc'>{item.description}</p>
+          <h2 className='gronic-itemHead' style={style}>
+            {item.heading}
+          </h2>
+          <p className='gronic-itemDesc' style={style}>
+            {item.description}
+          </p>
         </div>
       </a>
     );
   });
   return gronicSolutionItems;
+};
+
+const style = {
+  letterSpacing: 0,
 };
 
 export default IndexPage;

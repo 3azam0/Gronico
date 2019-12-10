@@ -31,6 +31,7 @@ const About = () => {
       }
     }
   `);
+
   return (
     <Layout>
       <SEO title='About Gronic' />

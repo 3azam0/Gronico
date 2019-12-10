@@ -136,7 +136,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
     }
   `);
 
-  const navLinksData = data.allNavbarJson.nodes[1];
+  const navLinksData = data.allNavbarJson.nodes[0];
 
   const [showSmallNav, setSmallNav] = useState(false);
   const toggleNav = () => {

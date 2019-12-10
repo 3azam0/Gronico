@@ -89,27 +89,27 @@ const FungSafePage = () => {
           className='gronic-solution-section solution-section-1'
           style={{ backgroundImage: `url(${background1})` }}
         >
-          <h1>{pageData.section1.title}</h1>
+          <h1 style={style}>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
           <Paragraphs data={pageData.section2.paragraphs} />
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
+          <h1 style={style}>{pageData.section3.title}</h1>
           <div className='gronic-underline' />
           <p className='section-subtitle'>
             {pageData.section3.paragraphs[0].contents.content}
           </p>
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section4.title}</h1>
+          <h1 style={style}>{pageData.section4.title}</h1>
           <div className='gronic-underline' />
           <p className='section-subtitle'>
             {pageData.section4.paragraphs[0].contents.content}
           </p>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section5.title} </h1>
+          <h1 style={style}>{pageData.section5.title} </h1>
           <div className='gronic-underline' />
           <p className='section-subtitle'>
             {pageData.section5.paragraphs[0].contents.content}
@@ -140,6 +140,10 @@ const Paragraphs = ({ data, hideImage }) => {
       </div>
     );
   });
+};
+
+const style = {
+  letterSpacing: 0,
 };
 
 export default FungSafePage;

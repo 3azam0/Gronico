@@ -1,4 +1,4 @@
-@import "../../components/vars.scss";
+@import '../../components/vars.scss';
 
 .gronic-aboutSection {
   text-align: center;
@@ -7,8 +7,7 @@
 .gronic-aboutSubSection {
   text-align: center;
   padding: 5%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: center center/cover no-repeat;
   .gronic-aboutHead {
     padding: 3%;
     font-size: 2em;
@@ -30,11 +29,12 @@
     line-height: 1.5em;
   }
 }
+
 .gronic-aboutTitle {
   text-align: center;
   padding-right: 3%;
   padding-left: 3%;
-  padding-top:6rem;
+  padding-top: 6rem;
   font-size: 2em;
   font-family: $f1;
   color: $g4;

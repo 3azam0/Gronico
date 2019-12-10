@@ -74,20 +74,20 @@ const LuresPage = () => {
           className='gronic-solution-section solution-section-1'
           style={{ backgroundImage: `url(${background1})` }}
         >
-          <h1>{pageData.section1.title}</h1>
+          <h1 style={style}>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
           <Paragraphs data={pageData.section2.paragraphs} />
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
+          <h1 style={style}>{pageData.section3.title}</h1>
           <div className='gronic-underline' />
           <div className='paragraphs-container'>
             <Paragraphs data={pageData.section3.paragraphs} />
           </div>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section4.title} </h1>
+          <h1 style={style}>{pageData.section4.title} </h1>
           <div className='gronic-underline' />
           <Paragraphs data={pageData.section4.paragraphs} />
         </section>
@@ -115,6 +115,10 @@ const Paragraphs = ({ data }) => {
       </div>
     );
   });
+};
+
+const style = {
+  letterSpacing: 0,
 };
 
 export default LuresPage;

@@ -60,7 +60,7 @@ const ProSafePage = () => {
           className='gronic-solution-section solution-section-1'
           style={{ backgroundImage: `url(${background1})` }}
         >
-          <h1>{pageData.section1.title}</h1>
+          <h1 style={style}>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
           <Paragraphs data={pageData.section2.paragraphs} />
@@ -104,15 +104,15 @@ const ProsafeParagraphs = ({ data, hideImage }) => {
         >
           <h2> {paragraph.contents.title} </h2>
           <p>
-            <b>Appearance : </b>
+            <b>المظهر : </b>
             {paragraph.contents.content.appearance}
           </p>
           <p>
-            <b>Life Cycle : </b>
+            <b>دورة الحياة : </b>
             {paragraph.contents.content.lifeCycle}
           </p>
           <p>
-            <b>Insect Pests Attacked : </b>
+            <b>الأفات التي تهاجمها : </b>
             {paragraph.contents.content.lifeCycle}
           </p>
         </div>
@@ -127,6 +127,10 @@ const ProsafeParagraphs = ({ data, hideImage }) => {
       </div>
     );
   });
+};
+
+const style = {
+  letterSpacing: 0,
 };
 
 export default ProSafePage;

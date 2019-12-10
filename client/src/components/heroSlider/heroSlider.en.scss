@@ -1,4 +1,5 @@
 @import '../vars.scss';
+
 .gronic-heroSlider {
   padding: 1rem;
   width: 100%;
@@ -6,27 +7,33 @@
     height: 450px;
   }
   height: 650px;
+
   .gronic-heroContainer {
     height: 100%;
     width: 100%;
     position: relative;
     text-align: center;
   }
+
   .gronic-heroImage {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
     z-index: 0.6;
     border-radius: 25px;
     position: absolute;
     left: 0;
-    height: 100%;
-    width: 100%;
     object-fit: fit;
     opacity: 1;
     @include gronic-shadowed;
   }
+
   .gronic-heroImageTint {
     border-radius: 25px;
     @include gronic-linearGrad($g2);
   }
+
   .gronic-sliderHead {
     white-space: pre-line;
     z-index: 2;
@@ -47,6 +54,7 @@
       height: 130px;
     }
   }
+
   .gronic-sliderP {
     @media only screen and (max-width: $w5) {
       visibility: hidden;
@@ -63,6 +71,7 @@
     padding-right: 10%;
     line-height: 1em;
   }
+
   .gronic-sliderButton {
     z-index: 2;
     background: #ffffff;
@@ -86,6 +95,7 @@
     border-radius: 20px;
     font-family: 'Cairo', sans-serif;
   }
+
   .gronic-sliderNavr {
     background: transparent;
     z-index: 3;
@@ -98,6 +108,7 @@
     color: #ffffff;
     opacity: 0.5;
   }
+
   .gronic-sliderNavr:hover {
     opacity: 1;
     transition: opacity 1s;
@@ -119,14 +130,17 @@
     color: #ffffff;
     opacity: 0.5;
   }
+
   .gronic-sliderNavl:focus {
     opacity: 1;
     outline: 0px;
   }
+
   .gronic-sliderNavl:hover {
     opacity: 1;
     transition: opacity 1s;
   }
+
   .gronic-sliderIndicatorGroup {
     width: 10%;
     text-align: center;
@@ -140,6 +154,7 @@
       bottom: -50%;
     }
   }
+
   .sliderIndicator {
     position: relative;
     z-index: 3;
@@ -148,6 +163,7 @@
     background-color: #ffffff;
     border-radius: 25px;
   }
+
   .active {
     background-color: $g1;
   }
