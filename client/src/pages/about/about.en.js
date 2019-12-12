@@ -57,22 +57,24 @@ const AboutSections = ({ data }) => {
 };
 
 const AboutSubSections = ({ data }) => {
-  const aboutSubSections = data.map(section => {
+  const aboutSubSections = data.map((section, idx) => {
     return (
       <div
         key={section.title}
         className='gronic-aboutSubSection'
         style={{ backgroundImage: `url(${section.bgURL})` }}
       >
-        <h1 className={'gronic-aboutHead'}> {section.title} </h1>
-        <p
-          className={
-            'gronic-aboutP ' +
-            (section.bgURL ? 'noBackground' : 'hasBackground')
-          }
-        >
-          {section.description}
-        </p>
+        <div className={idx !== 1 ? 'gronic-aboutSubSection-overlay' : null}>
+          <h1 className={'gronic-aboutHead'}> {section.title} </h1>
+          <p
+            className={
+              'gronic-aboutP ' +
+              (section.bgURL ? 'noBackground' : 'hasBackground')
+            }
+          >
+            {section.description}
+          </p>
+        </div>
       </div>
     );
   });

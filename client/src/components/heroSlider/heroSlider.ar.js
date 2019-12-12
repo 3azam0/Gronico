@@ -1,8 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useSwipeable } from 'react-swipeable';
+import useInterval from '../../utils/useInterval';
 
 import './heroSlider.en.scss';
 
@@ -69,10 +69,18 @@ const SliderItem = ({ alternateFunc, item, index }) => {
 
 const SliderItems = ({ items }) => {
   const [index, setIndex] = useState(0);
-  const sliderItems = (
+
+  useInterval(() => {
+    if (index === 2) {
+      setIndex(0);
+    } else {
+      setIndex(index + 1);
+    }
+  }, 7000);
+
+  return (
     <SliderItem alternateFunc={setIndex} item={items[index]} index={index} />
   );
-  return sliderItems;
 };
 
 const HeroSlider = () => {

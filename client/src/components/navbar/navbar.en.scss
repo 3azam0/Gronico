@@ -16,10 +16,12 @@ a {
 .gronic-nav {
   position: relative;
   z-index: 4;
+
   @media only screen and (max-width: $w5) {
     position: fixed;
-    height: 5rem;
+    height: 4rem;
     width: 100%;
+
     .gronic-burger {
       background: transparent;
       color: $g1;
@@ -30,19 +32,24 @@ a {
       top: 1rem;
       right: 1rem;
     }
+
     .gronic-burger:active,
     .gronic-burger:focus {
       cursor: pointer;
       border: none;
     }
+
     .gronic-burger:hover {
       cursor: pointer;
     }
+
     .gronic-navLogo {
-      top: 1rem;
-      left: 1rem;
-      height: 3rem !important;
-      width: 10%;
+      position: absolute;
+      left: 0.5rem;
+      padding: 1.5rem !important;
+      padding-top: 1.4rem !important;
+      font-size: 1.5rem;
+      color: $g2;
     }
   }
 
@@ -50,7 +57,7 @@ a {
     font-family: 'Cairo', sans-serif;
   }
   display: block;
-  height: 6rem;
+  height: 4.5rem;
   background-color: #ffffff;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
@@ -63,9 +70,9 @@ a {
     .gronic-navLogo {
       position: absolute;
       left: 1rem;
-      top: 1rem;
-      padding: 2rem !important;
-      margin: auto !important;
+      padding: 1.5rem !important;
+      font-size: 1.5rem;
+      color: $g2;
     }
   }
   .gronic-navUlist {
@@ -76,7 +83,7 @@ a {
     float: right;
     background: transparent;
     list-style: none;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     width: 36rem;
     .gronic-navListItem {
       padding: 5%;

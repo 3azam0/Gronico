@@ -151,7 +151,8 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         style={navigationStyle}
       >
         <Link to='/ar'>
-          <Img
+          <span className='gronic-navLogo'>جرونيك</span>
+          {/* <Img
             alt='Gronic'
             className='gronic-navLogo'
             fluid={data.logo.childImageSharp.fluid}
@@ -163,7 +164,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
               height: '2rem',
               width: '3re',
             }}
-          />
+          /> */}
         </Link>
         <ul className='gronic-navUlist'>
           <MainNavLinks links={navLinksData} />

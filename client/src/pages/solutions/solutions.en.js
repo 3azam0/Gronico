@@ -73,7 +73,9 @@ const SolutionsPage = () => {
       }
     }
   `);
+
   const solutionsData = data.allSolutionsPageJson.nodes[1];
+
   return (
     <Layout>
       <SEO title='Gronic Solutions' />
@@ -179,12 +181,12 @@ const SolutionsTable = ({ data }) => {
 const SubSection = ({ item, bg }) => {
   const [hovered, setHovered] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+
   useEffect(() => {
     if (window) {
       if (window.innerWidth < 700) {
         setIsSmallScreen(true);
       }
-      console.log(isSmallScreen);
     } else {
       setIsSmallScreen(false);
     }
@@ -193,18 +195,12 @@ const SubSection = ({ item, bg }) => {
   return (
     <div
       className='sol-subsection'
-      style={
-        hovered || isSmallScreen ? { backgroundImage: `url(${bg})` } : null
-      }
-      onMouseOver={() => {
-        setHovered(true);
-      }}
-      onMouseOut={() => {
-        setHovered(false);
-      }}
+      style={{ backgroundImage: `url(${bg})` }}
+      onMouseOver={() => setHovered(true)}
+      onMouseOut={() => setHovered(false)}
     >
       <h2>{item.title}</h2>
-      <p>{item.description} </p>
+      <p>{item.description}</p>
       <button
         onClick={() => {
           navigate(item.buttonLink);

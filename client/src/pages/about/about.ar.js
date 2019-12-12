@@ -58,22 +58,24 @@ const AboutSections = ({ data }) => {
 };
 
 const AboutSubSections = ({ data }) => {
-  const aboutSubSections = data.map(section => {
+  const aboutSubSections = data.map((section, idx) => {
     return (
       <div
         key={section.title}
         className='gronic-aboutSubSection'
         style={{ backgroundImage: `url(${section.bgURL})` }}
       >
-        <h1 className={'gronic-aboutHead'}> {section.title} </h1>
-        <p
-          className={
-            'gronic-aboutP ' +
-            (section.bgURL ? 'noBackground' : 'hasBackground')
-          }
-        >
-          {section.description}
-        </p>
+        <div className={idx !== 1 ? 'gronic-aboutSubSection-overlay' : ''}>
+          <h1 className={'gronic-aboutHead'}> {section.title} </h1>
+          <p
+            className={
+              'gronic-aboutP ' +
+              (section.bgURL ? 'noBackground' : 'hasBackground')
+            }
+          >
+            {section.description}
+          </p>
+        </div>
       </div>
     );
   });
@@ -82,21 +84,18 @@ const AboutSubSections = ({ data }) => {
 };
 
 const TeamMembers = ({ members }) => {
-  const teamMembers = members.map(member => {
-    return (
-      <div className='gronic-teamMember'>
-        <span className='memberName'> {member.name} </span>
-        <span className='memberPosition'> {member.position} </span>
-      </div>
-    );
-  });
-  return teamMembers;
+  return members.map((member, idx) => (
+    <div className='gronic-teamMember' key={idx}>
+      <span className='memberName'> {member.name} </span>
+      <span className='memberPosition'> {member.position} </span>
+    </div>
+  ));
 };
 
 const Advisors = ({ members }) => {
   return members.map(advisor => {
     return (
-      <div className='advisor'>
+      <div className='advisor' key={advisor.name}>
         <span className='advisorName'> {advisor.name} </span>
       </div>
     );

@@ -108,7 +108,7 @@ const IndexPage = () => {
         </section>
         <section className='gronic-partners'>
           <h1 className='gronic-sectionHead' style={style}>
-            شراكائنا
+            شركائنا
           </h1>
           <div className='gronic-headUnderline' />
           <SmallSlider

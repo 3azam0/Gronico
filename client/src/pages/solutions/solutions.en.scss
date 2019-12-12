@@ -1,4 +1,4 @@
-@import "../../components/vars.scss";
+@import '../../components/vars.scss';
 
 .gronic-solutionsSection {
   padding: 2%;
@@ -72,8 +72,8 @@
         font-size: 1.5em;
         font-family: $f2;
         .icon {
-            height: 50px;
-            margin: 5%;
+          height: 50px;
+          margin: 5%;
         }
       }
       .conventional {
@@ -142,6 +142,7 @@
   overflow: hidden;
   .sol-subsection {
     @media only screen and (min-width: $w5) {
+      background: center center/cover no-repeat;
       width: 96%;
       height: 460px;
       padding-top: 15%;
@@ -152,11 +153,9 @@
       margin-top: -50px;
       margin-bottom: -50px;
     }
-    background-size: cover;
     position: relative;
     @media only screen and (min-width: $w5) {
       left: 7px;
-      background: #000000;
       -webkit-transform: rotate(10deg);
       transform: rotate(10deg);
       border-right: 2px #ffffff;
@@ -403,7 +402,7 @@
   margin: auto;
   margin: 5%;
   background: linear-gradient(rgba(158, 190, 57, 0.8)),
-    url("/icons/images/image4.png");
+    url('/icons/images/image4.png');
   padding-right: 5%;
   padding-left: 5%;
   padding-bottom: 10%;

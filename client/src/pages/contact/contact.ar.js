@@ -68,22 +68,10 @@ const ContactsPage = () => {
               method='post'
               action='https://formspree.io/xvopbpqa'
             >
-              <div className='form-group-container'>
-                <div className='form-group'>
-                  <label>
-                    {contactData.contactForm.fields.firstName}
-                    <input type='text' name='first_name' id='name' />
-                  </label>
-                  <label>
-                    {contactData.contactForm.fields.lastName}
-                    <input type='text' name='last_name' id='name' />
-                  </label>
-
-                  <label>
-                    {contactData.contactForm.fields.phone}
-                    <input type='text' name='phone' id='subject' />
-                  </label>
-                </div>
+              <div
+                className='form-group-container'
+                style={{ textAlign: 'right' }}
+              >
                 <div className='form-group'>
                   <label>
                     {contactData.contactForm.fields.companyName}
@@ -97,6 +85,21 @@ const ContactsPage = () => {
                   <label>
                     {contactData.contactForm.fields.poi}
                     <input type='text' name='product' id='product' />
+                  </label>
+                </div>
+                <div className='form-group'>
+                  <label>
+                    {contactData.contactForm.fields.firstName}
+                    <input type='text' name='first_name' id='name' />
+                  </label>
+                  <label>
+                    {contactData.contactForm.fields.lastName}
+                    <input type='text' name='last_name' id='name' />
+                  </label>
+
+                  <label>
+                    {contactData.contactForm.fields.phone}
+                    <input type='text' name='phone' id='subject' />
                   </label>
                 </div>
               </div>
