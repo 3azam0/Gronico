@@ -19,8 +19,6 @@ const Layout = ({ children }) => {
     `
   );
 
-  console.log('english');
-
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
