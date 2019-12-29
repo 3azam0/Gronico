@@ -44,16 +44,13 @@ const About = () => {
 };
 
 const AboutSections = ({ data }) => {
-  const aboutSections = data.map(section => {
-    return (
-      <div key={section.id} className='gronic-aboutSection'>
-        <h1 className='gronic-aboutTitle'> {section.title}</h1>
-        <div className='gronic-underline' />
-        <AboutSubSections data={section.sections} />
-      </div>
-    );
-  });
-  return aboutSections;
+  return data.map(section => (
+    <div key={section.id} id={section.id} className='gronic-aboutSection'>
+      <h1 className='gronic-aboutTitle'> {section.title}</h1>
+      <div className='gronic-underline' />
+      <AboutSubSections data={section.sections} />
+    </div>
+  ));
 };
 
 const AboutSubSections = ({ data }) => {

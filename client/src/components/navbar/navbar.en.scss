@@ -17,6 +17,11 @@ a {
   position: relative;
   z-index: 4;
 
+  // .nav-container {
+  //   max-width: 1600px;
+  //   margin: auto;
+  // }
+
   @media only screen and (max-width: $w5) {
     position: fixed;
     height: 4rem;
@@ -48,7 +53,7 @@ a {
       left: 0.5rem;
       padding: 1.5rem !important;
       padding-top: 1.4rem !important;
-      font-size: 1.5rem;
+      font-size: 2rem;
       color: $g2;
     }
   }
@@ -71,7 +76,8 @@ a {
       position: absolute;
       left: 1rem;
       padding: 1.5rem !important;
-      font-size: 1.5rem;
+      font-size: 2rem;
+      font-weight: 500;
       color: $g2;
     }
   }

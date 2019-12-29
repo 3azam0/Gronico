@@ -13,6 +13,7 @@ const SliderItem = ({ alternateFunc, item, index }) => {
   const alternateLeft = index => {
     index === 0 ? alternateFunc(2) : alternateFunc(index - 1);
   };
+
   const handlers = useSwipeable({
     onSwipedLeft: () => alternateLeft(index),
     onSwipedRight: () => alternateRight(index),
@@ -49,16 +50,19 @@ const SliderItem = ({ alternateFunc, item, index }) => {
               className={
                 index === 0 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(0)}
             />
             <div
               className={
                 index === 1 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(1)}
             />
             <div
               className={
                 index === 2 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(2)}
             />
           </div>
         </div>

@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import '../vars.scss';
 
 .cards-wrapper {
   display: flex;
@@ -22,7 +22,7 @@
   z-index: 3;
   padding: 1%;
   margin-top: 12%;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Cairo', sans-serif;
   color: #ffffff;
   background-color: #00000f;
   opacity: 0.6;
@@ -40,7 +40,7 @@
   background: transparent;
   z-index: 3;
   opacity: 0.6;
-  font-family: "Cairo", sans-serif;
+  font-family: 'Cairo', sans-serif;
   color: #ffffff;
   background-color: #00000f;
   outline: 0px;
@@ -53,21 +53,23 @@
   margin: 0 auto;
 }
 .small-cards-slider {
-    visibility: hidden;
-    display: none;
+  visibility: hidden;
+  display: none;
 }
 @media only screen and (max-width: $w5) {
-  .cards-slider,.gronic-slidernavl,.gronic-slidernavr {
+  .cards-slider,
+  .gronic-slidernavl,
+  .gronic-slidernavr {
     visibility: hidden;
     display: none;
   }
   .small-cards-slider {
-      visibility: visible;
-      display: block;
-      height: 900px;
-      .small-card {
-          height: 300px;
-          margin:5px;
-      }
+    visibility: visible;
+    display: block;
+    height: 900px;
+    .small-card {
+      height: 300px;
+      margin: 5px;
+    }
   }
 }

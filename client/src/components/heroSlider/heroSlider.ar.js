@@ -49,16 +49,19 @@ const SliderItem = ({ alternateFunc, item, index }) => {
               className={
                 index === 0 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(0)}
             />
             <div
               className={
                 index === 1 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(1)}
             />
             <div
               className={
                 index === 2 ? 'sliderIndicator active' : 'sliderIndicator'
               }
+              onClick={() => alternateFunc(2)}
             />
           </div>
         </div>

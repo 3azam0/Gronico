@@ -31,16 +31,16 @@ const SubNavLinks = ({
             to={sublink.url}
           >
             {sublink.text}{' '}
-            {sublink.subLinks ? (
+            {/* {sublink.subLinks ? (
               <FaAngleRight className={subLinkClassName} />
-            ) : null}
+            ) : null} */}
           </Link>
-          {sublink.subLinks ? (
+          {/* {sublink.subLinks ? (
             <ul>
               <SubNavLinks subLinks={sublink.subLinks} />
             </ul>
-          ) : null}
-          <hr className='nav-separator' />
+          ) : null} */}
+          {/* <hr className='nav-separator' /> */}
         </li>
       ))
     : null;

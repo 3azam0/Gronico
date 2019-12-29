@@ -79,7 +79,7 @@ const SolutionsPage = () => {
   return (
     <Layout>
       <SEO title='Gronic Solutions' />
-      <div className='solutions-page'>
+      <section className='solutions-page'>
         <section
           className='gronic-solutionsSection section1'
           style={{
@@ -151,7 +151,7 @@ const SolutionsPage = () => {
             </a>
           </div>
         </section>
-      </div>
+      </section>
     </Layout>
   );
 };
