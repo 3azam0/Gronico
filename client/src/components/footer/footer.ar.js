@@ -34,10 +34,13 @@ const Footer = () => {
               imgStyle={{ objectFit: 'cover' }}
             />
           </div>
-          <div className='footer-col'>
+          <div className='footer-col' style={{ padding: '1rem' }}>
             <p className='gronic-footerP'>{footerParagraph}</p>
           </div>
-          <div className='footer-col footer-list'>
+          <div
+            className='footer-col footer-list'
+            style={{ marginLeft: '2rem' }}
+          >
             <h4>خريطة الويب سايت</h4>
             <div className='footer-underline'></div>
             <ul>
