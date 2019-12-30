@@ -104,7 +104,10 @@ const IndexPage = () => {
           </div>
         </section>
         <section className='gronic-partners'>
-          <h1 className='gronic-sectionHead'> Our Partners </h1>
+          <h1 className='gronic-sectionHead' style={{ marginTop: '1rem' }}>
+            {' '}
+            Our Partners{' '}
+          </h1>
           <div className='gronic-headUnderline' />
           <SmallSlider
             sliderClassName='gronic-smallSlider'
