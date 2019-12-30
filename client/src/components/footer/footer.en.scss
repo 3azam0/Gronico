@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import '../vars.scss';
 
 .gronic-footer {
   position: relative;
@@ -37,7 +37,7 @@
   li {
     list-style: none;
   }
-  a{
+  a {
     font-size: 1em;
     color: $g4;
     font-family: $f1;
@@ -67,14 +67,16 @@
 
 .footer-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 2fr;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+  max-width: 1400px;
+  margin: auto;
 }
 
 @media only screen and (max-width: $w5) {
-    .footer-col{
-        display: none;
-    }
-    .copyrights {
-        font-size: 0.9em;
-    }
+  .footer-col {
+    display: none;
+  }
+  .copyrights {
+    font-size: 0.9em;
+  }
 }
