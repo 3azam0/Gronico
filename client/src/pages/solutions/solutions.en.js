@@ -81,16 +81,15 @@ const SolutionsPage = () => {
       <SEO title='Gronic Solutions' />
       <section className='solutions-page'>
         <section
-          className='gronic-solutionsSection section1'
+          className='section1'
           style={{
-            background:
-              'linear-gradient(135deg, #50A68480 30%, #348650 90%), url(' +
-              background +
-              ')',
+            backgroundImage: `url(${background})`,
           }}
         >
-          <h1>{solutionsData.section1.title}</h1>
-          <p>{solutionsData.section1.description}</p>
+          <div className='section1-overlay'>
+            <h1>{solutionsData.section1.title}</h1>
+            <p>{solutionsData.section1.description}</p>
+          </div>
         </section>
         <section className='gronic-solutionsSection section2'>
           <h1>{solutionsData.section2.title}</h1>

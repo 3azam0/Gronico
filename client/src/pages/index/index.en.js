@@ -57,8 +57,6 @@ const IndexPage = () => {
     }
   `);
 
-  console.log('fix');
-
   const solutionsData = data.allHomePageJson.nodes[1].ourSolutions;
   const clientsData = data.allHomePageJson.nodes[1].ourClients;
 
@@ -68,6 +66,8 @@ const IndexPage = () => {
     'https://www.pherobank.com/',
     'http://www.chemtica.com/',
   ];
+
+  console.log(clientsData);
 
   return (
     <Layout>
