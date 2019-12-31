@@ -151,7 +151,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         className={'gronic-nav ' + navigationClassName}
         style={navigationStyle}
       >
-        <div className='nav-container'>
+        <div className='parent-container'>
           <Link to='/en'>
             <span className='gronic-navLogo'>Gronic</span>
             {/* <Img

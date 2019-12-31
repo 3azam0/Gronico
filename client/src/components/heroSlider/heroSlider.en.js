@@ -26,44 +26,46 @@ const SliderItem = ({ alternateFunc, item, index }) => {
         className='gronic-heroImage'
       >
         <div className='gronic-heroImageTint'>
-          <h1 className='gronic-sliderHead'>{item.heading}</h1>
-          <p className='gronic-sliderP'>{item.description}</p>
-          <Link className='gronic-sliderButton' to={item.buttonLink}>
-            {item.buttonText}
-          </Link>
-          <button
-            className='gronic-sliderNavr'
-            onClick={() => alternateRight(index)}
-          >
-            {' '}
-            &gt;
-          </button>
-          <button
-            className='gronic-sliderNavl'
-            onClick={() => alternateLeft(index)}
-          >
-            {' '}
-            &lt;
-          </button>
-          <div className='gronic-sliderIndicatorGroup'>
-            <div
-              className={
-                index === 0 ? 'sliderIndicator active' : 'sliderIndicator'
-              }
-              onClick={() => alternateFunc(0)}
-            />
-            <div
-              className={
-                index === 1 ? 'sliderIndicator active' : 'sliderIndicator'
-              }
-              onClick={() => alternateFunc(1)}
-            />
-            <div
-              className={
-                index === 2 ? 'sliderIndicator active' : 'sliderIndicator'
-              }
-              onClick={() => alternateFunc(2)}
-            />
+          <div className='parent-container'>
+            <h1 className='gronic-sliderHead'>{item.heading}</h1>
+            <p className='gronic-sliderP'>{item.description}</p>
+            <Link className='gronic-sliderButton' to={item.buttonLink}>
+              {item.buttonText}
+            </Link>
+            <button
+              className='gronic-sliderNavr'
+              onClick={() => alternateRight(index)}
+            >
+              {' '}
+              &gt;
+            </button>
+            <button
+              className='gronic-sliderNavl'
+              onClick={() => alternateLeft(index)}
+            >
+              {' '}
+              &lt;
+            </button>
+            <div className='gronic-sliderIndicatorGroup'>
+              <div
+                className={
+                  index === 0 ? 'sliderIndicator active' : 'sliderIndicator'
+                }
+                onClick={() => alternateFunc(0)}
+              />
+              <div
+                className={
+                  index === 1 ? 'sliderIndicator active' : 'sliderIndicator'
+                }
+                onClick={() => alternateFunc(1)}
+              />
+              <div
+                className={
+                  index === 2 ? 'sliderIndicator active' : 'sliderIndicator'
+                }
+                onClick={() => alternateFunc(2)}
+              />
+            </div>
           </div>
         </div>
       </div>

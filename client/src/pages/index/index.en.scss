@@ -1,15 +1,18 @@
 @import '../../components/vars.scss';
+
 .index-page {
   @media only screen and (max-width: $w5) {
     padding-top: 5rem;
   }
 }
+
 .gronic-sectionHead {
   font-family: $f2;
   font-size: 3em;
   letter-spacing: 5px;
   margin-bottom: 2px;
 }
+
 .gronic-headUnderline {
   margin-top: 0px;
   height: 5px;

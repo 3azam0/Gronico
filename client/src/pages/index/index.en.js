@@ -67,8 +67,6 @@ const IndexPage = () => {
     'http://www.chemtica.com/',
   ];
 
-  console.log(clientsData);
-
   return (
     <Layout>
       <SEO title='Gronic Index' />
@@ -76,44 +74,50 @@ const IndexPage = () => {
         <section>
           <HeroSlider />
         </section>
-        <section id='solutions' className='gronic-ourSolutions'>
-          <h1 className='gronic-sectionHead'>{solutionsData.heading}</h1>
-          <div className='gronic-headUnderline' />
-          <p className='gronic-sectionDescription'>
-            {solutionsData.description}
-          </p>
-          <div className='gronic-container3'>
-            <GronicSolutionItems solutions={solutionsData.solutions} />
-          </div>
-        </section>
+        <div className='parent-container'>
+          <section id='solutions' className='gronic-ourSolutions'>
+            <h1 className='gronic-sectionHead'>{solutionsData.heading}</h1>
+            <div className='gronic-headUnderline' />
+            <p className='gronic-sectionDescription'>
+              {solutionsData.description}
+            </p>
+            <div className='gronic-container3'>
+              <GronicSolutionItems solutions={solutionsData.solutions} />
+            </div>
+          </section>
+        </div>
         <section className='gronic-ourClients' id='clients'>
           <h1 className='gronic-sectionHead'> {clientsData.heading} </h1>
           <div className='gronic-headUnderline' />
-          <div className='gronic-clients-container'>
-            {clientsData.clients.map((client, index) => {
-              return (
-                <Img
-                  key={'client_image' + index}
-                  alt='client image'
-                  className='clientLogo'
-                  fluid={client.image.childImageSharp.fluid}
-                  imgStyle={{ objectFit: 'contain' }}
-                />
-              );
-            })}
+          <div className='parent-container'>
+            <div className='gronic-clients-container'>
+              {clientsData.clients.map((client, index) => {
+                return (
+                  <Img
+                    key={'client_image' + index}
+                    alt='client image'
+                    className='clientLogo'
+                    fluid={client.image.childImageSharp.fluid}
+                    imgStyle={{ objectFit: 'contain' }}
+                  />
+                );
+              })}
+            </div>
           </div>
         </section>
         <section className='gronic-partners'>
-          <h1 className='gronic-sectionHead' style={{ marginTop: '1rem' }}>
-            {' '}
-            Our Partners{' '}
-          </h1>
-          <div className='gronic-headUnderline' />
-          <SmallSlider
-            sliderClassName='gronic-smallSlider'
-            partners={images}
-            links={links}
-          />
+          <div className='parent-container'>
+            <h1 className='gronic-sectionHead' style={{ marginTop: '1rem' }}>
+              {' '}
+              Our Partners{' '}
+            </h1>
+            <div className='gronic-headUnderline' />
+            <SmallSlider
+              sliderClassName='gronic-smallSlider'
+              partners={images}
+              links={links}
+            />
+          </div>
         </section>
       </div>
     </Layout>

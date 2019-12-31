@@ -7,6 +7,7 @@
     height: 450px;
   }
   height: 650px;
+  position: relative;
 
   .gronic-heroContainer {
     height: 100%;
@@ -31,7 +32,6 @@
 
   .gronic-heroImageTint {
     border-radius: 25px;
-    // @include gronic-linearGrad($g2);
     background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
   }
@@ -109,6 +109,10 @@
     font-family: 'Cairo', sans-serif;
     color: #ffffff;
     opacity: 0.5;
+
+    @media only screen and (max-width: $w5) {
+      font-size: 3rem;
+    }
   }
 
   .gronic-sliderNavr:hover {
@@ -133,6 +137,9 @@
     color: #ffffff;
     opacity: 0.5;
     cursor: pointer;
+    @media only screen and (max-width: $w5) {
+      font-size: 3rem;
+    }
   }
 
   .gronic-sliderNavl:focus {
@@ -148,15 +155,15 @@
   .gronic-sliderIndicatorGroup {
     width: 10%;
     text-align: center;
-    position: relative;
     bottom: -25%;
-    margin-left: 45%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 5px;
-    @media only screen and (max-width: $w5) {
-      bottom: -50%;
-    }
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
   }
 
   .sliderIndicator {
