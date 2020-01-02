@@ -17,6 +17,16 @@ a {
   position: relative;
   z-index: 4;
 
+  .lang-container {
+    background-color: $g1;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+
   @media only screen and (max-width: $w5) {
     position: fixed;
     height: 4rem;
@@ -44,12 +54,16 @@ a {
     }
 
     .gronic-navLogo {
-      position: absolute;
-      left: 0.5rem;
-      padding: 1.5rem !important;
-      padding-top: 1.4rem !important;
+      padding: 1.5rem;
+      padding-top: 1.2rem;
       font-size: 2rem;
+      font-weight: 500;
       color: $g2;
+      float: left;
+    }
+
+    .lang-container {
+      margin-top: 1.2rem;
     }
   }
 
@@ -73,7 +87,7 @@ a {
       font-size: 2rem;
       font-weight: 500;
       color: $g2;
-      position: absolute;
+      float: left;
     }
   }
   .gronic-navUlist {

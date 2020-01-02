@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'gatsby';
-import Img from 'gatsby-image';
 import { useStaticQuery, graphql } from 'gatsby';
-import { FaAngleDown, FaAngleRight, FaTimes } from 'react-icons/fa';
+import { FaAngleDown, FaTimes } from 'react-icons/fa';
 import { MdMenu } from 'react-icons/md';
 
 import './navbar.en.scss';
@@ -152,28 +151,19 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         style={navigationStyle}
       >
         <div className='parent-container'>
-          <Link to='/en'>
-            <span className='gronic-navLogo'>Gronic</span>
-            {/* <Img
-            alt='Gronic'
-            className='gronic-navLogo'
-            fluid={data.logo.childImageSharp.fluid}
-            objectFit='cover'
-            imgStyle={{ objectFit: 'conain' }}
-            style={{
-              padding: '5%',
-              position: 'absolute',
-              height: '2rem',
-              width: '3re',
-            }}
-          /> */}
-          </Link>
-          <ul className='gronic-navUlist'>
-            <MainNavLinks links={navLinksData} />
-          </ul>
-          <button onClick={toggleNav} href='#' className='gronic-burger'>
-            <MdMenu />
-          </button>
+          <div className='nav-container'>
+            <Link to='/en'>
+              <span className='gronic-navLogo'>Gronic</span>
+            </Link>
+
+            <LangButton />
+            <ul className='gronic-navUlist'>
+              <MainNavLinks links={navLinksData} />
+            </ul>
+            <button onClick={toggleNav} href='#' className='gronic-burger'>
+              <MdMenu />
+            </button>
+          </div>
         </div>
       </nav>
       {showSmallNav && (
@@ -189,5 +179,11 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
     </>
   );
 };
+
+const LangButton = () => (
+  <Link to='/ar' className='lang-container'>
+    <span>ع</span>
+  </Link>
+);
 
 export default Navbar;
