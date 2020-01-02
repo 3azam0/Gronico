@@ -77,19 +77,25 @@ const LuresPage = () => {
           <h1 style={style}>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
-          <Paragraphs data={pageData.section2.paragraphs} />
+          <div className='parent-container'>
+            <Paragraphs data={pageData.section2.paragraphs} />
+          </div>
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1 style={style}>{pageData.section3.title}</h1>
-          <div className='gronic-underline' />
-          <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section3.paragraphs} />
+          <div className='parent-container'>
+            <h1 style={style}>{pageData.section3.title}</h1>
+            <div className='gronic-underline' />
+            <div className='paragraphs-container'>
+              <Paragraphs data={pageData.section3.paragraphs} />
+            </div>
           </div>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1 style={style}>{pageData.section4.title} </h1>
-          <div className='gronic-underline' />
-          <Paragraphs data={pageData.section4.paragraphs} />
+          <div className='parent-container'>
+            <h1 style={style}>{pageData.section4.title} </h1>
+            <div className='gronic-underline' />
+            <Paragraphs data={pageData.section4.paragraphs} />
+          </div>
         </section>
       </div>
     </Layout>

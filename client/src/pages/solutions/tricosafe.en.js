@@ -92,56 +92,67 @@ const TricoSafePage = () => {
           <h1>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
-          <Paragraphs data={pageData.section2.paragraphs} />
+          <div className='parent-container'>
+            <Paragraphs data={pageData.section2.paragraphs} />
+          </div>
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
-          <div className='gronic-underline' />
-          <Img
-            alt={pageData.section4.paragraphs[0].contents.content}
-            fluid={
-              pageData.section3.paragraphs[0].backgroundImgURL.childImageSharp
-                .fluid
-            }
-            style={{
-              width: `80%`,
-              margin: `0 auto`,
-              paddingBottom: `5%`,
-            }}
-            imgStyle={{ objectFit: 'contain' }}
-          />
-          <p className='section-subtitle'>
-            {pageData.section3.paragraphs[0].contents.content}
-          </p>
+          <div className='parent-container'>
+            <h1>{pageData.section3.title}</h1>
+            <div className='gronic-underline' />
+            <Img
+              alt={pageData.section4.paragraphs[0].contents.content}
+              fluid={
+                pageData.section3.paragraphs[0].backgroundImgURL.childImageSharp
+                  .fluid
+              }
+              style={{
+                width: `80%`,
+                margin: `0 auto`,
+                paddingBottom: `5%`,
+              }}
+              imgStyle={{ objectFit: 'contain' }}
+            />
+            <p className='section-subtitle'>
+              {pageData.section3.paragraphs[0].contents.content}
+            </p>
+          </div>
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section4.title}</h1>
-          <div className='gronic-underline' />
-          <Img
-            alt={pageData.section4.paragraphs[0].contents.content}
-            fluid={
-              pageData.section4.paragraphs[0].backgroundImgURL.childImageSharp
-                .fluid
-            }
-            style={{
-              width: `80%`,
-              margin: `0 auto`,
-              paddingBottom: `5%`,
-            }}
-            imgStyle={{ objectFit: 'contain' }}
-          />
+          <div className='parent-container'>
+            <h1>{pageData.section4.title}</h1>
+            <div className='gronic-underline' />
+            <Img
+              alt={pageData.section4.paragraphs[0].contents.content}
+              fluid={
+                pageData.section4.paragraphs[0].backgroundImgURL.childImageSharp
+                  .fluid
+              }
+              style={{
+                width: `80%`,
+                margin: `0 auto`,
+                paddingBottom: `5%`,
+              }}
+              imgStyle={{ objectFit: 'contain' }}
+            />
 
-          <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section4.paragraphs} hideImage={true} />
+            <div className='paragraphs-container'>
+              <Paragraphs
+                data={pageData.section4.paragraphs}
+                hideImage={true}
+              />
+            </div>
           </div>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section5.title} </h1>
-          <div className='gronic-underline' />
-          <p className='section-subtitle'>
-            {pageData.section5.paragraphs[0].contents.content}
-          </p>
-          <Paragraphs data={pageData.section5.paragraphs.slice(1)} />
+          <div className='parent-container'>
+            <h1>{pageData.section5.title} </h1>
+            <div className='gronic-underline' />
+            <p className='section-subtitle'>
+              {pageData.section5.paragraphs[0].contents.content}
+            </p>
+            <Paragraphs data={pageData.section5.paragraphs.slice(1)} />
+          </div>
         </section>
       </div>
     </Layout>

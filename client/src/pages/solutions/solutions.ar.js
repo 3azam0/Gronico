@@ -80,79 +80,90 @@ const SolutionsPage = () => {
   return (
     <Layout>
       <SEO title='Gronic Solutions' />
-      <div className='solutions-page'>
+      <section className='solutions-page'>
         <section
-          className='gronic-solutionsSection section1'
+          className='section1'
           style={{
-            background:
-              'linear-gradient(135deg, #50A68480 30%, #348650 90%), url(' +
-              background +
-              ')',
+            backgroundImage: `url(${background})`,
           }}
         >
-          <h1 style={style}>{solutionsData.section1.title}</h1>
-          <p>{solutionsData.section1.description}</p>
+          <div className='section1-overlay'>
+            <div className='parent-container'>
+              <h1 style={style}>{solutionsData.section1.title}</h1>
+              <p>{solutionsData.section1.description}</p>
+            </div>
+          </div>
         </section>
         <section className='gronic-solutionsSection section2'>
           <h1 style={style}>{solutionsData.section2.title}</h1>
           <div className='gronic-underline' />
-          <div className='solutionsTable'>
-            <SolutionsTable data={solutionsData.section2.tableItems} />
+          <div className='parent-container'>
+            <div className='solutionsTable'>
+              <SolutionsTable data={solutionsData.section2.tableItems} />
+            </div>
           </div>
         </section>
         <section className='gronic-solutionsSection section3'>
-          <h1 style={style}>{solutionsData.section3.title}</h1>
-          <div className='gronic-underline' />
-          <p> {solutionsData.section3.description1}</p>
-          <p> {solutionsData.section3.description2}</p>
+          <div className='parent-container'>
+            <h1 style={style}>{solutionsData.section3.title}</h1>
+            <div className='gronic-underline' />
+            <p> {solutionsData.section3.description1}</p>
+            <p> {solutionsData.section3.description2}</p>
+          </div>
         </section>
         <section id='attrasafe' className='gronic-solutionsSection section4'>
-          <h1 style={style}>{solutionsData.section4.title}</h1>
-          <div className='gronic-underline' />
-          <div className='subSections-container'>
-            <SubSection
-              item={solutionsData.section4.subSections[0]}
-              bg={bg41}
-            />
-            <SubSection
-              item={solutionsData.section4.subSections[1]}
-              bg={bg42}
-            />
-            <SubSection
-              item={solutionsData.section4.subSections[2]}
-              bg={bg43}
-            />
+          <div className='parent-container'>
+            <h1 style={style}>{solutionsData.section4.title}</h1>
+            <div className='gronic-underline' />
+            <div className='subSections-container'>
+              <SubSection
+                item={solutionsData.section4.subSections[0]}
+                bg={bg41}
+              />
+              <SubSection
+                item={solutionsData.section4.subSections[1]}
+                bg={bg42}
+              />
+              <SubSection
+                item={solutionsData.section4.subSections[2]}
+                bg={bg43}
+              />
+            </div>
           </div>
         </section>
         <section id='biosafe' className='gronic-solutionsSection section5'>
-          <h1 style={style}>{solutionsData.section5.title}</h1>
-          <div className='gronic-underline' />
-          <div className='subSections-container'>
-            <SubSection
-              item={solutionsData.section5.subSections[0]}
-              bg={bg51}
-            />
-            <SubSection
-              item={solutionsData.section5.subSections[1]}
-              bg={bg52}
-            />
-            <SubSection
-              item={solutionsData.section5.subSections[2]}
-              bg={bg53}
-            />
+          <div className='parent-container'>
+            <h1 style={style}>{solutionsData.section5.title}</h1>
+            <div className='gronic-underline' />
+            <div className='subSections-container'>
+              <SubSection
+                item={solutionsData.section5.subSections[0]}
+                bg={bg51}
+              />
+              <SubSection
+                item={solutionsData.section5.subSections[1]}
+                bg={bg52}
+              />
+              <SubSection
+                item={solutionsData.section5.subSections[2]}
+                bg={bg53}
+              />
+            </div>
           </div>
         </section>
         <section id='ecosafe' className='gronic-solutionsSection section6'>
-          <h1 style={style}>{solutionsData.section6.title} </h1>
-          <div className='gronic-underline' />
-          <div className='section-6-container'>
-            <p>{solutionsData.section6.description}</p>
-            <a className='gronic-btn' href='/ar/ecosafe'>
-              {solutionsData.section6.buttonText}{' '}
-            </a>
+          <div className='parent-container'>
+            <h1 style={style}>{solutionsData.section6.title} </h1>
+            <div className='gronic-underline' />
+            <div className='section-6-container'>
+              <p>{solutionsData.section6.description}</p>
+              <a className='gronic-btn' href='/en/ecosafe'>
+                {solutionsData.section6.buttonText}{' '}
+              </a>
+            </div>
           </div>
         </section>
-      </div>
+      </section>
     </Layout>
   );
 };

@@ -94,28 +94,36 @@ const AttractantsPage = () => {
           <h1>{pageData.section1.title}</h1>
         </section>
         <section className='gronic-solution-section solution-section-2'>
-          <Paragraphs data={pageData.section2.paragraphs} />
+          <div className='parent-container'>
+            <Paragraphs data={pageData.section2.paragraphs} />
+          </div>
         </section>
         <section className='gronic-solution-section solution-section-3'>
-          <h1>{pageData.section3.title}</h1>
-          <div className='gronic-underline' />
-          <div className='paragraphs-container'>
-            <Paragraphs data={pageData.section3.paragraphs} />
+          <div className='parent-container'>
+            <h1>{pageData.section3.title}</h1>
+            <div className='gronic-underline' />
+            <div className='paragraphs-container'>
+              <Paragraphs data={pageData.section3.paragraphs} />
+            </div>
           </div>
         </section>
         <section className='gronic-solution-section solution-section-4'>
-          <h1>{pageData.section4.title} </h1>
-          <div className='gronic-underline' />
-          <Paragraphs data={pageData.section4.paragraphs} />
+          <div className='parent-container'>
+            <h1>{pageData.section4.title} </h1>
+            <div className='gronic-underline' />
+            <Paragraphs data={pageData.section4.paragraphs} />
+          </div>
         </section>
         <section className='gronic-solution-section solution-section-5'>
-          <h1>{pageData.section5.title} </h1>
-          <div className='gronic-underline' />
-          <p className='section-subtitle'>
-            {pageData.section5.paragraphs[0].contents.content}{' '}
-          </p>
-          <div className='gronic-solution-paragraphs'>
-            <OurProducts data={pageData.section5.paragraphs.slice(1)} />
+          <div className='parent-container'>
+            <h1>{pageData.section5.title} </h1>
+            <div className='gronic-underline' />
+            <p className='section-subtitle'>
+              {pageData.section5.paragraphs[0].contents.content}{' '}
+            </p>
+            <div className='gronic-solution-paragraphs'>
+              <OurProducts data={pageData.section5.paragraphs.slice(1)} />
+            </div>
           </div>
         </section>
       </div>

@@ -1,4 +1,4 @@
-@import "../components/vars.scss";
+@import '../components/vars.scss';
 .solution-page {
   text-align: center;
   position: relative;
@@ -22,9 +22,7 @@
   }
 }
 .solution-section-2 {
-  padding: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 2% 0;
   text-align: left;
   .gronic-solution-paragraph {
     p {
@@ -91,8 +89,6 @@
   }
 }
 .section-subtitle {
-  padding-left: 5%;
-  padding-right: 5%;
   color: $g4;
   font-family: $f1;
   font-size: 1em;
@@ -116,8 +112,6 @@
   }
   .gronic-solution-paragraph {
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
     display: grid;
     grid-template-columns: 1fr 9fr;
     align-items: center;
@@ -154,8 +148,6 @@
     letter-spacing: 0.1em;
   }
   .gronic-solution-paragraphs {
-    padding-left: 10%;
-    padding-right: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;

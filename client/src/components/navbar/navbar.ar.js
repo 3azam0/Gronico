@@ -143,6 +143,7 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
     document.body.style.overflow = 'hidden';
     setSmallNav(!showSmallNav);
   };
+
   return (
     <>
       <nav
@@ -150,9 +151,10 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
         className={'gronic-nav ' + navigationClassName}
         style={navigationStyle}
       >
-        <Link to='/ar'>
-          <span className='gronic-navLogo'>جرونيك</span>
-          {/* <Img
+        <div className='parent-container'>
+          <Link to='/en'>
+            <span className='gronic-navLogo'>جرونيك</span>
+            {/* <Img
             alt='Gronic'
             className='gronic-navLogo'
             fluid={data.logo.childImageSharp.fluid}
@@ -165,13 +167,14 @@ const Navbar = ({ navigationClassName, navigationStyle }) => {
               width: '3re',
             }}
           /> */}
-        </Link>
-        <ul className='gronic-navUlist'>
-          <MainNavLinks links={navLinksData} />
-        </ul>
-        <button onClick={toggleNav} href='#' className='gronic-burger'>
-          <MdMenu />
-        </button>
+          </Link>
+          <ul className='gronic-navUlist'>
+            <MainNavLinks links={navLinksData} />
+          </ul>
+          <button onClick={toggleNav} href='#' className='gronic-burger'>
+            <MdMenu />
+          </button>
+        </div>
       </nav>
       {showSmallNav && (
         <nav className='gronic-smallNav'>

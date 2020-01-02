@@ -63,15 +63,17 @@ const AboutSubSections = ({ data }) => {
         style={{ backgroundImage: `url(${section.bgURL})` }}
       >
         <div className={idx !== 1 ? 'gronic-aboutSubSection-overlay' : ''}>
-          <h1 className={'gronic-aboutHead'}> {section.title} </h1>
-          <p
-            className={
-              'gronic-aboutP ' +
-              (section.bgURL ? 'noBackground' : 'hasBackground')
-            }
-          >
-            {section.description}
-          </p>
+          <div className='parent-container'>
+            <h1 className={'gronic-aboutHead'}> {section.title} </h1>
+            <p
+              className={
+                'gronic-aboutP ' +
+                (section.bgURL ? 'noBackground' : 'hasBackground')
+              }
+            >
+              {section.description}
+            </p>
+          </div>
         </div>
       </div>
     );

@@ -67,7 +67,7 @@
       grid-template-columns: 1fr;
     }
     .tableItem {
-      padding: 2%;
+      padding: 2% 0;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 2px;
@@ -100,7 +100,7 @@
   }
 }
 .section3 {
-  padding: 5%;
+  padding: 5% 0;
   background-color: $g3;
   h1 {
     margin: auto;
@@ -151,13 +151,8 @@
       background: center center/cover no-repeat;
       width: 96%;
       height: 460px;
-      padding-top: 15%;
-      padding-left: 15%;
-      padding-right: 15%;
-      padding-bottom: 15%;
-      margin-left: -35px;
+      padding: 15%;
       margin-top: -50px;
-      margin-bottom: -50px;
     }
     position: relative;
     @media only screen and (min-width: $w5) {
@@ -276,13 +271,8 @@
     @media only screen and (min-width: $w5) {
       width: 96%;
       height: 450px;
-      padding-top: 15%;
-      padding-left: 15%;
-      padding-right: 15%;
-      padding-bottom: 15%;
-      margin-left: -35px;
+      padding: 15%;
       margin-top: -50px;
-      margin-bottom: -50px;
     }
     transition: 1s;
     background-size: cover;
@@ -398,7 +388,6 @@
 }
 .section-6-container {
   margin: auto;
-  margin: 5%;
   background: linear-gradient(rgba(158, 190, 57, 0.8)),
     url('/icons/images/image4.png');
   padding-right: 5%;
