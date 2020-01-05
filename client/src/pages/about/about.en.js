@@ -106,7 +106,7 @@ const Advisors = ({ members }) => {
 const OurTeam = ({ members, advisors }) => {
   return (
     <div id='our-team' className='gronic-aboutSection teamSection'>
-      <h1 className='gronic-aboutHead'> Our Team </h1>
+      <h1 className='gronic-aboutTitle'> Our Team </h1>
       <div className='gronic-underline' />
       <div className='gronic-team'>
         <TeamMembers members={members} />

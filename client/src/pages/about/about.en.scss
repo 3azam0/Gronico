@@ -7,23 +7,23 @@
 .gronic-aboutSubSection {
   text-align: center;
   background: center center/cover no-repeat;
-  margin: 5rem 0;
+  margin: 2.5rem 0;
 
   .gronic-aboutSubSection-overlay {
     background: rgba(0, 0, 0, 0.45);
     width: 100%;
     height: 100%;
-    padding: 5.5% 0;
+    padding: 3% 0;
   }
 
   .gronic-aboutHead {
-    padding: 3%;
-    font-size: 2em;
+    padding: 2.5%;
+    font-size: 1.7em;
     font-family: $f1;
     color: $g1;
   }
   .gronic-aboutP {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 3%;
     font-family: $f1;
     color: #ffffff;
@@ -31,7 +31,7 @@
   }
 
   .hasBackground {
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 3%;
     font-family: $f1;
     color: #000000;
@@ -43,18 +43,18 @@
   text-align: center;
   padding-right: 3%;
   padding-left: 3%;
-  padding-top: 6rem;
-  font-size: 2em;
+  padding-top: 4rem;
+  font-size: 1.8em;
   font-family: $f1;
   color: $g4;
 }
+
 .gronic-underline {
   height: 3px;
   width: 20%;
   background-color: $g1;
-  text-align: center;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .gronic-team {
@@ -83,7 +83,7 @@
   }
 }
 .teamSection {
-  padding: 5% 0;
+  padding-bottom: 5%;
 }
 
 .advisors {

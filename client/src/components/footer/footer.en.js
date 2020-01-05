@@ -90,7 +90,14 @@ const Footer = () => {
           </div>
           <div className='copyrights'>
             <span>
-              Copyrights &copy; GRONIC . Designed by Nova Solutions CO.
+              Copyrights &copy; GRONIC . Designed by{' '}
+              <a
+                className='nova'
+                href='https://www.novasolutionsco.net'
+                target='blank'
+              >
+                NOVA Solutions Co.
+              </a>
             </span>
           </div>
         </div>

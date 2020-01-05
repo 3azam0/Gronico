@@ -42,7 +42,7 @@ const Footer = () => {
               className='footer-col footer-list'
               style={{ marginLeft: '2rem' }}
             >
-              <h4>خريطة الويب سايت</h4>
+              <h4>خريطة الويب</h4>
               <div className='footer-underline'></div>
               <ul>
                 <li>
@@ -91,7 +91,14 @@ const Footer = () => {
           </div>
           <div className='copyrights'>
             <span>
-              Copyrights &copy; GRONIC . Designed by Nova Solutions CO.
+              Copyrights &copy; GRONIC . Designed by{' '}
+              <a
+                className='nova'
+                href='https://www.novasolutionsco.net'
+                target='blank'
+              >
+                NOVA Solutions Co.
+              </a>
             </span>
           </div>
         </div>

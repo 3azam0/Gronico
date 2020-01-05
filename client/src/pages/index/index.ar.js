@@ -137,11 +137,9 @@ const GronicSolutionItems = solutions => {
           className='gronic-gridItem'
           style={{
             background:
-              'linear-gradient(135deg, #50A68480 30%, #348650 90%), url(' +
+              'linear-gradient(135deg, rgba(0,0,0, 0.5) 30%, rgba(0,0,0, 0.9) 90%), url(' +
               solutionsImages[item.index] +
               ')',
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
           }}
         >
           <h2 className='gronic-itemHead' style={style}>

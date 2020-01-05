@@ -45,7 +45,8 @@
     }
     .gronic-gridItem {
       height: 250px;
-      background-clip: cover;
+      background: center center/cover no-repeat;
+
       .gronic-itemPic {
         position: relative;
         object-fit: cover;
@@ -118,11 +119,19 @@
   .gronic-clients-container {
     padding-top: 10%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-items: center;
+
+    @media screen and (max-width: $w5) {
+      grid-template-columns: 1fr 1fr;
+    }
     .clientLogo {
-      align-self: center;
-      width: 40%;
+      width: 50%;
+
+      @media screen and (max-width: $w5) {
+        width: 80%;
+        padding: 1.3rem;
+      }
     }
   }
 }
