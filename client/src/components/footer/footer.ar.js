@@ -23,7 +23,7 @@ const Footer = () => {
 `;
   return (
     <>
-      <div className='gronic-footer'>
+      <div className='gronic-footer' dir='rtl'>
         <div className='parent-container'>
           <div className='footer-container'>
             <div className='footer-col'>
@@ -74,18 +74,18 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className='footer-col footer-list'>
-              <h4> اتصل بنا </h4>
-              <div className='footer-underline'></div>
-              <span className='footer-contact'>
+            <div className='footer-col footer-list'  >
+              <h4 > اتصل بنا </h4>
+              <div className='footer-underline'  ></div>
+              <span className='footer-contact' dir='ltr'>
                 <MdHome className='footer-icon' />
                 Level 3, 2 Elizabeth St. Malebourne , Victoria 3000 , Australia.{' '}
               </span>
-              <span className='footer-contact'>
-                <MdEmail className='footer-icon' /> support@gronic.com
+              <span className='footer-contact' dir='ltr'>
+                <MdEmail className='footer-icon' /> info@gronic.co
               </span>
-              <span className='footer-contact'>
-                <MdPhone className='footer-icon' /> +(1)123 456 789{' '}
+              <span className='footer-contact' dir='ltr'>
+                <MdPhone className='footer-icon' /> +(1)123 456 789 {' '}
               </span>
             </div>
           </div>

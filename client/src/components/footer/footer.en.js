@@ -81,7 +81,7 @@ const Footer = () => {
                 Level 3, 2 Elizabeth St. Malebourne , Victoria 3000 , Australia.{' '}
               </span>
               <span className='footer-contact'>
-                <MdEmail className='footer-icon' /> support@gronic.com
+                <MdEmail className='footer-icon' /> info@gronic.co
               </span>
               <span className='footer-contact'>
                 <MdPhone className='footer-icon' /> +(1)123 456 789{' '}

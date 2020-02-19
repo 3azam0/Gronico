@@ -82,7 +82,7 @@ const SliderItems = ({ items }) => {
     } else {
       setIndex(index + 1);
     }
-  }, 7000);
+  }, 12000);
 
   return (
     <SliderItem alternateFunc={setIndex} item={items[index]} index={index} />

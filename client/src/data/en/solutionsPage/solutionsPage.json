@@ -5,42 +5,56 @@
   },
   "section2": {
     "title": "Why Choose our products Over Conventional Pesticides?",
+
     "tableItems": [
       {
         "title": "Safety",
         "icon": "../../../images/Export/icons_about/safety.png",
         "conventional": "Poisonous & possibly toxic, human health concerns",
-        "gronic": "Completely nontoxic; safe for humans, pets & environment"
+        "cDesc":"Pesticides must be toxic, or poisonous, to be effective against pests. They can be harmful to humans, animals and the environment. A growing body of research links pesticides to human disease, making its use in agriculture and urban environments alarming.",
+        "gronic": "Completely nontoxic; safe for humans, pets & environment",
+        "gDesc": "Gronic solutions utilize naturally-occurring pheromones, which are nontoxic and completely safe for humans, pets and the environment. The Environmental Protection Agency considers mating disruption to be one of the safest solutions available to control pest populations."
       },
       {
         "title": "Residue",
         "icon": "../../../images/Export/icons_about/residue.png",
         "conventional": "Spray 100% of corp - high residue risk",
-        "gronic": "Contacts < 1% of crop - zero residue risk"
+        "cDesc":"In order for traditional pesticides to be effective, every square inch of the crop must be covered—including the food we eat (e.g., fruits, vegetables and grains). This not only creates safety concerns but is highly inefficient due to drift through the air and runoff into the soil and water supply.",
+        "gronic": "Contacts < 1% of crop - zero residue risk",
+        "gDesc": "Gronic Solutions products eliminate residue concerns because they are safe and do not require complete coverage of the crop to be effective. On average, ISCA’s Mating Disruption solutions contact less than 1% of the crop surface area, making it a far more efficient alternative."
       },
       {
         "title": "Approach",
         "icon": "../../../images/Export/icons_about/approach.png",
         "conventional": "Reactivate -chasing after pests",
-        "gronic": "Proactive - control pests before they become a problem"
+        "cDesc": "Conventional pesticide use is a reactive approach—growers must react to pests that have already infiltrated their crops. As a result, they end up chasing after insects with pesticides, hoping to eradicate adults and their larvae. Application must be repeated frequently, creating a dependence on pesticide use.",
+        "gronic": "Proactive - control pests before they become a problem",
+        "gDesc": "Gronic Solutions approach to pest control is proactive—our Mating Disruption products prevent pests from reproducing, thereby controlling insect populations before they become a problem. Our pheromone solution renders males incapable of finding females to mate with, so procreation is averted and populations dwindle."
+
       },
       {
         "title": "Collateral damage",
         "icon": "../../../images/Export/icons_about/damage.png",
         "conventional": "Kills beneficial insects (e.g., bees, ladybugs)",
-        "gronic": "Species - specific - only affects target pests"
+        "cDesc": "Conventional pesticide use requires blanket spraying of the entire crop, which kills non-target insects (like honeybees or ladybugs) that serve as pollinators or natural predators to pests that can aid in crop growth. Without these beneficial insects, crop health suffers.",
+        "gronic": "Species - specific - only affects target pests",
+        "gDesc": "Gronic Solutions products are species-specific and target only the pests damaging your crops—without damaging ecosystems or disturbing beneficial insects like honeybees or ladybugs."
       },
       {
         "title": "Environmental footprint",
         "icon": "../../../images/Export/icons_about/footprint.png",
         "conventional": "Risk to soil & water systems",
-        "gronic": "Soil & water systems unaffected"
+        "cDesc": "The poisonous nature of pesticides combined with blanket spraying of crops can be toxic and contaminate our food, soil and bodies of water. Ecosystems suffer and a number of other non-target organisms like birds, fish and beneficial insects may be harmed.",
+        "gronic": "Soil & water systems unaffected",
+        "gDesc": "Gronic Solutions products are species-specific and target only the pests damaging your crops—without damaging ecosystems or disturbing beneficial insects like honeybees or ladybugs."
       },
       {
         "title": "efficacy",
         "icon": "../../../images/Export/icons_about/efficacy.png",
         "conventional": "Short field, high risk of resistance",
-        "gronic": "Long field life, no risk of resistance"
+        "cDesc": "Traditional pesticides can become ineffective because insects build resistance to them after repeated exposure. This typically results in a continuous increase in pesticide use to see effectiveness, and growers must spend more and more money every year on pesticides. Moreover, pesticides generally have a short field life, so there is a constant need to spray.",
+        "gronic": "Long field life, no risk of resistance",
+        "gDesc": "ISCA’s Mating Disruption solutions have proven to be as effective or more effective at pest control than conventional pesticides. However, insect pests do not develop a resistance to the pheromones used in ISCA’s Mating Disruption solutions, eliminating the need to increase product use over time. Additionally, the products have much longer field lives, helping to reduce costs."
       }
     ]
   },

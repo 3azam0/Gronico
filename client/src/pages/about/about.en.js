@@ -35,10 +35,7 @@ const About = () => {
     <Layout>
       <SEO title='About Gronic' />
       <AboutSections data={data.allAboutUsPageJson.nodes[1].sections} />
-      <OurTeam
-        members={data.allAboutUsPageJson.nodes[0].ourTeam}
-        advisors={data.allAboutUsPageJson.nodes[0].advisoryBoard}
-      />
+      
     </Layout>
   );
 };

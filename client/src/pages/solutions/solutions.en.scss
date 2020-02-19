@@ -61,16 +61,25 @@
   }
   .solutionsTable {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .4fr .6fr .6fr ;
+    grid-template-columns: .9fr  ;
     @media only screen and (max-width: $w5) {
       grid-template-columns: 1fr;
     }
     .tableItem {
-      padding: 2% 0;
+      padding: 0% 0 ;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 2px;
+      grid-template-columns: .5fr 1fr 1fr;
+      grid-column-gap:0px;
+      border-bottom: 1px solid rgba(85, 87, 89, 0.2);
+    }
+    .tableItem {
+      padding: 0% 0 ;
+      display: grid;
+      grid-template-columns: .5fr 1fr 1fr;
+      grid-column-gap:0px;
+      border-bottom: 1px solid rgba(85, 87, 89, 0.2);
+
       .title {
         @media only screen and (max-width: $w5) {
           font-size: 1.5em;
@@ -82,20 +91,124 @@
           margin: 5%;
         }
       }
-      .conventional {
+      .conventionalHd{
+        display: flex;
+        justify-content: center;
         padding: 5%;
-        font-size: 0.8em;
+        font-size: 1.3em;
         font-family: $f1;
-        background-color: $g5;
+        background-color: #555759;
+        color: #FFFFFF;
+        align-items: center;
+
+        
+      }
+      .conventionalEn {
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+        padding-top: 8%;
+        font-size: 1em;
+        font-family: $f1;
+        background-color: #E4E5E5;
         color: #000000;
+      
+        
+      }
+      .conventionalAr {
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+        padding-top: 8%;
+        font-size: 1em;
+        font-family: $f1;
+        background-color: #E4E5E5;
+        color: #000000;
+        flex-direction: row-reverse;
+        align-items: center;
+        
+        
+      }
+     
+      .gronicHd {
+        display:flex;
+        justify-content: center;
+        padding: 5%;
+        font-size: 1.5em;
+        font-family: $f1;
+        color: #000000;
+        align-items: center;
+        background-color: #82BC00;
+        color: #FFFFFF;
+      
+
       }
       .gronic {
+        display:flex;
+        justify-content: space-between;
         padding: 5%;
-        font-size: 0.8em;
+        font-size: 1em;
+        font-family: $f1;
+        background-color: $g5;
+        color: #000000;
+        align-items: center;
+
+      }
+      .gronicAr {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+        font-size: 1em;
         font-family: $f1;
         background-color: $g5;
         color: #000000;
       }
+      .button {
+        font-size: 18px;
+
+        padding: 10px;
+        color: #FCFCFC;
+        cursor: pointer;
+        background-color: #555759;
+        border-radius: 50%;
+      }
+      
+      .button2 {
+        font-size: 18px;
+
+        padding: 10px;
+        color: #FCFCFC;
+        cursor: pointer;
+        background-color: #82BC00;
+        border-radius: 50%;
+      }
+      
+      
+      
+     
+      .card {
+        display: flex;
+        justify-content: center;
+        margin: 70px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5;
+       border-width: 4;
+       border: 1px solid #82bc00;
+
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -400px; // 1/2 width
+        margin-top: -40px; // 1/2 height
+        font-size: 20px;
+        
+      }
+      
+     
+      
     }
   }
 }

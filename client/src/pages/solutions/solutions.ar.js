@@ -15,6 +15,7 @@ import bg43 from '../../images/Export/solutions_sections/3.jpg';
 import bg51 from '../../images/Export/solutions_sections/4.jpg';
 import bg52 from '../../images/Export/solutions_sections/5.jpg';
 import bg53 from '../../images/Export/solutions_sections/6.jpg';
+import Popup from "reactjs-popup";
 
 const SolutionsPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,6 +31,7 @@ const SolutionsPage = () => {
             title
             tableItems {
               conventional
+              cDesc
               icon {
                 childImageSharp {
                   fluid {
@@ -38,6 +40,7 @@ const SolutionsPage = () => {
                 }
               }
               gronic
+              gDesc 
               title
             }
           }
@@ -99,6 +102,7 @@ const SolutionsPage = () => {
           <div className='gronic-underline' />
           <div className='parent-container'>
             <div className='solutionsTable'>
+            <TableHead  data={solutionsData.section2} />
               <SolutionsTable data={solutionsData.section2.tableItems} />
             </div>
           </div>
@@ -167,7 +171,31 @@ const SolutionsPage = () => {
     </Layout>
   );
 };
+const Card = ({ title ,content}) => (
+  <div className="card">
+    <div className="content">
+      {content}
+    </div>
+  </div>
+);
 
+const TableHead=()=>{
+  
+  return(
+    <div className='tableItem'>
+    <div className='title'>
+      
+      
+    </div>
+    <div className='conventionalHd'> 
+    مبيدات الحشرات التقليدية
+    </div>
+    <div className='gronicHd'>  
+        مبيدات جرونيك
+    </div>
+  </div>
+  )
+}
 const SolutionsTable = ({ data }) => {
   const solutionsData = data.map(item => {
     return (
@@ -181,8 +209,23 @@ const SolutionsTable = ({ data }) => {
           />
           {item.title}
         </div>
-        <div className='conventional'> {item.conventional} </div>
-        <div className='gronic'> {item.gronic} </div>
+        <div className='conventionalAr'> {item.conventional}
+         <Popup
+      trigger={<button className="button">+ </button>}
+      position="right center"
+      on="click"
+    >
+      <Card title="right Center"  content={item.cDesc} />
+    </Popup> </div>
+        <div className='gronicAr'> {item.gronic}
+        <Popup
+      trigger={<button className="button">+ </button>}
+      position="right center"
+      on="click"
+    >
+      <Card title="right Center" content={item.gDesc} />
+    </Popup> 
+    </div>
       </div>
     );
   });
