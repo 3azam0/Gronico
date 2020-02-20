@@ -78,13 +78,13 @@ const Footer = () => {
               <div className='footer-underline'></div>
               <span className='footer-contact'>
                 <MdHome className='footer-icon' />
-                Level 3, 2 Elizabeth St. Malebourne , Victoria 3000 , Australia.{' '}
+                Villa No. 13, Omar Ebin Elktab St. , District No.7, Neighboring No.3 , District No.7, Neighboring No.3, Egypt12564.{' '}
               </span>
               <span className='footer-contact'>
                 <MdEmail className='footer-icon' /> info@gronic.co
               </span>
               <span className='footer-contact'>
-                <MdPhone className='footer-icon' /> +(1)123 456 789{' '}
+                <MdPhone className='footer-icon' /> +2(0)1009401184 {' '} +2(0)1118916015 +2(0)1026884468 
               </span>
             </div>
           </div>

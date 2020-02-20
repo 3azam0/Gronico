@@ -77,15 +77,15 @@ const Footer = () => {
             <div className='footer-col footer-list'  >
               <h4 > اتصل بنا </h4>
               <div className='footer-underline'  ></div>
-              <span className='footer-contact' dir='ltr'>
+              <span className='footer-contact' dir='rtl'>
                 <MdHome className='footer-icon' />
-                Level 3, 2 Elizabeth St. Malebourne , Victoria 3000 , Australia.{' '}
+               فيلا رقم 13 ,شارع عمر بن الخطاب ,المنطقه 7,بجوار المنطقه2 , مدينة السادس من اكتوبر, محافظه الجيزه ,<br></br> مصر 12564{' '}
               </span>
-              <span className='footer-contact' dir='ltr'>
+              <span className='footer-contact' dir='rtl'>
                 <MdEmail className='footer-icon' /> info@gronic.co
               </span>
-              <span className='footer-contact' dir='ltr'>
-                <MdPhone className='footer-icon' /> +(1)123 456 789 {' '}
+              <span className='footer-contact' dir='rtl'>
+                <MdPhone className='footer-icon' /> 1009401184 (0)+2 {' '}1118916015 (0)+2 {' '} 1026884468 (0)+2   {' '}
               </span>
             </div>
           </div>
