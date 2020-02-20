@@ -16,6 +16,8 @@ import bg51 from '../../images/Export/solutions_sections/4.jpg';
 import bg52 from '../../images/Export/solutions_sections/5.jpg';
 import bg53 from '../../images/Export/solutions_sections/6.jpg';
 import Popup from "reactjs-popup";
+import EcoSafe from '../../data/ar/solutionsPage/ecosafe/2EcoSafe.pdf'
+import lures from '../../data/en/solutionsPage/lures/lures.pdf'
 
 const SolutionsPage = () => {
   const data = useStaticQuery(graphql`
@@ -161,9 +163,10 @@ const SolutionsPage = () => {
             <div className='gronic-underline' />
             <div className='section-6-container'>
               <p>{solutionsData.section6.description}</p>
-              <a className='gronic-btn' href='/en/ecosafe'>
-                {solutionsData.section6.buttonText}{' '}
-              </a>
+              <a className='gronic-btn' href={EcoSafe}  >{` `}
+              
+              تعلم المزيد{' '}
+            </a>
             </div>
           </div>
         </section>
@@ -257,12 +260,13 @@ const SubSection = ({ item, bg }) => {
       <h2>{item.title}</h2>
       <p>{item.description}</p>
       <button
-        onClick={() => {
-          navigate(item.buttonLink);
-        }}
-      >
-        {item.buttonText}{' '}
-      </button>
+       
+       >
+         <a className='gronic-btn' href={item.buttonLink} >{` `}
+         {item.buttonText}{' '}
+             </a>
+         
+       </button>
       <p
         className='sol-subsection-indicator'
         style={{
