@@ -54,7 +54,7 @@
         "conventional": "Short field, high risk of resistance",
         "cDesc": "Traditional pesticides can become ineffective because insects build resistance to them after repeated exposure. This typically results in a continuous increase in pesticide use to see effectiveness, and growers must spend more and more money every year on pesticides. Moreover, pesticides generally have a short field life, so there is a constant need to spray.",
         "gronic": "Long field life, no risk of resistance",
-        "gDesc": "ISCA’s Mating Disruption solutions have proven to be as effective or more effective at pest control than conventional pesticides. However, insect pests do not develop a resistance to the pheromones used in ISCA’s Mating Disruption solutions, eliminating the need to increase product use over time. Additionally, the products have much longer field lives, helping to reduce costs."
+        "gDesc": "Gronic solutions have proven to be as effective or more effective at pest control than conventional pesticides. However, insect pests do not develop a resistance to the pheromones used in ISCA’s Mating Disruption solutions, eliminating the need to increase product use over time. Additionally, the products have much longer field lives, helping to reduce costs."
       }
     ]
   },
@@ -71,21 +71,21 @@
         "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
         "buttonText": "Learn More",
         "bgColor": "#194c36",
-        "buttonLink": "/en/lures"
+        "buttonLink": "../pdfAr/lures.pdf"
       },
       {
         "title": "Attractants",
         "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
         "buttonText": "Learn More",
         "bgColor": "#b7c833",
-        "buttonLink": "/en/attractants"
+        "buttonLink": "../pdfAr/Attractant.pdf"
       },
       {
         "title": "Mass Trapping",
         "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
         "buttonText": "Learn More",
         "bgColor": "#ca362c",
-        "buttonLink": "/en/masstrapping"
+        "buttonLink": "../pdfAr/masstrapping.pdf"
       }
     ]
   },
@@ -97,21 +97,21 @@
         "description": "Our product is a biological alternative to protect crops against Lepidoptera pests",
         "buttonText": "Learn More",
         "bgColor": "#ffbe2b",
-        "buttonLink": "/en/tricosafe"
+        "buttonLink": "../pdfAr/tricosafe.pdf"
       },
       {
         "title": "ViroSafe",
         "description": "Naturally occurring microorganism to control various specific pests.",
         "buttonText": "Learn More",
         "bgColor": "#1b5541",
-        "buttonLink": "/en/virosafe"
+        "buttonLink": "../pdfAr/virosafe.pdf"
       },
       {
         "title": "FungSafe",
         "description": "Naturally occurring microorganism protecting plant tissue from pathogen attacks.",
         "buttonText": "Learn More",
         "bgColor": "#b1c734",
-        "buttonLink": "/en/fungsafe"
+        "buttonLink": "../pdfAr/2fungsafe.pdf"
       },
       {
         "title": "ProSAFE",

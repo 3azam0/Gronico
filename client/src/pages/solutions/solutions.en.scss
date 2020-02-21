@@ -62,7 +62,7 @@
   .solutionsTable {
     display: grid;
     width: 85%;
-    margin-left: 120px;
+    margin-left: 40px;
     grid-template-columns: .9fr  ;
     @media only screen and (max-width: $w5) {
       grid-template-columns: 1fr;
@@ -77,9 +77,9 @@
 
       .title {
         @media only screen and (max-width: $w5) {
-          font-size: 1.5em;
+          font-size: 1em;
         }
-        font-size: 1.5em;
+        font-size: 1em;
         font-family: $f2;
         .icon {
           height: 50px;
@@ -97,13 +97,14 @@
         color: #FFFFFF;
         align-items: center;
         margin-top: 10px;
-        
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+        }
       }
       .conventionalEn {
         display: flex;
         justify-content: space-between;
         padding: 5%;
-        padding-top: 8%;
         font-size: 1em;
         font-family: $f1;
         background-color: #E4E5E5;
@@ -124,6 +125,7 @@
         align-items: center;
         
         
+        
       }
      
       .gronicHd {
@@ -139,7 +141,9 @@
         color: #FFFFFF;
         margin-top: 10px;
 
-      
+        @media only screen and (max-width: $w5) {
+          font-size: 1em;
+        }
 
       }
       .gronic {
