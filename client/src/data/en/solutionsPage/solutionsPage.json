@@ -71,21 +71,21 @@
         "description": "Our products utilize safe semiochemicals to lure insect pests into traps or beneficial insects to crops. By mimicking insect attraction systems found in nature, we create sustainable technologies to manage insect behavior.",
         "buttonText": "Learn More",
         "bgColor": "#194c36",
-        "buttonLink": "../pdfEn/lures.pdf"
+        "buttonLink": "../../pdfEn/lures.pdf"
       },
       {
         "title": "Attractants",
         "description": "Our products with environmentally-friendly solutions that mimic nature and eliminate the need for blanket spraying of pesticides.",
         "buttonText": "Learn More",
         "bgColor": "#b7c833",
-        "buttonLink": "../pdfEn/Attractant.pdf"
+        "buttonLink": "../../pdfEn/Attractant.pdf"
       },
       {
         "title": "Mass Trapping",
         "description": "Our Traps allow growers to gain a better understanding of pest activity—such as which species are affecting crops and when they are most likely to attack. Proactive analysis gives us the knowledge needed to make smarter choices regarding pest control solutions",
         "buttonText": "Learn More",
         "bgColor": "#ca362c",
-        "buttonLink": "../pdfEn/masstrapping.pdf"
+        "buttonLink": "../../pdfEn/masstrapping.pdf"
       }
     ]
   },
@@ -97,21 +97,21 @@
         "description": "Our product is a biological alternative to protect crops against Lepidoptera pests",
         "buttonText": "Learn More",
         "bgColor": "#ffbe2b",
-        "buttonLink": "../pdfEn/tricosafe.pdf"
+        "buttonLink": "../../pdfEn/tricosafe.pdf"
       },
       {
         "title": "ViroSafe",
         "description": "Naturally occurring microorganism to control various specific pests.",
         "buttonText": "Learn More",
         "bgColor": "#1b5541",
-        "buttonLink": "../pdfEn/virosafe.pdf"
+        "buttonLink": "../../pdfEn/virosafe.pdf"
       },
       {
         "title": "FungSafe",
         "description": "Naturally occurring microorganism protecting plant tissue from pathogen attacks.",
         "buttonText": "Learn More",
         "bgColor": "#b1c734",
-        "buttonLink": "../pdfEn/fungsafe.pdf"
+        "buttonLink": "../../pdfEn/fungsafe.pdf"
       },
       {
         "title": "ProSAFE",

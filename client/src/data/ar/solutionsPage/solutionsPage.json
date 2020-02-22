@@ -69,21 +69,21 @@
         "description": "تستخدم منتجاتنا مواد شبه كيميائية آمنة لجذب آفات الحشرات إلى الفخاخ أو الحشرات المفيدة للمحاصيل. يتم ذلك من خلال محاكاة أنظمة جذب الحشرات الموجودة في الطبيعة ومن خلالها نقوم بإنشاء تقنيات مستدامة لإدارة سلوك الحشرات",
         "buttonText": "تعلم المزيد",
         "bgColor": "#194c36",
-        "buttonLink": "../pdfAr/2Lures.pdf"
+        "buttonLink": "../../pdfAr/2Lures.pdf"
       },
       {
         "title": "الجاذبات",
         "description": "منتجات الصديقة للبيئة تحاكي الطبيعة وتساعد في القضاء على استخدام المبيدات التقليدية",
         "buttonText": "تعلم المزيد",
         "bgColor": "#b7c833",
-        "buttonLink": "../pdfAr/2attractions.pdf"
+        "buttonLink": "../../pdfAr/2attractions.pdf"
       },
       {
         "title": "محاصرة جماعية",
         "description": "تسمح مصائدنا للمزارعين بفهم أفضل لنشاط الآفات - مثل الأنواع التي تؤثر على المحاصيل. التحليل الاستباقي يعطينا المعرفة اللازمة لاتخاذ خيارات أكثر ذكاء فيما يتعلق حلول بتوفير حلول فعالة لمكافحة الآفات",
         "buttonText": "تعلم المزيد",
         "bgColor": "#ca362c",
-        "buttonLink": "../pdfAr/2MassTrapping.pdf"
+        "buttonLink": "../../pdfAr/2MassTrapping.pdf"
       }
     ]
   },
@@ -95,27 +95,27 @@
         "description": "حل بديل بيولوجي لحماية المحاصيل من الآفات حرشفية الاجنحة",
         "buttonText": "تعلم المزيد",
         "bgColor": "#ffbe2b",
-        "buttonLink": "../pdfAr/2tricosafe.pdf"
+        "buttonLink": "../../pdfAr/2tricosafe.pdf"
       },
       {
         "title": "فيروسيف",
         "description": "منتجنا يستخدم كائنات حية دقيقة للسيطرة على آفات المحددة",
         "buttonText": "تعلم المزيد",
         "bgColor": "#1b5541",
-        "buttonLink": "../pdfAr/2ViroSafe.pdf"
+        "buttonLink": "../../pdfAr/2ViroSafe.pdf"
       },
       {
         "title": "فانجسيف",
         "description": "كائنات الحية الدقيقة تحمي الأنسجة النباتية بشكل طبيعي من هجمات العوامل المسببة للأمراض",
         "buttonText": "تعلم المزيد",
         "bgColor": "#b1c734",
-        "buttonLink": "../pdfAr/2fungsafe.pdf"
+        "buttonLink": "../../pdfAr/2fungsafe.pdf"
       },
       {
         "title": "بروسيف",
         "description": "مفترسات الطبيعية مختلفة للحماية من آفات المختلفة",
         "buttonText": "تعلم المزيد",
-        "buttonLink": "../pdfAr/pdf2attractions.pdf"
+        "buttonLink": "../../pdfAr/pdf2attractions.pdf"
       }
     ]
   },
