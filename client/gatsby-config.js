@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: `https://www.gronic.com`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+          bucketName: 'gronic-deploy'
+      },
+  },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

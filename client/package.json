@@ -4,6 +4,7 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  
   "dependencies": {
     "gatsby": "^2.15.34",
     "gatsby-image": "^2.2.25",
@@ -12,6 +13,7 @@
     "gatsby-plugin-offline": "^3.0.13",
     "gatsby-plugin-react-helmet": "^3.1.11",
     "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-s3": "^0.3.2",
     "gatsby-plugin-sass": "^2.1.18",
     "gatsby-plugin-sharp": "^2.2.29",
     "gatsby-plugin-sitemap": "^2.2.20",
@@ -37,6 +39,9 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby-plugin-s3 deploy"
+    ,
+
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
