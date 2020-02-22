@@ -109,7 +109,11 @@
         font-family: $f1;
         background-color: #E4E5E5;
         color: #000000;
-      
+        flex-direction: row;
+        align-items: center;
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+        }
         
       }
       .conventionalAr {
@@ -124,7 +128,9 @@
         flex-direction: row-reverse;
         align-items: center;
         
-        
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+        }
         
       }
      
@@ -155,7 +161,11 @@
         background-color: $g5;
         color: #000000;
         align-items: center;
-
+        flex-direction: row;
+        align-items: center;
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+        }
       }
       .gronicAr {
         display:flex;
@@ -167,6 +177,9 @@
         font-family: $f1;
         background-color: $g5;
         color: #000000;
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+        }
       }
       .button {
         font-size: 18px;
