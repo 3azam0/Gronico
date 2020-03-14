@@ -3,7 +3,7 @@ module.exports = {
     title: `Gronic`,
     description: `leading the way in sustainable agriculture with integrated pest management solutions for a greener planet`,
     author: `@ahmedaabouzied`,
-    siteUrl: `https://www.gronic.com`,
+    siteUrl: `https://www.gronic.co`,
   },
   plugins: [
     {
@@ -61,8 +61,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.gronic.com',
-        sitemap: 'https://www.gronic.com/gronic-sitemap.xml',
+        host: 'https://www.gronic.co',
+        sitemap: 'https://www.gronic.co/gronic-sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },

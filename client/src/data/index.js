@@ -1,23 +1,23 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import HeroSlider from '../../components/heroSlider/heroSlider.en';
-import SmallSlider from '../../components/smallSlider/smallSlider';
-import Layout from '../../components/layout.en';
-import SEO from '../../components/seo';
+import HeroSlider from '../components/heroSlider/heroSlider.en';
+import SmallSlider from '../components/smallSlider/smallSlider';
+import Layout from '../components/layout.en';
+import SEO from '../components/seo';
 import Img from 'gatsby-image';
 
-import './index.en.scss';
-import s1 from '../../images/Export/attrasafe.png';
-import s2 from '../../images/Export/bio_safe.png';
-import s3 from '../../images/Export/eco_safe.png';
+import '../src/pages/index/index.en.scss';
+import s1 from '../src/images/Export/attrasafe.png';
+import s2 from '../src/images/Export/bio_safe.png';
+import s3 from '../src/images/Export/eco_safe.png'
 
-import p1 from '../../images/Export/partners/probodel.jpg';
-import p2 from '../../images/Export/partners/pherobank.jpg';
-import p3 from '../../images/Export/partners/ci.jpg';
+import p1 from '../src/images/Export/partners/probodel.jpg';
+import p2 from '../src/images/Export/partners/pherobank.jpg';
+import p3 from '../src/images/Export/partners/ci.jpg';
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
-    query  {
+    query HomePageData {
       allHomePageJson {
         nodes {
           ourClients {

@@ -62,7 +62,7 @@
   .solutionsTable {
     display: grid;
     width: 85%;
-    margin-left: 40px;
+    margin-left: 60px;
     grid-template-columns: .9fr  ;
     @media only screen and (max-width: $w5) {
       grid-template-columns: 1fr;
@@ -183,22 +183,27 @@
       }
       .button {
         font-size: 18px;
-
-        padding: 10px;
         color: #FCFCFC;
         cursor: pointer;
         background-color: #555759;
         border-radius: 50%;
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+
+        }
       }
       
       .button2 {
         font-size: 18px;
-
-        padding: 10px;
+        
         color: #FCFCFC;
         cursor: pointer;
         background-color: #82BC00;
         border-radius: 50%;
+        @media only screen and (max-width: $w5) {
+          font-size: .8em;
+
+        }
       }
       
       
