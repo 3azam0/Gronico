@@ -78,8 +78,12 @@ const ContactsPage = () => {
                       <input type='text' name='first_name' id='name' />
                     </label>
                     <label>
-                      {contactData.contactForm.fields.lastName}
-                      <input type='text' name='last_name' id='name' />
+                      {contactData.contactForm.fields.companyName}
+                      <input
+                        type='text'
+                        name='company_name'
+                        id='company_name'
+                      />
                     </label>
 
                     <label>
@@ -89,12 +93,8 @@ const ContactsPage = () => {
                   </div>
                   <div className='form-group'>
                     <label>
-                      {contactData.contactForm.fields.companyName}
-                      <input
-                        type='text'
-                        name='company_name'
-                        id='company_name'
-                      />
+                      {contactData.contactForm.fields.lastName}
+                      <input type='text' name='last_name' id='name' />
                     </label>
 
                     <label>
@@ -107,7 +107,7 @@ const ContactsPage = () => {
                     </label>
                   </div>
                 </div>
-                <div className='form-group'>
+                <div className='form-group padding-area'>
                   <label>
                     {contactData.contactForm.fields.message}
                     <textarea name='questions' id='message' rows='5' />

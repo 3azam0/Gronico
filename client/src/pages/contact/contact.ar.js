@@ -16,7 +16,7 @@ const SocialIcons = ({ icons }) => {
 
 const ContactsPage = () => {
   const data = useStaticQuery(graphql`
-    query ContactPageAr {
+    query {
       allContactJson {
         nodes {
           social {
@@ -77,12 +77,8 @@ const ContactsPage = () => {
                 >
                   <div className='form-group'>
                     <label>
-                      {contactData.contactForm.fields.companyName}
-                      <input
-                        type='text'
-                        name='company_name'
-                        id='company_name'
-                      />
+                      {contactData.contactForm.fields.lastName}
+                      <input type='text' name='last_name' id='name' />
                     </label>
 
                     <label>
@@ -100,8 +96,12 @@ const ContactsPage = () => {
                       <input type='text' name='first_name' id='name' />
                     </label>
                     <label>
-                      {contactData.contactForm.fields.lastName}
-                      <input type='text' name='last_name' id='name' />
+                      {contactData.contactForm.fields.companyName}
+                      <input
+                        type='text'
+                        name='company_name'
+                        id='company_name'
+                      />
                     </label>
 
                     <label>
@@ -110,7 +110,7 @@ const ContactsPage = () => {
                     </label>
                   </div>
                 </div>
-                <div className='form-group' style={{ textAlign: 'right' }}>
+                <div className='form-group padding-area' style={{ textAlign: 'right' }}>
                   <label>
                     {contactData.contactForm.fields.message}
                     <textarea name='questions' id='message' rows='5' />

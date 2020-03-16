@@ -85,7 +85,12 @@ const Footer = () => {
                 <MdEmail className='footer-icon' /> info@gronic.co
               </span>
               <span className='footer-contact' dir='rtl'>
-                <MdPhone className='footer-icon' /> 1009401184 (0)+2 {' '}1118916015 (0)+2 {' '} 1026884468 (0)+2   {' '}
+                <MdPhone className='footer-icon' />
+                <ul class="design-phono">
+                  <li>1009401184 (0)+2</li>
+                  <li>1118916015 (0)+2</li>
+                  <li>1026884468 (0)+2</li>
+                </ul> 
               </span>
             </div>
           </div>

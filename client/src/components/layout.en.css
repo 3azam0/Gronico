@@ -9,6 +9,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f5f5;
   overflow: hidden;
+  background-image: url(../images/pattern.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 article,
 aside,
