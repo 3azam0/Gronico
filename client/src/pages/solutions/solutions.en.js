@@ -264,7 +264,7 @@ const SubSection = ({ item, bg }) => {
       <button
        
       >
-        <a className='gronic-btn' href={item.buttonLink} >{` `}
+        <a className='gronic-btn' href={item.buttonLink} target='_blank' >{` `}
         {item.buttonText}{' '}
             </a>
         
