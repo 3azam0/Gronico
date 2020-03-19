@@ -66,6 +66,8 @@
     grid-template-columns: .9fr  ;
     @media only screen and (max-width: $w5) {
       grid-template-columns: 1fr;
+      margin-left: 38px;
+
     }
     
     .tableItem {
@@ -182,11 +184,12 @@
         }
       }
       .button {
-        font-size: 18px;
+        font-size: 1px;
         color: #FCFCFC;
         cursor: pointer;
         background-color: #555759;
         border-radius: 50%;
+        
         @media only screen and (max-width: $w5) {
           font-size: .8em;
 
@@ -195,7 +198,6 @@
       
       .button2 {
         font-size: 18px;
-        
         color: #FCFCFC;
         cursor: pointer;
         background-color: #82BC00;
