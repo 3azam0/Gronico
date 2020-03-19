@@ -162,7 +162,7 @@ const SolutionsPage = () => {
             <div className='gronic-underline' />
             <div className='section-6-container'>
               <p>{solutionsData.section6.description}</p>
-              <a className='gronic-btn' href={ecosafe}  >{` `}
+              <a className='gronic-btn' href={ecosafe}  target='_blank'>{` `}
               
                 Learn more{' '}
               </a>

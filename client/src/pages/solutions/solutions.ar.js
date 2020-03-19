@@ -163,7 +163,7 @@ const SolutionsPage = () => {
             <div className='gronic-underline' />
             <div className='section-6-container'>
               <p>{solutionsData.section6.description}</p>
-              <a className='gronic-btn' href={EcoSafe}  >{` `}
+              <a className='gronic-btn' href={EcoSafe} target='_blank' >{` `}
               
               تعلم المزيد{' '}
             </a>
@@ -262,7 +262,7 @@ const SubSection = ({ item, bg }) => {
       <button
        
        >
-         <a className='gronic-btn' href={item.buttonLink} >{` `}
+         <a className='gronic-btn' href={item.buttonLink} target='_blank' >{` `}
          {item.buttonText}{' '}
              </a>
          
