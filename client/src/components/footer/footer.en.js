@@ -86,10 +86,10 @@ const Footer = () => {
               <span className='footer-contact'>
                 <MdPhone className='footer-icon' />
                 <ul class="design-phono">
-                  <li>1009401184 (0)+2</li>
-                  <li>1118916015 (0)+2</li>
-                  <li>1026884468 (0)+2</li>
-                </ul> 
+                  <li style={{direction: 'rtl'}}>1009401184 (0)+2</li>
+                  <li style={{direction: 'rtl'}}>1118916015 (0)+2</li>
+                  <li style={{direction: 'rtl'}}>1026884468 (0)+2</li>
+                </ul>
               </span>
             </div>
           </div>
