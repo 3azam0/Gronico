@@ -216,7 +216,7 @@ const SolutionsTable = ({ data }) => {
         </div>
         <div className='conventionalEn'> {item.conventional} 
         <Popup
-      trigger={<button className="button">+ </button>}
+      trigger={<button className="button">+</button>}
       position="left center"
       on="click"
     >
@@ -235,7 +235,7 @@ const SolutionsTable = ({ data }) => {
     );
   });
 
-  return solutionsData;
+  return solutionsData
 };
 
 const SubSection = ({ item, bg }) => {
