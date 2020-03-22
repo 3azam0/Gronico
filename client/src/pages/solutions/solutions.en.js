@@ -235,7 +235,7 @@ const SolutionsTable = ({ data }) => {
     );
   });
 
-  return solutionsData
+  return solutionsData;
 };
 
 const SubSection = ({ item, bg }) => {
