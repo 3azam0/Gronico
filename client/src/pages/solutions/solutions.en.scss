@@ -48,6 +48,7 @@
 
 .section2 {
   position: relative;
+  background-color: #f5f5f5;
   h1 {
 
     text-align: center;
@@ -79,7 +80,7 @@
 
       .title {
         @media only screen and (max-width: $w5) {
-          font-size: 1em;
+          font-size: 14px;
         }
         font-size: 1em;
         font-family: $f2;
@@ -217,17 +218,21 @@
         margin: 70px auto;
         padding: 20px;
         background: #fff;
-        border-radius: 5;
-       border-width: 4;
-       border: 1px solid #82bc00;
-
+        border-radius: 5px;
+        border-width: 4px;
+        border: 1px solid #82bc00;
         position:absolute;
         top: 50%;
         left: 50%;
         margin-left: -400px; // 1/2 width
         margin-top: -40px; // 1/2 height
         font-size: 20px;
-        
+        @media only screen and (max-width: $w5) {
+          margin-left: -70px;
+          padding: 5px;
+          font-size: 14px;
+        }
+
       }
       
      
