@@ -69,7 +69,7 @@ const ContactsPage = () => {
               <form
                 className='contact-form'
                 method='post'
-                action='https://formspree.io/xvopbpqa'
+                action='https://formspree.io/mjvbebop'
               >
                 <div className='form-group-container'>
                   <div className='form-group'>
