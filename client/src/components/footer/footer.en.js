@@ -78,7 +78,7 @@ const Footer = () => {
               <div className='footer-underline'></div>
               <span className='footer-contact'>
                 <MdHome className='footer-icon' />
-                Villa No. 13, Omar Ebin Elktab St. , District No.7, Neighboring No.3 , District No.7, Neighboring No.3, Egypt12564.{' '}
+                Villa No. 13, Omar Ebin Elktab St. District No.7, Neighboring No.3, Egypt12564.{' '}
               </span>
               <span className='footer-contact'>
                 <MdEmail className='footer-icon' /> info@gronic.co
